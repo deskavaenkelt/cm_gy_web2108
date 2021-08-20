@@ -25,3 +25,7 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
 # Skapa konto hos:
 
 - [GitHub](https://github.com/)
+
+# Kursplanning
+
+[Kursplanering i pdf format](KursplaneringWebbutveckling1.pdf)
