@@ -20,6 +20,7 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
 - [GitHub Desktop](https://desktop.github.com/)
     - Logga in på ert konto som ni skapar på GitHub (använd er privata mailadress)
 - [Node.js](https://nodejs.org/en/) `Vi går igenom dessa senare`
+    - Lägg till/klicka i `tools/chocolatey` när den frågan kommer. 
 - [live-server](https://www.npmjs.com/package/live-server) `Vi går igenom dessa senare`
 
 # Skapa konto hos:
