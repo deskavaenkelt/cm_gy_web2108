@@ -18,7 +18,7 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
     - Klicka i val i slutet för att "Högerklicka för att starta Git Bash i utforskaren"
     - Annars ta rekommenderade/default inställningar
 - [GitHub Desktop](https://desktop.github.com/)
-    - Logga in på ert koto som ni skapar på GitHub (använd er privata mailadress)
+    - Logga in på ert konto som ni skapar på GitHub (använd er privata mailadress)
 - [Node.js](https://nodejs.org/en/) `Vi går igenom dessa senare`
 - [live-server](https://www.npmjs.com/package/live-server) `Vi går igenom dessa senare`
 
