@@ -22,6 +22,9 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
 - [Node.js](https://nodejs.org/en/)
     - Lägg till/klicka i `tools/chocolatey` när den frågan kommer. 
 - [live-server](https://www.npmjs.com/package/live-server)
+    - `npm install -g live-server` installerar live-server globalt på datorn.
+    - `live-server` kommandot startar liv-server i den mappen man är i.
+    - `ctrl-c` används för att avsluta `live-server`
 
 # Skapa konto hos:
 
