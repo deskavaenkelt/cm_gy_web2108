@@ -19,9 +19,9 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
     - Annars ta rekommenderade/default inställningar
 - [GitHub Desktop](https://desktop.github.com/)
     - Logga in på ert konto som ni skapar på GitHub (använd er privata mailadress)
-- [Node.js](https://nodejs.org/en/) `Vi går igenom dessa senare`
+- [Node.js](https://nodejs.org/en/)
     - Lägg till/klicka i `tools/chocolatey` när den frågan kommer. 
-- [live-server](https://www.npmjs.com/package/live-server) `Vi går igenom dessa senare`
+- [live-server](https://www.npmjs.com/package/live-server)
 
 # Skapa konto hos:
 
