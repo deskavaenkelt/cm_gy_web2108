@@ -26,6 +26,8 @@ Extra: [Kompendium till boken](http://www.htmlandcssbook.com/code-samples/)
 
 - [GitHub](https://github.com/)
 
-# Kursplanning
+# Kursplaning
+
+[Kursöversikt med schema i pdf format](KursoversiktWebbutveckling1.pdf)
 
 [Kursplanering i pdf format](KursplaneringWebbutveckling1.pdf)
