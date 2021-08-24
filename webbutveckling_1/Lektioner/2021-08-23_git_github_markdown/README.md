@@ -3,29 +3,31 @@
 ## Gått igenom
 
 - Kursplanering om vad kursen innehåller samt krav
+    - [x] Kursschema och veckoplanering
+    - [x] Kurs PM
 - Installation
-    - Node.JS
-    - live-server
+    - [x] Node.JS
+    - [x] live-server
 - Git
+    - [x] Vad det är och varför
 - GitHub
-    - Skapa Repo
-    - Klona Repo
-    - Radera Repo
+    - [ ] Skapa Repo
+    - [ ] Klona Repo
+    - [x] Radera Repo
 - GitHub Desktop
-    - Skapa Repo
-    - Klona Repo
-    - Radera Repo
+    - [x] Skapa Repo
+    - [x] Klona Repo
 - MarkDown
-    - Headers
-    - Emphasis 
-    - Lists 
-    - Links 
-    - Images 
-    - Code and Syntax Highlighting 
-    - Tables 
-    - Blockquotes 
-    - Inline HTML 
-    - Horizontal Rule 
-    - Line Breaks 
-    - YouTube Videos
+    - [x] Headers
+    - [x] Emphasis 
+    - [x] Lists 
+    - [x] Links 
+    - [x] Images 
+    - [ ] Code and Syntax Highlighting 
+    - [ ] Tables 
+    - [ ] Blockquotes 
+    - [ ] Inline HTML 
+    - [ ] Horizontal Rule 
+    - [ ] Line Breaks 
+    - [ ] YouTube Videos
 - Arbetsflöde
