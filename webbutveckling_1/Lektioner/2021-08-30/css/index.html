@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+        h1, h2 {
+            font-family: "American Typewriter";
+        }
+
+        p {
+            font-family: "Trebuchet MS";
+        }
+
+        section {
+            border: 1px solid black;
+            margin-bottom: 1em;
+            padding: 1em;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        article {
+            float: left;
+            width: 33%;
+            padding: 0.16%;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <h1>Internal CSS</h1>
+    <h2>Something</h2>
+    <h3>More</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dolore doloribus earum eveniet excepturi
+        facilis ipsam itaque maxime quidem quo quod ratione, repellat reprehenderit rerum sed tenetur velit veritatis!</p>
+</section>
+
+<section>
+    <h1>Article</h1>
+    <article>
+        <h2>Column 1</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio doloribus eaque eum, eveniet in magni minima molestias, mollitia necessitatibus, non nulla odit quidem quis reprehenderit similique totam unde vero?
+        </p>
+    </article>
+    <article>
+        <h2>Column 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio doloribus eaque eum, eveniet in magni minima molestias, mollitia necessitatibus, non nulla odit quidem quis reprehenderit similique totam unde vero?
+        </p>
+    </article>
+    <article>
+        <h2>Column 3</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio doloribus eaque eum, eveniet in magni minima molestias, mollitia necessitatibus, non nulla odit quidem quis reprehenderit similique totam unde vero?
+        </p>
+    </article>
+</section>
+
+</body>
+</html>
