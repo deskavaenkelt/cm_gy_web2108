@@ -23,11 +23,11 @@
     - [x] Lists 
     - [x] Links 
     - [x] Images 
-    - [ ] Code and Syntax Highlighting 
+    - [x] Code and Syntax Highlighting 
     - [ ] Tables 
     - [ ] Blockquotes 
     - [ ] Inline HTML 
-    - [ ] Horizontal Rule 
-    - [ ] Line Breaks 
+    - [x] Horizontal Rule 
+    - [x] Line Breaks 
     - [ ] YouTube Videos
 - Arbetsflöde
