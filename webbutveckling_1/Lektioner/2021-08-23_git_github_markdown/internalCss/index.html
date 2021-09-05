@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        h1,
+        h2 {
+            font-family: 'Arial Black';
+        }
+
+        p,
+        h2 {
+            font-family: Arial;
+        }
+
+        section {
+            border: 1px solid black;
+            margin-bottom: 1em;
+            padding: 1em;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        article {
+            float: left;
+            width: 33%;
+        }        
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Internal CSS</h1>
+        <h2 style="font-family: 'Trebuchet MS';">Sub header</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore
+            laudantium temporibus enim earum
+            dolorum facere at. Deserunt in illum aspernatur, neque ab saepe. Beatae velit doloribus fuga nostrum animi.
+        </p>
+    </section>
+    <section>
+        <h1>Ny titel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corporis blanditiis placeat tenetur itaque,
+            explicabo a perferendis delectus debitis reiciendis commodi, ex cum inventore necessitatibus. Ad, sed odit?
+            Praesentium, voluptatum.</p>
+    </section>
+    <section>
+        <h1>Article</h1>
+        <article>
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad quasi facere iste temporibus!
+                Numquam, esse! Unde itaque optio suscipit cupiditate tempora consectetur odit hic. Minima possimus iusto
+                quod voluptatem.</p>
+        </article>
+        <article>
+            <h2>Column 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad quasi facere iste temporibus!
+                Numquam, esse! Unde itaque optio suscipit cupiditate tempora consectetur odit hic. Minima possimus iusto
+                quod voluptatem.</p>
+        </article>
+        <article>
+            <h2>Column 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad quasi facere iste temporibus!
+                Numquam, esse! Unde itaque optio suscipit cupiditate tempora consectetur odit hic. Minima possimus iusto
+                quod voluptatem.</p>
+        </article>
+    </section>
+</body>
+
+</html>
