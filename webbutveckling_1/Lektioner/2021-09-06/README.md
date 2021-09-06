@@ -16,14 +16,6 @@
     - [Cascading Order](#cascading-order)
     - [Selectors](#selectors)
     - [CSS Layout - float and clear](#css-layout---float-and-clear)
-- [Ny HTML](#ny-html)
-    - [Tabeller](#tabeller)
-    - [](#)
-    - [](#)
-- [Ny CSS](#ny-css)
-    - [Flexbox CSS](#flexbox-css)
-    - [](#)
-- [](#)
 
 ## Repetition HTML
 
@@ -299,23 +291,11 @@ Exempel med Internal CSS:
 
 Vi nuddade vid CSS float förra veckan.
 
-Snabb titt på hur vi gjorde sist samt självstudier att titta på det igen:
+Snabb titt på hur vi gjorde sist `2021-08-31` samt självstudier att titta på det igen:
 
 [Länk till w3schools](https://www.w3schools.com/css/css_float.asp)
-
-## Ny HTML
-
-### Tabeller
-
-## Ny CSS
-
-### Flexbox CSS
 
 ## Övningar
 
 - [HTML Quiz](https://www.w3schools.com/html/html_quiz.asp)
 - [Övningar i HTML](https://www.w3schools.com/html/exercise.asp)
-- [CSS Selector Game](https://css-diner.netlify.app/)
-
-
-
