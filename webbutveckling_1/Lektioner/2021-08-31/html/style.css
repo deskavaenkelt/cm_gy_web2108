@@ -2,6 +2,12 @@ body {
     background-color: aquamarine;
 }
 
+#section1 {
+    background-image: url("https://tcf.admeen.org/game/17500/17292/400x246/basket-random.jpg");
+    opacity: 0.8;
+    filter: grayscale(60%);
+}
+
 h1, h2 {
     font-family: 'Arial Black';
 }
