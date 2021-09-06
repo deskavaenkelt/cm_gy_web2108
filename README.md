@@ -21,7 +21,7 @@ Material kommer löpande att läggas till löpande
 | Kurs                | Start datum | Slutdatum  | Projektuppgift inlämningsdatum |
 | ------------------- | :---------: | :--------: | :----------------------------: |
 | ORK Matte           | 2021-08-30  | 2021-10-29 | - |
-| Webbutveckling 1    | 2021-08-23  | 2021-09-17 | 2021-09-17 |
+| Webbutveckling 1    | 2021-08-23  | 2021-09-17 | 2021-09-19, 23:59 |
 | Programmering 1     | 2021-09-20  | 2021-10-15 | 2021-10-15 |
 | Digitalt skapande 1 | 2021-10-18  | 2021-10-29 | 2021-10-29 |
 | Gränssnittsdesign   | 2021-11-01  | 2021-11-19 | 2021-11-19 | 
