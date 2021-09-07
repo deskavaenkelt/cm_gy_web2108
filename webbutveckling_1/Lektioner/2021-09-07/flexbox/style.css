@@ -4,10 +4,14 @@ body {
 
 h1 {
     font-family: fantasy;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     font-size: 3em;
     width: 400px;
     border-bottom: 1px solid pink;
     border-right: 1px solid pink;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
 }
 
 .container {
@@ -19,4 +23,10 @@ h1 {
 img {
     width: 450px;
     /*height: 200px;*/
+    margin: 10px;
+    transition: all 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1)
 }
