@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    /*padding: 1em 2em 1em 2em;*/
+    /*padding: 16px 32px 16px 32px;*/
+    /*padding: 16px 32px;*/
+    padding: 16px;
+    /*padding: 1em 2em;*/
+}
