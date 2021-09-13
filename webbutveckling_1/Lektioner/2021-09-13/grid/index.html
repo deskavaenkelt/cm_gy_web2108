@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-template-columns: 40% 30% 30%;*/
+            /*grid-column-gap: 1em;*/
+            /*grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+
+        .container div {
+            background-color: #ddd;
+
+        }
+
+        .container > div:nth-child(odd) {
+            background-color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class='wrapper'>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam, vitae? A ab alias animi asperiores aspernatur aut consectetur culpa cupiditate ea eius eligendi error fugit in, ipsam ipsum iste laboriosam nemo nisi nobis omnis pariatur provident quas quasi qui quia quisquam quod recusandae reiciendis soluta suscipit tempore ullam vel voluptatem. Amet deserunt dolorum et iusto laudantium nihil praesentium quae quasi voluptate voluptatibus. Est nemo nihil odio quidem ratione velit veniam. Ea eos molestiae nisi recusandae. Aliquid corporis iste natus!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam distinctio eius eligendi, ex illo illum ipsum labore laborum maiores mollitia necessitatibus nemo praesentium unde ut vel veniam voluptate voluptatem.
+    </div>
+
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam, vitae? A ab alias animi asperiores aspernatur aut consectetur culpa cupiditate ea eius eligendi error fugit in, ipsam ipsum iste laboriosam nemo nisi nobis omnis pariatur provident quas quasi qui quia quisquam quod recusandae reiciendis soluta suscipit tempore ullam vel voluptatem. Amet deserunt dolorum et iusto laudantium nihil praesentium quae quasi voluptate voluptatibus. Est nemo nihil odio quidem ratione velit veniam. Ea eos molestiae nisi recusandae. Aliquid corporis iste natus!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam distinctio eius eligendi, ex illo illum ipsum labore laborum maiores mollitia necessitatibus nemo praesentium unde ut vel veniam voluptate voluptatem.
+    </div>
+
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam, vitae? A ab alias animi asperiores aspernatur aut consectetur culpa cupiditate ea eius eligendi error fugit in, ipsam ipsum iste laboriosam nemo nisi nobis omnis pariatur provident quas quasi qui quia quisquam quod recusandae reiciendis soluta suscipit tempore ullam vel voluptatem. Amet deserunt dolorum et iusto laudantium nihil praesentium quae quasi voluptate voluptatibus. Est nemo nihil odio quidem ratione velit veniam. Ea eos molestiae nisi recusandae. Aliquid corporis iste natus!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam distinctio eius eligendi, ex illo illum ipsum labore laborum maiores mollitia necessitatibus nemo praesentium unde ut vel veniam voluptate voluptatem.
+    </div>
+</div>
+
+</body>
+</html>
