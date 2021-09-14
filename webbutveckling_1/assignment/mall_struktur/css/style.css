@@ -1,0 +1,20 @@
+div {
+    background-image: url('../img/html_css_js_book.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 2em;
+}
+
+h1, p, a {
+    color: white;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: fantasy;
+}
