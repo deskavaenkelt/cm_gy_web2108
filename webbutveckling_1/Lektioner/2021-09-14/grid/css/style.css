@@ -32,20 +32,20 @@ header, section, aside, footer {
 
 .content {
     background: #129a22;
-    margin-bottom: 144px;
+    /*margin-bottom: 144px;*/
 }
 
 .sidebar {
     background: #673ab7;
-    margin-bottom: 144px;
+    /*margin-bottom: 144px;*/
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
+/*footer {*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
 
 .footer {
     /*display: none;*/
@@ -61,15 +61,14 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .content, .sidebar {
+    /*.content, .sidebar {
         margin-bottom: 122px;
-    }
+    }*/
 }
 
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
     .grid-container {
-        display: grid;
         grid-template-columns: 3fr 1fr;
     }
 
@@ -77,7 +76,7 @@ footer {
         background: orange;
     }
 
-    .content, .sidebar {
-        margin-bottom: 109px;
-    }
+    /*.content, .sidebar {*/
+    /*    margin-bottom: 109px;*/
+    /*}*/
 }

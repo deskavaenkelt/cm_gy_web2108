@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #ffffff;
+}
+
+header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+}
+
+.content {
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    /*flex-basis: 0%;*/
+    flex: 1;
+    background: #129a22;
+}
+
+.sidebar {
+    flex: 0 1 300px;/* “defines the default size of an element before the remaining space is distributed.” */
+    background: #673ab7;
+}
+
+.footer {
+    background: #616161;
+}
+
+@media screen and (min-width: 768px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        flex: 0 1 500px;
+        background: orange;
+    }
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+}
