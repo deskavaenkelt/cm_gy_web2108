@@ -2,20 +2,12 @@
 footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    border: 5px solid blue;
 }
 
 .footer-item {
     margin: 0.5em;
     padding: 1em;
-    border: 5px solid pink;
     text-align: center;
-    background-color: deeppink;
-}
-
-.footer-item:hover {
-    border: 5px solid deeppink;
-    background-color: pink;
 }
 
 /* Tablet */
