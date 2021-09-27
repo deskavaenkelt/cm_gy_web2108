@@ -53,8 +53,8 @@ let something1 = 1      // number
 let something2 = '1'    // string
 let number1 = 1         // number
 let number2 = -1        //number
-console.log('something1', something1, typeof (something1))
-console.log('something2', something2, typeof (something2))
+console.log('something1', something1, typeof (something1)) // number
+console.log('something2', something2, typeof (something2)) // string
 console.log('number1', number1, typeof (number1))
 console.log('number2', number2, typeof (number2))
 
@@ -72,8 +72,8 @@ console.log(something1 === something2)                  // Kollar om variablerna
 // boolean
 let isTrue = true
 let isFalse = false
-console.log('isTrue', isTrue, typeof (isTrue))
-console.log('isFalse', isFalse, typeof (isFalse))
+console.log('isTrue', isTrue, typeof (isTrue))      //boolean
+console.log('isFalse', isFalse, typeof (isFalse))   //boolean
 
 // Compare 2
 // = Assign variable with value
