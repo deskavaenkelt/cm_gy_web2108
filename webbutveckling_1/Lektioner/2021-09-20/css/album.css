@@ -59,11 +59,15 @@ table {
         "left-bottom-table  image-side";
     }
 
-    /*main {*/
-    /*    display: grid;*/
-    /*    grid-template-columns: 3fr 1fr 3fr 1fr;*/
-    /*}*/
     .album-image {
+        width: 100%;
+    }
+
+    .showIrrelevantColumn {
+        display: block;
+    }
+
+    table {
         width: 100%;
     }
 }
