@@ -52,7 +52,22 @@ if (false && false) {
     console.log('false && false')
 }
 
-let name = 'Lars'
+let name = 'aram'
 if (name === 'Aram' || name === 'Christoffer') {
-    console.log('Success')
+    console.log('Evaluation Success');
+} else {
+    console.log('Evaluation Failed');
+    console.log('Nothing is true');
 }
+
+if (name.toLowerCase() === 'Aram'.toLowerCase() ||
+    name.toLowerCase() === 'Christoffer'.toLowerCase()) {
+    console.log('Evaluation Success with .toLowerCase()');
+} else {
+    console.log('Evaluation Failed');
+    console.log('Nothing is true');
+}
+
+
+
+
