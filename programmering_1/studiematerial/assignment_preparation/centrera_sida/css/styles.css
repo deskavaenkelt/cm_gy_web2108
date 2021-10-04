@@ -1,0 +1,10 @@
+body {
+    background-color: aquamarine;
+}
+
+.content {
+    background-color: beige;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Komponenter</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>Komponenter</h1>
+
+<h2>Unordered List</h2>
+<ul>
+    <li>img</li>
+    <li>button</li>
+    <li>h1-h6</li>
+    <li>p</li>
+    <li>input</li>
+    <li>hämta värden och skriva värden till DOMen</li>
+</ul>
+
+<h3>Ordered List</h3>
+<ol>
+    <li>img</li>
+    <li>button</li>
+    <li>h1-h6</li>
+    <li>p</li>
+    <li>input</li>
+    <li>hämta värden och skriva värden till DOMen</li>
+</ol>
+
+<hr>
+
+<h2>Img</h2>
+
+<img src="img/random.png" alt="Random image" id="random">
+
+<hr>
+
+<h2>Button</h2>
+
+<button onclick="alertSomething()">Button</button>
+
+<hr>
+
+<h2>Title</h2>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6 class="bigger-h6">h6</h6>
+<p>p</p>
+<p>Brödtext</p>
+
+<hr>
+
+<h2>Input</h2>
+
+<label>
+    <input type="text" value="text fält">
+</label>
+
+<br>
+
+<label>
+    <input type="number" value="1" min="0" max="5">
+</label>
+
+<hr>
+
+<h2>JavaScript</h2>
+
+<h3>onclick anropar en funktion</h3>
+<button onclick="alertSomething()">Button</button>
+
+<h3>Event listener lyssnar efter klick</h3>
+<button id="event-listener1">Event listener 1</button>
+<button id="event-listener2">Event listener 2</button>
+
+<hr>
+
+<h2>Hämta data från ett fält</h2>
+
+<label for="name-field">
+    <input type="text" id="name-field" value="Text fält">
+    <button onclick="nameFieldButton()">OK</button>
+</label>
+<span id="hello-name-field"></span>
+
+<hr>
+
+<h2>Addera 2 nummer</h2>
+
+<label for="num-field1">Num1:
+    <input type="number" id="num-field1" value="4">
+</label>
+<label for="num-field2">Num2:
+    <input type="number" id="num-field2" value="4">
+</label>
+<p>Summa: <span id="sum-num-field"></span></p>
+
+<button onclick="numFieldButton()">Add Numbers</button>
+
+<hr>
+
+<h2>Rendera JavaScript variabler på hemsida vid laddning av sidan</h2>
+
+<p>
+    Variabeln "more" innehåller "something
+    <strong><span id="more"></span></strong>
+    "som laddas vid omladdning av sidan (via funktionen
+    <strong>"somethingMoreToLoadOnPageRender()"</strong>
+</p>
+
+<hr>
+
+<h2>Uppdatera vid förändring med "onchange"</h2>
+
+<label for="x-two-field"> Dubbla siffran som matas in:
+    <input type="number" id="x-two-field" value="1" onchange="xTwo()">
+</label><span id="x-two-result"></span>
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
