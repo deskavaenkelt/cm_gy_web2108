@@ -50,9 +50,27 @@
 
 let myHour = 13   // Global variabel
 
+// function getGreeting(hour) {
+//     let greeting = 'fail'   // Local Variabel
+//     if (hour < 10) {
+//         greeting = 'God morgon'
+//     } else if (hour <= 13) {
+//         greeting = 'God Lunch'
+//     } else if (hour < 20) {
+//         greeting = 'God dag'
+//     } else {
+//         greeting = 'God kväll'
+//     }
+//     return greeting
+// }
+
+function hourIsLessThanTen(hour) {
+    return hour < 10
+}
+
 function getGreeting(hour) {
     let greeting = 'fail'   // Local Variabel
-    if (hour < 10) {
+    if (hourIsLessThanTen(hour)) {
         greeting = 'God morgon'
     } else if (hour <= 13) {
         greeting = 'God Lunch'
