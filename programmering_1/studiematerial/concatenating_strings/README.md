@@ -41,7 +41,7 @@ Result: `Hey ! Welcome to my websiteArasto`
 ```javascript
 const greetUser = "Hey! Welcome to my website"
 const userName = "Arasto"
-const message2 = $greetUser
+const message2 = `greetUser`
 
 alert(message2)
 ```
