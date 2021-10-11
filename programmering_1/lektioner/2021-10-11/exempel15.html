@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exempel 15 - Input</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<h2>Exempel med Input.</h2>
+
+<p>Skriv något i input fältet för att trigga en funktion</p>
+
+<label for='myInput'>Namn: </label><input type='text' id='myInput' value='Mickey'>
+
+<h3 id='myOutput'></h3>
+
+<script>
+    let inputContent = ''
+
+    function getInputToOutput() {
+        // console.log('Värdet i input fältet ändrades')
+        // console.log(document.getElementById('myInput').value)
+        inputContent = document.getElementById('myInput').value
+        console.log(inputContent)
+        document.getElementById('myOutput').innerText = inputContent
+    }
+
+    getInputToOutput()
+
+    document.getElementById('myInput').oninput = function () {
+        getInputToOutput()
+    }
+
+</script>
+</body>
+</html>
