@@ -1,21 +1,5 @@
 const maxNum = 10
 
-function verifyGuess(correctNumber, guess) {
-    let isGuessCorrect = false
-    console.log(`Du gissade på: ${ guess }`)
-    if (correctNumber === guess) {
-        console.log('Rätt nummer!')
-        isGuessCorrect = true
-    } else if (correctNumber > guess) {
-        console.log('Du gissade för lågt')
-    } else if (correctNumber < guess) {
-        console.log('Du gissade för högt');
-    } else {
-        console.log('Du skrev inte in ett nummer!');
-    }
-    return isGuessCorrect
-}
-
 function generateRandomNumber(maxNumber) {
     let correctNumber = Math.floor(Math.random() * maxNumber + 1)
     console.log('correctNumber:', correctNumber)
@@ -24,37 +8,42 @@ function generateRandomNumber(maxNumber) {
 
 let random = generateRandomNumber(maxNum)
 
-function runGameFor() {
-    let input
-    for (let i = 0; i < 3; i++) {
-        input = Number(window.prompt(`Skriv in ett nummer mellan 1 - ${ maxNum }:`))
-        let exitGame = verifyGuess(random, input)
-        if (exitGame) {
-            break
-        }
-    }
-    console.log('GAME OVER')
+function newGuess() {
+    let input = Number(document.getElementById('my-guess').value)
+    console.log(input)
+
+    let data = verifyGuessEvent(random, input)
+    document.getElementById('guess-output-text').innerHTML = data[1]
+    counter()
 }
 
-function runGameWhile() {
-    let input
-    let runGame = true
-    let counter = 0
-    while (runGame) {
-        input = Number(window.prompt(`Skriv in ett nummer mellan 1 - ${ maxNum }:`))
-
-        if (input === -1) {
-            break
-        }
-
-        let exitGame = verifyGuess(random, input);
-        if (exitGame) {
-            runGame = !runGame
-        }
-        counter++
-    }
-    console.log(`GAME OVER efter ${counter} försök.`)
+let tries = 1
+function counter() {
+    let text = `Antal försök: ${String(tries)}`
+    document.getElementById('guess-output-counter').innerHTML = text
+    tries++
 }
 
-// runGameFor()
-runGameWhile()
+function resetGame() {
+    random = generateRandomNumber(maxNum)
+    tries = 1
+    document.getElementById('guess-output-text').innerHTML = ''
+    document.getElementById('guess-output-counter').innerHTML = ''
+}
+
+function verifyGuessEvent(correctNumber, guess) {
+    let isGuessCorrect = false
+    let text = ''
+    console.log(`Du gissade på: ${ guess }`)
+    if (correctNumber === guess) {
+        text = 'Rätt nummer!'
+        isGuessCorrect = true
+    } else if (correctNumber > guess) {
+        text = 'Du gissade för lågt'
+    } else if (correctNumber < guess) {
+        text = 'Du gissade för högt'
+    } else {
+        text = 'Du skrev inte in ett nummer!'
+    }
+    return [isGuessCorrect, text]
+}
