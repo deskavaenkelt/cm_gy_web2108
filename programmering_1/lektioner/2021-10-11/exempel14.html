@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exempel14</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<h2>Exempel på olika onClick</h2>
+
+<p id='demo'
+   style='cursor: pointer'
+   onclick='myFunction()'>Klicka på mig</p>
+
+<button onclick='myFunction()'>
+    onClick
+</button>
+
+<button id='buttonListener'>EventListener</button>
+
+<script>
+    function myFunction() {
+        document.getElementById('demo').innerHTML = 'Du klickade på mig!'
+    }
+
+    function eventListenerFunction() {
+        alert('Knappen med Event Listener klickades på')
+    }
+
+    document.getElementById('buttonListener')
+        .addEventListener('click', eventListenerFunction)
+</script>
+
+</body>
+</html>

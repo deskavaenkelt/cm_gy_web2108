@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exempel 16 - make list</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+<h2>Skapa en lista från en array</h2>
+
+<p id='randomCar'></p>
+
+<button onclick="returnRandomCar(data)">Get random Car</button>
+<button onclick="returnRandomCar(data2)">Get random Fruit</button>
+
+<script>
+    let data = ['Audi', 'BMW', 'Citroen', 'Polestar', 'Saab', 'Volvo']
+    let data2 = ['Äpple', 'Citron', 'Päron']
+
+    function makeList(listData) {
+        // Skapa en container för innehållet
+        let listContainer = document.createElement('section')
+        // Skapa list containern
+        let listElement = document.createElement('ul')
+        // Addera dem till body
+        document.getElementsByTagName('body')[0].appendChild(listContainer)
+        listContainer.appendChild(listElement)
+
+        for (let i = 0; i < listData.length; i++) {
+            // skapa en item av varje element i array
+            let listItem = document.createElement('li')
+            // addera bilmärke till listItem
+            listItem.innerText = listData[i]
+            // Addera listItem till listElement
+            listElement.appendChild(listItem)
+        }
+    }
+
+    makeList(data)
+    makeList(data2)
+
+    function returnRandomCar(array) {
+        let index = Math.floor(Math.random() * array.length)
+        document.getElementById('randomCar').innerText = array[index]
+        console.log(index)
+    }
+
+</script>
+</body>
+</html>
