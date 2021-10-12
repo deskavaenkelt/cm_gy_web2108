@@ -47,6 +47,6 @@ function drawTree(h) {
         console.log(star);
     }
 }
-let size = 15
-drawTree(size);
-drawRoot(size + 1)
+let sizez = 15
+drawTree(sizez);
+drawRoot(sizez + 1)
