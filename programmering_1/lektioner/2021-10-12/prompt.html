@@ -47,8 +47,28 @@
         console.log('GAME OVER')
     }
 
-    runGameFor()
+    function runGameWhile() {
+        let input
+        let runGame = true
+        let counter = 0
+        while (runGame) {
+            input = Number(window.prompt(`Skriv in ett nummer mellan 1 - ${ maxNum }:`))
 
+            if (input === -1) {
+                break
+            }
+
+            let exitGame = verifyGuess(random, input);
+            if (exitGame) {
+                runGame = !runGame
+            }
+            counter++
+        }
+        console.log(`GAME OVER efter ${counter} försök.`)
+    }
+
+    // runGameFor()
+    runGameWhile()
 
 </script>
 </body>
