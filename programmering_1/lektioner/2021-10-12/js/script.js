@@ -1,4 +1,4 @@
-const maxNum = 10
+const maxNum = 100
 
 function generateRandomNumber(maxNumber) {
     let correctNumber = Math.floor(Math.random() * maxNumber + 1)
@@ -70,5 +70,21 @@ function triggerAI() {
     document.getElementById('guess-output-counter').innerHTML = text
 }
 
-
-document.getElementById('guess-output-text')
+function triggerAiOptimized() {
+    let aiGuess = Math.floor(maxNum / 2)
+    let correctNumber = -1
+    let data
+    for (let i = 1; i <= maxNum; i++) {
+        data = verifyGuessEvent(random, i)
+        console.log(data)
+        console.log(data.isGuessCorrect)    // true eller false
+        console.log(data.message)           // meddelande tex som visas i HTML dokumentet
+        if (data.isGuessCorrect) {
+            correctNumber = i
+            break
+        }
+    }
+    document.getElementById('guess-output-text').innerHTML = data.message
+    let text = `Antal försök: ${String(correctNumber)}`
+    document.getElementById('guess-output-counter').innerHTML = text
+}
