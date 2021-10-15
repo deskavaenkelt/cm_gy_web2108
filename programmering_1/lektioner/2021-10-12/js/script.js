@@ -13,7 +13,7 @@ function newGuess() {
     console.log(input)
 
     let data = verifyGuessEvent(random, input)
-    document.getElementById('guess-output-text').innerHTML = data[1]
+    document.getElementById('guess-output-text').innerHTML = data.message
     counter()
 }
 
@@ -45,5 +45,30 @@ function verifyGuessEvent(correctNumber, guess) {
     } else {
         text = 'Du skrev inte in ett nummer!'
     }
-    return [isGuessCorrect, text]
+    return {
+        isGuessCorrect: isGuessCorrect,
+        message: text
+    }
 }
+
+function triggerAI() {
+    //let aiGuess = maxNum / 2
+    let correctNumber = -1
+    let data
+    for (let i = 1; i <= maxNum; i++) {
+        data = verifyGuessEvent(random, i)
+        console.log(data)
+        console.log(data.isGuessCorrect)    // true eller false
+        console.log(data.message)           // meddelande tex som visas i HTML dokumentet
+        if (data.isGuessCorrect) {
+            correctNumber = i
+            break
+        }
+    }
+    document.getElementById('guess-output-text').innerHTML = data.message
+    let text = `Antal försök: ${String(correctNumber)}`
+    document.getElementById('guess-output-counter').innerHTML = text
+}
+
+
+document.getElementById('guess-output-text')
