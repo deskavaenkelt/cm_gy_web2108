@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komponenter</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<main>
+    <h1>Komponenter i ren HTML</h1>
+
+    <section>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>img</li>
+            <li>button</li>
+            <li>h1-h6</li>
+            <li>p</li>
+            <li>input</li>
+            <li>hämta värden och skriva till DOMen</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Ordered List</h2>
+        <ol>
+            <li>img</li>
+            <li>button</li>
+            <li>h1-h6</li>
+            <li>p</li>
+            <li>input</li>
+            <li>hämta värden och skriva till DOMen</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Img</h2>
+
+        <img src='img/random.png' alt='Random myImage'>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Button</h2>
+
+        <button onclick='alertSomething()'>Alert Button</button>
+        <button onclick='consoleLogSomething()'>Console Log Button</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Titel/headers</h2>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <h6 class='bigger-h6'>h6</h6>
+        <p>p</p>
+        <p>Brödtext</p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Input</h2>
+
+        <label>Text: 
+            <input type='text' value='text fält'>
+        </label>
+
+        <label>Number:
+            <input type='number' value='5' min='0' max='10'>
+        </label>
+        <hr>
+    </section>
+
+    <h1>JavaScript</h1>
+    <section>
+        <h2>onclick anropar en function</h2>
+        <button onclick='alertSomething()'>onClick</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Event listener lyssnar efter klick på id eller klass</h2>
+        <button id='event-listener-1'>Event Listener 1</button>
+        <button id='event-listener-2'>Event Listener 2</button>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Hämta data från ett fält</h2>
+        <label for='name-field'>Name: </label><input type='text' id='name-field' value='Alpha'>
+        <button onclick='nameFieldButton()'>OK</button>
+        <p id='hello-name-field'></p>
+        <hr>
+    </section>
+
+</main>
+
+<script src='js/script.js'></script>
+</body>
+</html>
