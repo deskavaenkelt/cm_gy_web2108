@@ -39,15 +39,15 @@ h2 {
     background-color: antiquewhite;
 }
 
-.item1 {
+.area-item1 {
     grid-area: side;
 }
 
-.item2 {
+.area-item2 {
     grid-area: top;
 }
 
-.item3 {
+.area-item3 {
     grid-area: bottom;
 }
 
