@@ -219,7 +219,7 @@ Du kan ha:
 
 ```javascript
 myArray[0] = Date.now;
-myArray[1] = myFunction;
+myArray[1] = getInputToOutput;
 myArray[2] = myCars;
 ```
 
