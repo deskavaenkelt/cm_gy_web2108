@@ -96,10 +96,31 @@
 
     <section>
         <h2>Hämta data från ett fält</h2>
-        <label for='name-field'>Name: </label><input type='text' id='name-field' value='Alpha'>
+        <label for='name-field'>Name: </label><input type='text' id='name-field' value='Någons namn'>
         <button onclick='nameFieldButton()'>OK</button>
-        <p id='hello-name-field'></p>
+        <p id='hello-name-field'>Nisse</p>
         <hr>
+    </section>
+
+    <section>
+        <h2>Addera 2 nummer</h2>
+        <label for='num-field1'>Number 1: </label>
+        <input type='number' id='num-field1' value='4'>
+
+        <label for='num-field2'>Number 2: </label>
+        <input type='number' id='num-field2' value='5'>
+
+        <button onclick='addNumbers()'>Add numbers</button>
+
+        <p>Summa: <span id='sum-num-field'></span></p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Rendera JavaScript variabler på hemsidan vid laddning av sidan</h2>
+
+        <p>Variabeln <strong>"morE"</strong> innehåller <em>"something </em>
+        <strong><span id='more'></span></strong>" som laddas vi omladdning av sidan av funktionen "somethingMoreToLoadOnPageRender()"</p>
     </section>
 
 </main>
