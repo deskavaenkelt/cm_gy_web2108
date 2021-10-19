@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övning</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<h1>Övning</h1>
+
+<section>
+    <h2>1. Hej <span id='name'>NONE</span>!</h2>
+    <button onclick='updateIdName()'>Uppdatera name</button>
+    <h2>2. Bästa bilen är  <span id='car'>NONE</span>!</h2>
+</section>
+
+<section>
+    <h2>3. Input</h2>
+    <label for='inputString'>Någon sträng:
+        <input type='text' id='inputString' value='Start värde'>
+    </label>
+    <button onclick='getInputFromInputString()'>Run function</button>
+    <button onclick='updateInputStringValue()'>Random</button>
+    <p>Output from button click: <span id='inputResult'></span></p>
+</section>
+
+<script src='js/script.js'></script>
+</body>
+</html>
