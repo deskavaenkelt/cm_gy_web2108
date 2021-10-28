@@ -1,10 +1,10 @@
-let data = [
+let cars = [
     {
         make: 'Volkswagen',
         model: 'Passat',
         engine: 'TDI',
         price: 448759,
-        src: '../img/random.png'
+        src: '../img/random.png',
     },
     {
         make: 'Fiat',

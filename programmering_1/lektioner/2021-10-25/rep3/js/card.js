@@ -21,7 +21,7 @@ function generateSingleCardV2(car) {
 function updateContent() {
     let htmlElement = ''
 
-    for (const car of data) {
+    for (const car of cars) {
         htmlElement += generateSingleCardV2(car)
     }
 
