@@ -18,6 +18,11 @@ function generateCartItem() {
     updateElementIdHtml('cart-content', htmlElement)
 }
 
+function readInput(){
+    let inputQty = Number(document.getElementById('inputQty').value)
+    let sum = inputQty * data[0].price
+    document.getElementById('inputSum').innerText = String(sum)
+}
 
 
 

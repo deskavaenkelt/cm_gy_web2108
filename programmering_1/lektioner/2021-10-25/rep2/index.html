@@ -18,8 +18,39 @@
              class='grid-container'>NONE
     </section>
     <h1>Kundkorg</h1>
+    <section>
+        <label for='inputQty'></label>
+        <input type='number' onchange='readInput()' id='inputQty'>
+        <h3>Sum: <span id='inputSum'>-1</span> kr</h3>
+    </section>
+
     <section id='cart-content'
              class='grid-container'>NONE
+    </section>
+
+    <section id='enKundkorg'>
+        <article style="display:block">
+            Volkswagen
+            <button onclick='vwQtyMinus()'>-</button>
+            Quantity: <span id='wolkswagenQty'>1</span>
+            <button onclick='vwQtyPlus()'>+</button>
+            Totalpris:<span id='vwTotalCost'>123456</span> kr
+        </article>
+        <article style="display:none">
+            Fiat
+            <button>-</button>
+            Quantity: <span id='fiatQty'>0</span>
+            <button>+</button>
+        </article>
+        <article style="display:none">
+            Tesla
+            <button>-</button>
+            Quantity: <span id='teslaQty'>0</span>
+            <button>+</button>
+        </article>
+        <article>
+            totalkostnad: <span></span>
+        </article>
     </section>
 </main>
 
