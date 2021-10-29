@@ -20,7 +20,10 @@
     <h1>Kundkorg</h1>
     <section>
         <label for='inputQty'></label>
-        <input type='number' onchange='readInput()' id='inputQty'>
+        <input type='number'
+               onchange='readInput()'
+               id='inputQty'
+                value='0'>
         <h3>Sum: <span id='inputSum'>-1</span> kr</h3>
     </section>
 
@@ -29,17 +32,17 @@
     </section>
 
     <section id='enKundkorg'>
-        <article style="display:block">
+        <article style="display:block" id='showVolkswagen'>
             Volkswagen
             <button onclick='vwQtyMinus()'>-</button>
             Quantity: <span id='wolkswagenQty'>1</span>
             <button onclick='vwQtyPlus()'>+</button>
             Totalpris:<span id='vwTotalCost'>123456</span> kr
         </article>
-        <article style="display:none">
+        <article style="display:block">
             Fiat
             <button>-</button>
-            Quantity: <span id='fiatQty'>0</span>
+            Quantity: <span id='fiatQty'>2</span>
             <button>+</button>
         </article>
         <article style="display:none">
