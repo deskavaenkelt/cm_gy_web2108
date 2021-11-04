@@ -109,7 +109,8 @@ Det går att flytta runt flikar dit vi vill ha dem genom att ta tag och dra i fl
     2. klicka sedan där du vill täcka över
     3. Byt ställe som du klonar ifrån ofta, eller dra med kloningsverktyget
 15. Gör små förändringar på alla steg ovan tills du är nöjd
-17. Et Voila!
+16. Et Voila!
+
 ![img.png](img/img.png)
 
 # Eget arbete för dagen
