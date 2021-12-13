@@ -19,7 +19,7 @@
 
 ## Steg:
 
-1. Skapa react projekt med `npx create-react-app react-intro-style` som namn 
+1. Skapa react projekt med `npx create-react-app react-intro-style` som namn
 2. `cd react-intro-style`
 3. `npm start`
 4. Rensa bort onödigt
@@ -31,13 +31,3 @@
 8. Implementera Font samt färger efter stil-guiden
 9. Gör en navbar och följ färgschemat
 10. Gör en footer och följ färgschemat
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-
-
-

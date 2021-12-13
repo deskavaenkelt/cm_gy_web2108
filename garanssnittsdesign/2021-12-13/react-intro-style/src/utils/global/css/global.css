@@ -1,3 +1,53 @@
+:root {
+    --main-bg-color: #F8F8F8;
+    --tint-yellow-13: #F1980C;
+    --tint-yellow-12: #F29F20;
+    --tint-yellow-11: #F2A732;
+    --tint-yellow-10: #F3B044;
+    --tint-yellow-9: #F4B757;
+    --tint-yellow-8: #F4BF6B;
+    --tint-yellow-7: #F5C77C;
+    --light-brilliant-orange: #F7B045;
+    --tint-yellow-6: #F7D08F;
+    --tint-yellow-5: #F8D8A3;
+    --tint-yellow-4: #F9DFB5;
+    --tint-yellow-3: #FAE8C9;
+    --tint-yellow-2: #FCF0DB;
+    --tint-yellow-1: #FCF7EC;
+    --dark-grey: #4F4F53;
+    --tint-dark-grey-13: #7F7F85;
+    --tint-dark-grey-12: #88898F;
+    --tint-dark-grey-11: #939398;
+    --tint-dark-grey-10: #9C9DA2;
+    --tint-dark-grey-9: #A7A7AB;
+    --tint-dark-grey-8: #B1B0B5;
+    --tint-dark-grey-7: #B9BBBF;
+    --tint-dark-grey-6: #C5C5C8;
+    --light-grey: #CDCFD2;
+    --tint-dark-grey-4: #D9D9DB;
+    --tint-dark-grey-3: #E3E3E5;
+    --tint-dark-grey-2: #EEEEEE;
+    --tint-dark-grey-1: #F8F8F8;
+}
+
+@font-face {
+    font-family: 'Oleo Script';
+    src: local('Oleo Script'),
+    url('../fonts/Oleo_Script/OleoScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alegreya Sans Regular';
+    src: local('Alegreya Sans Regular'),
+    url('../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alegreya Sans Bold';
+    src: local('Alegreya Sans Bold'),
+    url('../fonts/Alegreya_Sans/AlegreyaSans-Bold.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +55,50 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--main-bg-color);
+}
+
+h1, h2 {
+    font-family: "Oleo Script", serif;
+    color: var(--light-brilliant-orange);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.overload {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Alegreya Sans Bold', serif;
+    font-size: 15px;
+    color: var(--dark-grey);
+}
+
+a {
+    font-family: "Oleo Script", serif;
+    /*font-family: 'Alegreya Sans Bold', sans-serif;*/
+    /*font-family: 'Alegreya Sans Regular', sans-serif;*/
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Alegreya Sans Regular', sans-serif;
+    font-size: 15px;
+    color: var(--dark-grey);
+}
+
+.secondary-information {
+    font-size: 13px;
+}
+
+.control-text {
+    font-size: 11px;
+    color: var(--light-grey);
 }

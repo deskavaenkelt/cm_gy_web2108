@@ -1,7 +1,9 @@
+import './Footer.css'
+
 function Footer() {
     return (
         <footer>
-            <h1>Footer</h1>
+            <h2>Footer</h2>
         </footer>
     )
 }
