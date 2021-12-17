@@ -94,7 +94,7 @@ inte av vad som är fokus med uppgiften.
 
 <details>
 
-<summary>Ert betyg påverkas inte av Webbdesign delen här men det står med som bra att tänka på.</summary>
+<summary>Ert betyg påverkas inte av Webbdesign delen (kodning) här men det står med som bra att tänka på.</summary>
 
 #### Betyg E
 
