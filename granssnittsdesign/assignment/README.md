@@ -61,13 +61,13 @@ Få en förståelse för hur man bygger responsiva webbplatser med ett snyggt UI
 
 Ni ska leverera:
 
-- Wireframes (en grov skiss på vad ni tänkt)
+- Wireframes (en grov skiss (Low Fidelity) på vad ni tänkt)
 - En snyggare Prototyp på hur ni tänkt er resultatet
-- Personas (2-3 st)
+- Personas (2-3 st) "inom rätt kontext"
 - Genomtänkta/enhetliga fonter
 - Genomtänkt/enhetligt färgschema
 - Genomtänkt UI (Användargränssnitt) som ska ge en bra UX (Användarupplevelse)
-- Er sida ska se bra ut på mobiler, tablets samt desktop.
+- Er sida ska se bra ut på mobiler, tablets samt desktop. (en Wireframe för varje läge)
 
 ### Övrigt
 
