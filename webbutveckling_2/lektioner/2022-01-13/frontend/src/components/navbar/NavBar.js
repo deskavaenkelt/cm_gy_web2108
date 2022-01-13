@@ -1,4 +1,4 @@
-import logo from '../utils/images/codic-logo.svg'
+import logo from '../../utils/images/codic-logo.svg'
 import './NavBar.css'
 
 export default function NavBar() {
@@ -11,7 +11,7 @@ export default function NavBar() {
             <div>
                 <ul className='links'>
                     <li className='link-items'>
-                        <a href='#' className='link-item-a'>Startsida</a>
+                        <a href='#' className='link-item-a active'>Startsida</a>
                     </li>
                     <li className='link-items'>
                         <a href='#' className='link-item-a'>Våra kurser</a>
@@ -29,8 +29,8 @@ export default function NavBar() {
             </div>
 
             <div>
-                <button>Log in</button>
-                <button>Sign up</button>
+                <button className='nav-button-black'>Log in</button>
+                <button className='nav-button-grey'>Sign up</button>
             </div>
         </nav>
     )

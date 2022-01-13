@@ -31,3 +31,27 @@ nav {
 .link-item-a:hover {
     color: var(--primary-color);
 }
+
+.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.nav-button-black, .nav-button-grey {
+    width: 134px;
+    height: 34px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1em;
+}
+
+.nav-button-black {
+    color: darkgrey;
+    background-color: var(--primary-background-color);
+}
+
+.nav-button-grey {
+    color: var(--secondary-color);
+    background-color: darkgrey;
+    border-radius: 17px;
+}
