@@ -5,7 +5,7 @@ nav {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 16fr 3fr;
+    grid-template-columns: 1fr 13fr 6fr;
 }
 
 .links {
