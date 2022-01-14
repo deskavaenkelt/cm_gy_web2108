@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudiocode,macos,windows,node,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,visualstudiocode,macos,windows,node,dotenv
+# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudiocode,macos,windows,node,dotenv,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,visualstudiocode,macos,windows,node,dotenv,linux
 
 ### dotenv ###
 .env
@@ -99,6 +99,21 @@ modules.xml
 
 # Sonarlint plugin
 .idea/sonarlint
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### macOS ###
 # General
@@ -315,4 +330,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudiocode,macos,windows,node,dotenv
+# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudiocode,macos,windows,node,dotenv,linux
