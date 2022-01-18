@@ -1,10 +1,11 @@
 import { useNavigate } from 'react-router-dom'
+import RoutingPath from '../routing/RoutingPath'
 
 export default function OtherView() {
     const navigate = useNavigate()
 
     function handleClick() {
-        navigate('/')
+        navigate(RoutingPath.homeView)
     }
 
     return (
