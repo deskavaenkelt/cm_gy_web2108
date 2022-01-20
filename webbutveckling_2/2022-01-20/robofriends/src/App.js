@@ -1,8 +1,11 @@
+import CardList from './components/CardList'
+
 function App() {
     return (
-        <div className='tc'>
+        <main className='tc'>
             <h1 className='robo-logo f1'>Robofriends</h1>
-        </div>
+            <CardList/>
+        </main>
     )
 }
 
