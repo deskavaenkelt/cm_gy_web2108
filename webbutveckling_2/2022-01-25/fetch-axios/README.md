@@ -2,6 +2,7 @@
 
 ```shell
 npm i react-router-dom@6
+npm i react-json-to-table
 ```
 
 <details>
