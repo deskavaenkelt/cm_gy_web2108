@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { JsonToTable} from 'react-json-to-table'
+import { JsonToTable } from 'react-json-to-table'
 
 const FetchView = () => {
     const [jsonUsers, setJsonUsers] = useState([])
@@ -10,7 +10,7 @@ const FetchView = () => {
             .then(jsonData => {
                 // console.log(jsonData)
                 setJsonUsers(jsonData)
-        })
+            })
     }
 
     useEffect(() => {
@@ -20,7 +20,7 @@ const FetchView = () => {
     return (
         <>
             <h1>FetchView</h1>
-            <JsonToTable json={jsonUsers}/>
+            <JsonToTable json={ jsonUsers }/>
         </>
     )
 }
