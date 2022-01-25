@@ -1,14 +1,12 @@
-import axios from 'axios'
-import { JsonToTable } from 'react-json-to-table'
 import { useState } from 'react'
+import PokemonService from '../shared/api/service/PokemonService'
 
-const PokeView = () => {
+const PokemonView = () => {
     const [data, setData] = useState([])
     const [search, setSearch] = useState('ditto')
-    const [showTable, setShowTable] = useState(false)
 
     function fetchDataFromExternalApi() {
-        axios.get(`https://pokeapi.co/api/v2/pokemon/${ search.toLowerCase() }`)
+        PokemonService.searchForPokemon(search.toLowerCase())
             .then((response) => {
                 console.log(response.data)
                 setData(response.data)
@@ -28,16 +26,6 @@ const PokeView = () => {
         }
     }
 
-    function displayTable() {
-        if (data.length !== 0 && showTable) {
-            return <JsonToTable json={ data }/>
-        }
-    }
-
-    function updateTable(newValue) {
-        setShowTable(newValue)
-    }
-
     return (
         <>
             <h1>PokeApi</h1>
@@ -48,13 +36,9 @@ const PokeView = () => {
             <button onClick={ () => fetchDataFromExternalApi() }>Make API call</button>
             <button onClick={ () => setData([]) }>Reset</button>
             <button onClick={ () => console.log(data) }>ShowState</button>
-            {/*<h3>{ search }</h3>*/ }
             { displayData() }
-            <button onClick={ () => setShowTable(!showTable) }>Toggle setTable on/off</button>
-            <button onClick={ () => updateTable(!showTable) }>Toggle updateTable on/off</button>
-            { displayTable() }
         </>
     )
 }
 
-export default PokeView
+export default PokemonView

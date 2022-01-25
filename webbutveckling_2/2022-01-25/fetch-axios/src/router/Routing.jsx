@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView'
 import FetchView from '../views/FetchView'
 import AxiosView from '../views/AxiosView'
 import PokeView from '../views/PokeView'
+import PokemonView from '../views/PokemonView'
 
 const Routing = (props) => {
     return (
@@ -14,6 +15,7 @@ const Routing = (props) => {
                 <Route path={ RoutingPath.fetchView } element={ <FetchView/> }/>
                 <Route path={ RoutingPath.axiosView } element={ <AxiosView/> }/>
                 <Route path={ RoutingPath.pokeView } element={ <PokeView/> }/>
+                <Route path={ RoutingPath.pokemonView } element={ <PokemonView/> }/>
             </Routes>
         </BrowserRouter>
     )
