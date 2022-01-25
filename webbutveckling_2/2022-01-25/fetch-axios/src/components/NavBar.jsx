@@ -18,6 +18,10 @@ const NavBar = () => {
                     <Link className={ css.links }
                           to={ RoutingPath.axiosView }>AxiosView</Link>
                 </li>
+                <li className={ css.item }>
+                    <Link className={ css.links }
+                          to={ RoutingPath.pokeView }>PokeView</Link>
+                </li>
             </ul>
         </nav>
     )
