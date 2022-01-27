@@ -1,18 +1,22 @@
 export const userCredentialsData = [
     {
         username: 'Lars',
-        password: 'Hemligt'
+        password: 'Hemligt',
+        admin: true,
     },
     {
         username: 'Christoffer',
-        password: 'Hemligt'
+        password: 'Hemligt',
+        admin: false,
     },
     {
         username: 'Emil',
-        password: 'Hemligt'
+        password: 'Hemligt',
+        admin: false,
     },
     {
         username: 'Carin',
-        password: 'Hemligt'
+        password: 'Hemligt',
+        admin: false,
     },
 ]

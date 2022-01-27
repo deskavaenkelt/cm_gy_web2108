@@ -16,18 +16,30 @@ const NavBar = () => {
         }
     }
 
+    function signIn() {
+        return (
+            <li className={ css.item }>
+                <Link className={ css.link } to={ RoutingPath.signInView }>Sign-In</Link>
+            </li>
+        )
+    }
+
+    function signedIn() {
+        return (
+            <li className={ css.item }>
+                <Link className={ css.link } to={ RoutingPath.signedInView }>Signed-In</Link>
+            </li>
+        )
+    }
+
     return (
         <nav>
             <ul className={ css.navList }>
                 <li className={ css.item }>
                     <Link className={ `${ css.link } ${ css.active }` } to={ RoutingPath.homeView }>Home</Link>
                 </li>
-                <li className={ css.item }>
-                    <Link className={ css.link } to={ RoutingPath.signInView }>Sign-In</Link>
-                </li>
-                <li className={ css.item }>
-                    <Link className={ css.link } to={ RoutingPath.signedInView }>Signed-In</Link>
-                </li>
+                { !authenticatedUser ? signIn() : signedIn() }
+                {/*{ authenticatedUser ? signedIn() : signIn() }*/}
                 { showLoggedInUser() }
             </ul>
         </nav>

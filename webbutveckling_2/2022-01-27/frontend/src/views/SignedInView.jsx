@@ -9,6 +9,7 @@ const SignedInView = () => {
 
     function logOut() {
         setAuthenticatedUser('')
+        localStorage.removeItem('username')
         navigate(RoutingPath.signInView)
     }
 

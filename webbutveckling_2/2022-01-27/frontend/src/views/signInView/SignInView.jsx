@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 import { useState, useContext } from 'react'
-import RoutingPath from '../router/RoutingPath'
-import { UserContext } from '../utils/global/Provider/UserProvider'
-import {userCredentialsData as correct} from '../utils/global/data/userCredentialsData'
+import RoutingPath from '../../router/RoutingPath'
+import { UserContext } from '../../utils/global/Provider/UserProvider'
+import {userCredentialsData as correct} from '../../utils/global/data/userCredentialsData'
 
 const SignInView = () => {
     const [authenticatedUser, setAuthenticatedUser] = useContext(UserContext)
@@ -14,6 +14,7 @@ const SignInView = () => {
     function validateInput() {
         for (let i = 0; i < correct.length; i++) {
             if (username === correct[i].username && password === correct[i].password) {
+                localStorage.setItem('username', username)
                 setAuthenticatedUser(username)
                 navigate(RoutingPath.signedInView)
             }
