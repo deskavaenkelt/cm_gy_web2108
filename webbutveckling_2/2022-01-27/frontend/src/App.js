@@ -1,11 +1,14 @@
 import Routing from './router/Routing'
 import NavBar from './components/navBar/NavBar'
+import { UserProvider } from './utils/global/Provider/UserProvider'
 
 function App() {
     return (
-        <Routing>
-            <NavBar/>
-        </Routing>
+        <UserProvider>
+            <Routing>
+                <NavBar/>
+            </Routing>
+        </UserProvider>
     )
 }
 
