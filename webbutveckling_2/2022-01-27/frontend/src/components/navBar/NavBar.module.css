@@ -25,3 +25,7 @@
 .active {
     background-color: #04aa6d;
 }
+
+.name {
+    float: right;
+}
