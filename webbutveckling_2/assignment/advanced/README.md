@@ -48,11 +48,12 @@ antalet album samt att när en viss summa nås får man fri frakt.
 
 - HTML, CSS eller Vanilla JavaScript
 - JQuery
-- JavaScript Frameworks
+- andra NPM paket
 
 #### Frivilligt
 
 - Media Queries
+- CSS Moduler
 
 ### Ni får givetvis utgå från vanilla men implementeringen ska vara i React
 

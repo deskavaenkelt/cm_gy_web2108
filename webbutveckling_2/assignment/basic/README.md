@@ -46,11 +46,12 @@ Man ska kunna uppdatera antalet biljetter samt att om totalsumman är över 500k
 
 - HTML, CSS eller Vanilla JavaScript
 - JQuery
-- JavaScript Frameworks
+- andra NPM paket
 
 #### Frivilligt
 
 - Media Queries
+- CSS Moduler
 
 ### Ni får givetvis utgå från vanilla men implementeringen ska vara i React
 
@@ -97,7 +98,7 @@ Tänk på att filmstaden har funktioner som ni inte ska/behöver ha med ha med o
 
 1. När användaren ändrar antalet biljetter så ska alla uträkningar uppdateras med en gång.
 
-2. Använd er af Filmstadens prissättning.
+2. Använd er av Filmstadens prissättning.
 
 3. Det ska inte vara möjligt att skriva in felaktiga värden så som negativa värden i "antalet boxarna".
 
