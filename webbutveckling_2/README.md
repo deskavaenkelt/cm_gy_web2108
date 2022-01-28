@@ -41,7 +41,7 @@ från internet.
 
 eller:
 
-- Så kan ni radera `package.json` samt `node_modules` och köra en `npm i`/`npm install` i er projektmapp.
+- Så kan ni radera `package-lock.json` samt `node_modules` och köra en `npm i`/`npm install` i er projektmapp.
 
 ### Dessa paket har vi använt i kursen:
 
