@@ -44,7 +44,7 @@ Man ska kunna uppdatera antalet biljetter samt att om totalsumman är över 500k
 
 #### Dvs ingen:
 
-- HTML, CSS eller Vanilla JavaScript
+- Vanilla HTML, CSS eller JavaScript
 - JQuery
 - andra NPM paket
 

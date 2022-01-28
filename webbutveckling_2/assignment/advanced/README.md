@@ -46,7 +46,7 @@ antalet album samt att när en viss summa nås får man fri frakt.
 
 #### Dvs ingen:
 
-- HTML, CSS eller Vanilla JavaScript
+- Vanilla HTML, CSS eller JavaScript
 - JQuery
 - andra NPM paket
 
@@ -175,9 +175,10 @@ Allt i [Betyg C](#betyg-c) ska vara uppfyllt samt:
 
 - Skriv så tydlig kod så kommentarer ofta blir onödiga.
 - Där du använder kommentarer ska de _**noggranna och utförliga/tydliga**_.
-- **Väldigt lättläst kod** dvs någon med mindre-/nybörjar-kunskaper ska kunna läsa och förstå er kod.
+- **Väldigt lättläst kod** dvs någon med kunskaper motsvarande den nivå ni befinner er på nu, ska kunna läsa och förstå er kod.
 - Majoriteten av din kod ska bestå av strukturerade komponenter samt återanvända komponenter.
-- Produkten är av god kvalitet när det gäller funktion vilket eleven kontrollerar med hjälp av flera tester, även manuella. Dessutom kontrollerar eleven med säkerhet produktens tillgänglighet med automatiserade tester och simuleringar samt manuella tester.
+- Produkten är av god kvalitet när det gäller funktion, vilket eleven kontrollerar med hjälp av flera tester, även manuella. Dessutom kontrollerar eleven med säkerhet, produktens tillgänglighet med automatiserade tester och simuleringar samt manuella tester.
+- 5 tester varav ett `fireEvent()`
 
 ### Dokumentation
 
