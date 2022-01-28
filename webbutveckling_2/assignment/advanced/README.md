@@ -40,9 +40,10 @@ antalet album samt att när en viss summa nås får man fri frakt.
 
 #### Ni får använda följande npm-paket:
 
-- `react-router-dom@6`
-- `tachyons`
-- `axios`
+- [`React Router v.6`](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+- [`Tachyons`](https://tachyons.io)
+- [`Axios`](https://axios-http.com/docs/intro)
+- [`React Icons`](https://react-icons.github.io/react-icons)
 
 #### Dvs ingen:
 
@@ -53,7 +54,7 @@ antalet album samt att när en viss summa nås får man fri frakt.
 #### Frivilligt
 
 - Media Queries
-- CSS Moduler
+- [`CSS Moduler`](https://github.com/css-modules/css-modules)
 
 ### Ni får givetvis utgå från vanilla men implementeringen ska vara i React
 
