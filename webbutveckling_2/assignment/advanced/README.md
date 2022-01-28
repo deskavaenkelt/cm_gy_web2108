@@ -187,7 +187,7 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 - Motivera varför du valt en specifik lösning.
 - Lämna förslag på förbättringar av din kod.
 - Lämna exempel på lösningar du valde att **inte** implementera
-- Lämnna förslag på förbättringar av din UI/UX design eller reflektera över den.
+- Lämna förslag på förbättringar av din UI/UX design eller reflektera över den.
 
 # Sista inlämningstid
 
