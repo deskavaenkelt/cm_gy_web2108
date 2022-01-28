@@ -1,6 +1,8 @@
+import classes from './CustomButtons.module.css'
+
 const PrimaryButton = (props) => {
     return (
-        <button onClick={ props.onClick }>
+        <button onClick={ props.onClick } className={classes.primaryButton}>
             { props.children }
         </button>
     )

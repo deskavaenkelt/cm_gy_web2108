@@ -1,0 +1,12 @@
+.primaryButton {
+    font-weight: bold;
+    margin: 0.5em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.secondaryButton {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
