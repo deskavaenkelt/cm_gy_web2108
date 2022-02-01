@@ -197,4 +197,4 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 
 # Sista inlämningstid
 
-6 Februari kl. 23:59
+13 Februari kl. 23:59

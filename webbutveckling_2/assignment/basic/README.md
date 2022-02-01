@@ -142,4 +142,4 @@ Gör en enkel dokumentation på ditt arbete, _till exempel_:
 
 # Sista inlämningstid
 
-6 Februari kl. 23:59
+13 Februari kl. 23:59
