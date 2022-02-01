@@ -56,6 +56,11 @@ antalet album samt att när en viss summa nås får man fri frakt.
 - Media Queries
 - [`CSS Moduler`](https://github.com/css-modules/css-modules)
 
+#### Tips
+
+- [`useContext()`](https://github.com/academind/react-complete-guide-code/blob/zz-reactjs-summary/code/19-finished/src/store/favorites-context.js)
+- [React tutorial](https://www.youtube.com/watch?v=Dorf8i6lCuk&t=10507s)
+
 ### Ni får givetvis utgå från vanilla men implementeringen ska vara i React
 
 ## Syfte
