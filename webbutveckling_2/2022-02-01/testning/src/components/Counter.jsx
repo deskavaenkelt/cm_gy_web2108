@@ -29,6 +29,9 @@ const Counter = () => {
                    value={ inputValue }
                    onChange={ event => setInputValue(Number(event.target.value)) }/>
             <button data-testid='add-btn' onClick={ addToCounter }>+</button>
+            <br/>
+            <br/>
+            { counterValue >= 100 ? 'condition is true' : 'condition is false' }
         </section>
     )
 }
