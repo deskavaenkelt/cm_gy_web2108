@@ -157,3 +157,41 @@ test('adding and subtracting leads to the correct number', () => {
     }
     expect(counterElement.textContent).toBe('30')
 })
+
+test('counter contains correct className', () => {
+    const addButtonElement = getByTestId('add-btn')
+    const subtractButtonElement = getByTestId('subtract-btn')
+    const counterElement = getByTestId('counter')
+    const inputElement = getByTestId('input')
+
+    expect(inputElement.value).toBe('1')
+    expect(counterElement.textContent).toBe('0')
+
+    fireEvent.change(inputElement, {
+        target: {
+            value: '50'
+        }
+    })
+    expect(inputElement.value).toBe('50')
+
+    fireEvent.click(addButtonElement)   // counterElement = 50
+    expect(counterElement.className).toBe('')
+
+    fireEvent.click(addButtonElement)   // counterElement = 100
+    expect(counterElement.className).toBe('green')
+
+    fireEvent.click(addButtonElement)   // counterElement = 150
+    expect(counterElement.className).toBe('green')
+
+    fireEvent.click(subtractButtonElement)   // counterElement = 100
+    fireEvent.click(subtractButtonElement)   // counterElement = 50
+    expect(counterElement.className).toBe('')
+
+    fireEvent.click(subtractButtonElement)   // counterElement = 0
+    fireEvent.click(subtractButtonElement)   // counterElement = -50
+    fireEvent.click(subtractButtonElement)   // counterElement = -100
+    expect(counterElement.className).toBe('red')
+
+    fireEvent.click(subtractButtonElement)   // counterElement = -150
+    expect(counterElement.className).toBe('red')
+})
