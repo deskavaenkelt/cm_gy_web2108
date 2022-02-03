@@ -1,26 +1,24 @@
 import Menu from './menu/Menu'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
+import Hamburger from './hamburger/Hamburger'
+import { useOnClickOutside } from '../../../utils/hooks/useOnClickOutside'
 
 const Mobile = () => {
     const [showMenu, setShowMenu] = useState(false)
+    const ref = useRef(null)
+    const closeMenu = () => setShowMenu(false)
+
+    useOnClickOutside(ref, closeMenu)
 
     function toggleMenu() {
         setShowMenu(!showMenu)
-    }
-
-    function hamburger() {
-        return (
-            <>
-                <button onClick={ toggleMenu }>Menu</button>
-            </>
-        )
     }
 
     return (
         <nav>
             { showMenu
                 ? <Menu toggleMenu={ toggleMenu }/>
-                : hamburger()
+                : <Hamburger toggleMenu={ toggleMenu }/>
             }
         </nav>
     )
