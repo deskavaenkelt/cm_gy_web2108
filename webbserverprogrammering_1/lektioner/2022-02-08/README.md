@@ -71,8 +71,8 @@ nodemon: `npm install -D nodemon`
 
 Start servern med:
 
-- `npm nodemon Server.js`
-- `npx nodemon Server.js`
+- `npm nodemon index.js`
+- `npx nodemon index.js`
 
 ### Dotenv
 
