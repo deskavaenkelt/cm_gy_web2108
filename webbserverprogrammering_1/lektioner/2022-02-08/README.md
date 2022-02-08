@@ -14,7 +14,6 @@ Skapa `index.js` med innehållet:
 ```javascript
 const express = require('express')
 
-const port = 3001
 const app = express()
 
 app.get('/', (req, res) => {
@@ -22,7 +21,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3001, () => {
-    // console.log('Server running on port 3001')
     console.log('Server running on port http://localhost:3001')
 })
 ```
