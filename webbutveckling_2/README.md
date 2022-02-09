@@ -17,14 +17,14 @@ Repetera react samt gör en enklare hemsida som ni visar upp på lektionen vecka
 | [2022-01-18][3] | useState, React router, useNavigate    | Introduktion till Användargränssnitt och användarupplevelse                      |
 | [2022-01-20][4] | API, Cards, Search                     | Robots side with search function                                                 |
 | [2022-01-25][5] | API med Axios, React-router, useEffect | Vi kommer byta ut `fetch` mot `Axios` för API anrop samt titta på useEffect hook |
-| [2022-01-27][6] | useContext, ternery-operatorn          | Globala variabler samt ternery-operatorn,                                        |
-| [2022-02-01][7] | Planering                              | Planering                                                                        |
-| [2022-02-03][8] | Planering                              | Planering                                                                        |
-| [2022-02-06][9] | Deadline 23:59                         | Inlämningsuppgift                                                                |
+| [2022-01-27][6] | useContext, ternary-operatorn          | Globala variabler samt ternary-operatorn,                                        |
+| [2022-02-01][7] | Testning                               | React Testing Library                                                            |
+| [2022-02-03][8] | Hooks                                  | useDimensions, useOnClickOutside                                                 |
+| [2022-02-13][9] | Deadline 23:59                         | Inlämningsuppgift                                                                |
 
 ## NPM
 
-`package.json` är själva "receptet" till ert project. Från den här filen byggs `node_modules` och innhållet laddas ner
+`package.json` är själva "receptet" till ert project. Från den här filen byggs `node_modules` och innehållet laddas ner
 från internet.
 
 #### Installera paket med:
@@ -39,7 +39,7 @@ från internet.
 
 - Så kan ni radera `node_modules` och köra en `npm i`/`npm install` i er projektmapp.
 
-eller:
+Eller:
 
 - Så kan ni radera `package-lock.json` samt `node_modules` och köra en `npm i`/`npm install` i er projektmapp.
 
@@ -75,14 +75,14 @@ Finns under [assignment][9] med deadline 2022-02-06 kl. 23:59.
 
 [3]: 2022-01-18/README.md
 
-[4]: 2022-01-20/
+[4]: 2022-01-20/robofriends
 
-[5]: 2022-01-25/README.md
+[5]: 2022-01-25/fetch-axios
 
-[6]: 2022-01-27/README.md
+[6]: 2022-01-27/frontend
 
-[7]: 2022-01-01/README.md
+[7]: 2022-02-01/testning
 
-[8]: 2022-01-03/README.md
+[8]: 2022-02-03/hooks
 
 [9]: assignment/README.md
