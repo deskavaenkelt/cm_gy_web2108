@@ -43,6 +43,6 @@ Material kommer löpande att läggas till löpande
 
 [6]: webbserverprogrammering_1
 
-[7]: 
+[7]: datalagring
 
-[8]: 
+[8]: fullstack_project
