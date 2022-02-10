@@ -24,6 +24,42 @@ app.post('/name/:input', (req, res) => {
     res.send(`Your name is: ${ input }`)
 })
 
+// Calculator API
+app.post('/calc/add/:num1/:num2', (req, res) => {
+    // Tolkas som strängar
+    // let number1 = req.params.num1
+    // let number2 = req.params.num2
+    // Tolka som nummer istället
+    let number1 = Number(req.params.num1)
+    let number2 = Number(req.params.num2)
+    let sum = number1 + number2
+    res.send(`Summan av talen ${ number1 } + ${ number2 } = ${ sum }`)
+})
+
+app.post('/calc/sub/:num1/:num2', (req, res) => {
+    let number1 = Number(req.params.num1)
+    let number2 = Number(req.params.num2)
+    let sum = number1 - number2
+    res.send(`Differensen av talen ${ number1 } - ${ number2 } = ${ sum }`)
+})
+
+app.post('/calc/multi/:num1/:num2', (req, res) => {
+    let number1 = Number(req.params.num1)
+    let number2 = Number(req.params.num2)
+    let sum = number1 * number2
+    res.send(`Produkten av talen ${ number1 } * ${ number2 } = ${ sum }`)
+})
+
+app.post('/calc/div/:num1/:num2', (req, res) => {
+    let number1 = Number(req.params.num1)
+    let number2 = Number(req.params.num2)
+    let sum = number1 / number2
+    if (number2 === 0) {
+        return res.send('Division med noll är inte tillåtet')
+    }
+    res.send(`Kvoten av talen ${ number1 } / ${ number2 } = ${ sum }`)
+})
+
 app.listen(port, () => {
     console.log(`Server running on port http://localhost:${ port }`)
 })
