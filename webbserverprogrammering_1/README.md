@@ -22,8 +22,10 @@
 
 # Inlämningsuppgift
 
-Finns under [assignment][11] med deadline 2022-02-06 kl. 23:59.
+Finns under [assignment][11] med deadline 2022-03-13 kl. 23:59.
 
-[1]: lektioner/2022-02-08/README.md
+[1]: lektioner/2022-02-08/
 
-[11]: assignment/README.md
+[2]: lektioner/2022-02-10/
+
+[11]: assignment/
