@@ -1,6 +1,9 @@
 import Alive from './components/Alive'
 import Name from './components/Name'
 import Add from './components/Add'
+import Sub from './components/Sub'
+import Multi from './components/Multi'
+import Divi from './components/Divi'
 
 function App() {
     return (
@@ -12,6 +15,11 @@ function App() {
             <hr/>
             <Add/>
             <hr/>
+            <Sub/>
+            <hr/>
+            <Multi/>
+            <hr/>
+            <Divi/>
         </>
     )
 }
