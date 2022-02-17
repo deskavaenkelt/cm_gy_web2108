@@ -6,9 +6,12 @@ dotenv.config()
 
 // Config stuff
 const port = process.env.SERVER_PORT || 8080
+const allowedRequestOrigins = '*'
+const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
+
 const cors_options = {
-    origin: '*',
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
+    origin: allowedRequestOrigins,
+    methods: allowedRequestMethods
 }
 
 // Initiate ExpressAPP
@@ -16,6 +19,7 @@ const app = express()
 
 // Middleware
 app.use(cors(cors_options))
+app.use(express.json())
 
 // Database
 const userDatabase = [
@@ -53,9 +57,23 @@ const userNames = () => {
 }
 
 const getUserByName = (name) => {
-    let object = `Could not find "${name}" in database`
+    let object = `Could not find "${ name }" in database`
     userDatabase.forEach(user => {
         if (name === user.name) {
+            object = user
+            return
+        }
+    })
+    return object
+}
+
+const updateUserByName = (name, newName, age, gender) => {
+    let object = `Could not find "${ name }" in database`
+    userDatabase.forEach(user => {
+        if (name === user.name) {
+            user.name = newName
+            user.age = age
+            user.gender = gender
             object = user
             return
         }
@@ -70,6 +88,19 @@ app.get('/', (req, res) => {
 
 // CRUD
 // CREATE
+app.post('/user/', (req, res) => {
+    // const name = req.body.name
+    // const age = req.body.age
+    // const gender = req.body.gender
+    const { name, age, gender } = req.body
+    const newObject = {
+        name: name,
+        age: age,
+        gender: gender
+    }
+    userDatabase.push(newObject)
+    res.status(201).send(userDatabase)
+})
 
 // READ
 app.get('/users', (req, res) => {
@@ -81,7 +112,6 @@ app.get('/users/name', (req, res) => {
     res.status(200).send(responseFromDb)
 })
 
-// Hitta Aram
 app.get('/user/:name', (req, res) => {
     const name = req.params.name
     const responseFromDb = getUserByName(name)
@@ -89,6 +119,12 @@ app.get('/user/:name', (req, res) => {
 })
 
 // UPDATE
+app.put('/user/', (req, res) => {
+    const { name, newName, age, gender } = req.body
+    const response = updateUserByName(name, newName, age, gender)
+
+    res.status(202).send(response)
+})
 
 // DELETE
 
