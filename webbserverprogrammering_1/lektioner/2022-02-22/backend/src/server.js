@@ -1,22 +1,11 @@
 import express from 'express'
-import cors from 'cors'
 import Configuration from './configurations/configuration.js'
+import ApplyMiddlewares from './configurations/ApplyMiddlewares.js'
 
-// Config stuff
-const allowedRequestOrigins = '*'
-const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
-
-const cors_options = {
-    origin: allowedRequestOrigins,
-    methods: allowedRequestMethods
-}
 
 // Initiate ExpressAPP
 const app = express()
-
-// Middleware
-app.use(cors(cors_options))
-app.use(express.json())
+ApplyMiddlewares(app)
 
 // Database
 const userDatabase = [
