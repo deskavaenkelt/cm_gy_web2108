@@ -1,6 +1,8 @@
 import Alive from './components/Alive'
 import GetAllUsers from './components/GetAllUsers'
 import CreateUser from './components/CreateUser'
+import UpdateUser from './components/UpdateUser'
+import DeleteUser from './components/DeleteUser'
 
 function App() {
     return (
@@ -9,6 +11,8 @@ function App() {
             <Alive/>
             <GetAllUsers/>
             <CreateUser/>
+            <UpdateUser/>
+            <DeleteUser/>
         </>
     )
 }
