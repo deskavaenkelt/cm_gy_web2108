@@ -12,3 +12,5 @@ Middlewares.wrongPath(app)
 Middlewares.errorHandling(app)
 
 Configuration.connectToPort(app)
+
+export default app
