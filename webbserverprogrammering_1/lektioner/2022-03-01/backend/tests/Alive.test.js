@@ -19,6 +19,20 @@ const testingNonExistingRoute = () => {
     })
 }
 
+const testingExistingRoute = () => {
+    describe('Test a route that exists', () => {
+        it('should expect 200 OK', (done) => {
+            Chai.request(app)
+                .get('/')
+                .end((request, response) => {
+                    response.should.have.a.status(200)
+                    done()
+                })
+        })
+    })
+}
+
 describe('Testing API Alive routes', () => {
     testingNonExistingRoute()
+    testingExistingRoute()
 })
