@@ -1,11 +1,14 @@
 import express from 'express'
 import Configuration from './configuration/configurations.js'
-import ApplyMiddlewares from './middlewares/ApplyMiddlewares.js'
+import Middlewares from './middlewares/Middlewares.js'
 import AliveRoute from './routes/AliveRoute.js'
 
 const app = express()
-ApplyMiddlewares(app)
+Middlewares.apply(app)
 
 AliveRoute.routes(app)
+
+Middlewares.wrongPath(app)
+Middlewares.errorHandling(app)
 
 Configuration.connectToPort(app)
