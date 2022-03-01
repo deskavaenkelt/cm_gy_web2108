@@ -1,6 +1,6 @@
 _type: export
 __export_format: 4
-__export_date: 2022-03-01T13:29:34.590Z
+__export_date: 2022-03-01T14:12:57.073Z
 __export_source: insomnia.desktop.app:v2021.7.2
 resources:
   - _id: req_e64541e6e4b64b8d8c0eac59fd9ce599
@@ -149,7 +149,7 @@ resources:
     _type: request
   - _id: req_d08a9c189b7041ba8b148d2e14861033
     parentId: wrk_0e72780c91314fae9d050a357a486a86
-    modified: 1646141057099
+    modified: 1646142703664
     created: 1646138661504
     url: http://localhost:3001/user/
     name: UpdateUser
@@ -324,7 +324,7 @@ resources:
     _type: unit_test_suite
   - _id: ut_0dcb059fd49246e68c26eb5773fee31b
     parentId: uts_20a7e10338b54c149cce58911fb51d29
-    modified: 1646139537820
+    modified: 1646142836185
     created: 1646139063688
     requestId: req_e64541e6e4b64b8d8c0eac59fd9ce599
     name: Alive Returns 200
@@ -335,7 +335,7 @@ resources:
     _type: unit_test
   - _id: ut_d158cd930b6a4226a4db7c27c026f1e2
     parentId: uts_20a7e10338b54c149cce58911fb51d29
-    modified: 1646139648409
+    modified: 1646141539219
     created: 1646139200862
     requestId: req_d9643a9356754823aefbf746c2066d7f
     name: Alive Returns 404
@@ -345,10 +345,10 @@ resources:
     _type: unit_test
   - _id: ut_a27abbd22c8e4cb1823a94389d5bd84a
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646140715378
+    modified: 1646143660366
     created: 1646139748023
     requestId: req_00922821dee64afa9fa1733a78f03dfa
-    name: Get Users Returns 200
+    name: Get All Users and verify length
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -365,10 +365,10 @@ resources:
     _type: unit_test
   - _id: ut_002cf76bf6a94dd5b800e3e17c70626a
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646140458537
+    modified: 1646143685037
     created: 1646140404892
     requestId: req_60491dd73b444cbb8d2788e081847654
-    name: GetUsersNames Returns 200
+    name: Get All Usernames and verify length
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -383,10 +383,10 @@ resources:
     _type: unit_test
   - _id: ut_795aedf5cd834276b08185f5fb345136
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646140941230
+    modified: 1646143712994
     created: 1646140568121
     requestId: req_67e3e4cc46e74c918026228e90b7bce8
-    name: CreateUser Returns 200
+    name: CreateUser and verify array.length increase
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -404,10 +404,10 @@ resources:
     _type: unit_test
   - _id: ut_1ee6580af4a34a74b10abcc4c47409e3
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646141126053
+    modified: 1646143743684
     created: 1646140901767
     requestId: req_78ea5eac74d244f8bbc0fbfa0c11b2b5
-    name: GetUserByName - Carina Returns 200
+    name: GetUserByName - Carina verify that createt user exist with correct data
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -421,10 +421,10 @@ resources:
     _type: unit_test
   - _id: ut_2f029bd8d43a47e78b4846c7536aba3a
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646141112543
+    modified: 1646143799833
     created: 1646141034013
     requestId: req_d08a9c189b7041ba8b148d2e14861033
-    name: UpdateUserByName - Christoffer Returns 202
+    name: UpdateUserByName - Christoffer and verify correct data
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -438,10 +438,10 @@ resources:
     _type: unit_test
   - _id: ut_31d86cdb703346489e0db6c552d216c2
     parentId: uts_5dbaf62f41394d53ab4799de31be61a7
-    modified: 1646141179494
+    modified: 1646143830636
     created: 1646141146513
     requestId: req_e4a2cd7977024ae8b342987cf219942b
-    name: GetUserByName - Christoffer Returns 200
+    name: GetUserByName - Christoffer verify that create user exist with correct data
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)
@@ -452,4 +452,57 @@ resources:
       expect(body.name).to.equal('Christoffer')
       expect(body.age).to.equal('19')
       expect(body.gender).to.equal('Male')
+    _type: unit_test
+  - _id: ut_b1e384f3123847d79ec516503a1b66c0
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143862665
+    created: 1646142700597
+    requestId: req_78ea5eac74d244f8bbc0fbfa0c11b2b5
+    name: GetUserByName - Carina Verify that user don't exist any more
+    code: |-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('Could not find "Carina" in database');
+    _type: unit_test
+  - _id: ut_241d816dda5747bbbc29dd17d6621cf8
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143900364
+    created: 1646143006114
+    requestId: req_e6e10c4635114bb69b76559a900eaa9f
+    name: DeleteUserByName- Carina verify can't delete user that don't exist
+    code: >-
+      const response1 = await insomnia.send();
+
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name: "Carina" don\'t exist in database!');
+    _type: unit_test
+  - _id: ut_882f6504625949daad95f8a6aaa96d95
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143919534
+    created: 1646143139107
+    requestId: req_6ca98e41d1034c7ba1f91a548d78ed2a
+    name: DeleteUserByName- Christoffer verify can't delete user that exist
+    code: >-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name: "Christoffer" was deleted from database!');
+    _type: unit_test
+  - _id: ut_0ec2bb38e48c4fbe947410f90eddc434
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143909060
+    created: 1646143222890
+    requestId: req_f6659c483bfb40e8ac6e6b12fd493aad
+    name: GetUserByName - Christoffer verify can't delete user that don't exist
+    code: >-
+      const response1 = await insomnia.send();
+
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('Could not find "Christoffer" in database');
     _type: unit_test
