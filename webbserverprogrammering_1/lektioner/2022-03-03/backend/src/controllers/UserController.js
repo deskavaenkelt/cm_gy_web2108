@@ -2,13 +2,18 @@ import userDatabase from '../data/userDatabase.js'
 
 const createUser = (req, res) => {
     const { name, age, gender } = req.body
-    const newObject = {
-        name: name,
-        age: Number(age),
-        gender: gender
+    if (name && age && gender) {
+        const newObject = {
+            name: name,
+            age: Number(age),
+            gender: gender
+        }
+        userDatabase.push(newObject)
+        res.status(201).send(userDatabase[userDatabase.length - 1])
+    }else {
+        res.status(204).send('No body')
     }
-    userDatabase.push(newObject)
-    res.status(201).send(userDatabase[userDatabase.length - 1])
+
 }
 
 const getUsers = (req, res) => {
