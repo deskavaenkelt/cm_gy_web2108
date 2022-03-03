@@ -4,11 +4,11 @@ const createUser = (req, res) => {
     const { name, age, gender } = req.body
     const newObject = {
         name: name,
-        age: age,
+        age: Number(age),
         gender: gender
     }
     userDatabase.push(newObject)
-    res.status(201).send(userDatabase)
+    res.status(201).send(userDatabase[userDatabase.length - 1])
 }
 
 const getUsers = (req, res) => {

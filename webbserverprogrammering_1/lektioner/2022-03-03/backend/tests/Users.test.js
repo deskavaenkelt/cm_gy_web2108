@@ -3,6 +3,7 @@ import ChaiHTTP from 'chai-http'
 import { describe, it } from 'mocha'
 import app from '../src/server.js'
 import urls from '../src/routes/UserRoutes.js'
+import { response } from 'express'
 
 Chai.should()
 Chai.use(ChaiHTTP)
@@ -11,6 +12,11 @@ const expect = Chai.expect
 const randomString = Math.random().toString(36).substring(7)
 console.log(randomString)
 
+const newUser = {
+    name: 'Carina',
+    age: 29,
+    gender: 'Female'
+}
 
 const testNonExistingRouteExpect = () => {
     describe('Testing a route that does not exist with expect', () => {
@@ -67,15 +73,7 @@ const getUsersExpect = () => {
     })
 }
 
-const createUser = () => {
-    describe('Testing to create a user (POST)', () => {
-        it('should expect a user to be created', (done) => {
-
-        })
-    })
-}
-
-const getUserNames = () => {
+const getUserNames = () => {    // Hemläxa
     describe('Testing to get an array if users name (GET)', () => {
         it('should expect a array of user names', (done) => {
 
@@ -83,10 +81,54 @@ const getUserNames = () => {
     })
 }
 
-const getUserByName = () => {
-    describe('Testing to get an user object (POST)', () => {
-        it('should expect a user to be created', (done) => {
+const checkIfUserDoNotExist = (name) => {
+    describe('Testing message on user that dont exists', () => {
+        it('should return a string', (done) => {
+            Chai.request(app)
+                .get(`/user/${ name }`)
+                .end((error, response) => {
+                    expect(response.status).to.equal(200)
+                    expect(response.text).to.equal(`Could not find "${ name }" in database`)
+                    done()
+                })
+        })
+    })
+}
 
+const createUser = () => {
+    describe('Testing to create a user (POST)', () => {
+        it('should expect a user to be created', (done) => {
+            Chai.request(app)
+                .post('/user')
+                .send(newUser)
+                .end((error, response) => {
+                    expect(response.status).to.equal(201)
+
+                    const body = response.body
+                    expect(body.name).to.equal(newUser.name)
+                    expect(body.age).to.equal(newUser.age)
+                    expect(body.gender).to.equal(newUser.gender)
+                    done()
+                })
+        })
+    })
+}
+
+const getUserByName = (name) => {
+    describe('Testing if a user Exist(GET)', () => {
+        it('should expect a user object to be returned', (done) => {
+            Chai.request(app)
+                .get(`/user/${ name }`)
+                .end((error, response) => {
+                    expect(response.status).to.equal(200)
+
+                    const body = response.body
+                    expect(body).to.be.an('object')
+                    expect(body.name).to.equal(newUser.name)
+                    expect(body.age).to.equal(newUser.age)
+                    expect(body.gender).to.equal(newUser.gender)
+                    done()
+                })
         })
     })
 }
@@ -111,4 +153,7 @@ describe('TESTING USER API ROUTES!', () => {
     testNonExistingRouteExpect()
     getUsers()
     getUsersExpect()
+    checkIfUserDoNotExist('Carina')
+    createUser()
+    getUserByName('Carina')
 })
