@@ -9,7 +9,7 @@
    1. För att göra en kalkylator (add, sub, multi, div (verifiera division med 0))
    2. Verifiera att ert kalkylator API fungerar med Insomnia
    3.  React frontend ska kommunicera med ert API via Axios.
-3. 
+
 
 
 
