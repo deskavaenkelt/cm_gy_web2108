@@ -38,6 +38,6 @@ Finns under [assignment][11] med deadline 2022-03-13 kl. 23:59.
 
 [7]: lektioner/2022-03-01/
 
-[7]: lektioner/2022-03-03/
+[8]: lektioner/2022-03-03/
 
 [11]: assignment/
