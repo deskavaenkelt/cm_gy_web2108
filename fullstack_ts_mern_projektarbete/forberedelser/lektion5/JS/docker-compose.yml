@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: user-api-client
+    container_name: user-api-client
+#    command: /usr/src/app/node_modules/.bin/nodemon Server.js
+    ports:
+      - "3001:3001"
+    networks:
+      - user-api-network
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: user-api-server
+    container_name: user-api-server
+    ports:
+      - "3000:3000"
+    networks:
+      - user-api-network
+
+networks:
+  user-api-network:
+    driver: bridge
