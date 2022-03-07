@@ -27,7 +27,7 @@
 | [2022-06-09][16] | Handledning/Repetition                                  | Handledning/Repetition                                                       |
 | [2022-06-14][17] | Handledning/Repetition                                  | Handledning/Repetition                                                       |
 | [2022-06-16][18] | Handledning/Repetition                                  | Handledning/Repetition                                                       |
-| [2022-06-17][19] | Deadline 23:59                                          | Inlämningsuppgift                                                            |
+| [2022-06-19][19] | Deadline 23:59                                          | Inlämningsuppgift                                                            |
 | [2022-06-21][20] | Redovisning                                             | Redovisning                                                                  |
 | [2022-06-23][21] | Handledning, Annat kul                                  | Handledning, annat kul                                                       |
 | [2022-06-26][22] | Slut                                                    | Sista skolveckan, "sommarlov" =)                                             |

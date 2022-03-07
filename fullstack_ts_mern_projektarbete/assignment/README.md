@@ -230,4 +230,4 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 
 ## Sista inlämningstid
 
-Deadline 17 Juni 2022, 23:59
+Deadline 19 Juni 2022, 23:59
