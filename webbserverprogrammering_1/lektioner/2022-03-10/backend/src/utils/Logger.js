@@ -2,7 +2,16 @@ import winston from 'winston'
 import dotenv from 'dotenv'
 
 dotenv.config()
-const environment = process.env.NODE_ENV || 'development'   // Default environment = 'development'
+//const environment = process.env.NODE_ENV || 'development'   // Default environment = 'development'
+
+const level = () => {
+    // const devEnvironment = 'development'
+    // const nodeEnvironment = process.env.NODE_ENV
+    // const isDevelopment = devEnvironment === nodeEnvironment
+    const isDevelopment = 'development' === process.env.NODE_ENV
+
+    return isDevelopment ? 'debug' : 'warn'
+}
 
 const levels = {
     error: 0,
@@ -23,19 +32,26 @@ const colors = {
 winston.addColors(colors)
 
 const format = winston.format.combine(
-    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms'}),
-    winston.format.colorize({all: true}),
+    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms' }),
+    winston.format.colorize({ all: true }),
     winston.format.printf(
-        (info) => `${info.timestamp} ${info.level}: ${info.message}`
+        (info) => `${ info.timestamp } ${ info.level }: ${ info.message }`
     )
 )
 
 const transports = [
-    new winston.transports.Console()
+    new winston.transports.Console(),
+    new winston.transports.File({
+        filename: 'logs/error.log',
+        level: 'error'
+    }),
+    new winston.transports.File({
+        filename: 'logs/all.log'
+    })
 ]
 
 const Logger = winston.createLogger({
-    level: 'debug',
+    level: level(),
     levels,
     format,
     transports
