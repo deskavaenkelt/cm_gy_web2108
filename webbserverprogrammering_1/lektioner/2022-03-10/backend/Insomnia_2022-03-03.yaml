@@ -1,0 +1,516 @@
+_type: export
+__export_format: 4
+__export_date: 2022-03-03T14:30:13.057Z
+__export_source: insomnia.desktop.app:v2022.1.0
+resources:
+  - _id: req_e64541e6e4b64b8d8c0eac59fd9ce599
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646129824788
+    created: 1646124949271
+    url: http://localhost:3001/
+    name: API Alive!
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124949271
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_0e72780c91314fae9d050a357a486a86
+    parentId: null
+    modified: 1646124824331
+    created: 1646124824331
+    name: 2022-03-01.yaml
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_d9643a9356754823aefbf746c2066d7f
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646132554141
+    created: 1646129865434
+    url: http://localhost:3001/randomUrl
+    name: API Alive!  wrongPath
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124309839.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_00922821dee64afa9fa1733a78f03dfa
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138484188
+    created: 1646138475907
+    url: http://localhost:3001/users
+    name: GetUsers
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124309814.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_60491dd73b444cbb8d2788e081847654
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138531653
+    created: 1646138517108
+    url: http://localhost:3001/users/name
+    name: GetUsersNames
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124309802
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_67e3e4cc46e74c918026228e90b7bce8
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646317565959
+    created: 1646138343990
+    url: http://localhost:3001/user/
+    name: CreateUser
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Carina",
+            "age": "29",
+            "gender": "Female"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_60d1ed35cc1f496a9b4e1d8be5a8b7aa
+    authentication: {}
+    metaSortKey: -1646124309789.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_78ea5eac74d244f8bbc0fbfa0c11b2b5
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138762211
+    created: 1646138569117
+    url: http://localhost:3001/user/Carina
+    name: GetUserByName - Carina
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124309739.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d08a9c189b7041ba8b148d2e14861033
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646314897903
+    created: 1646138661504
+    url: http://localhost:3001/user/
+    name: UpdateUser
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Carina",
+        	"newName": "Christoffer",
+            "age": "19",
+            "gender": "Male"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_60d1ed35cc1f496a9b4e1d8be5a8b7aa
+    authentication: {}
+    metaSortKey: -1646124309689.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e4a2cd7977024ae8b342987cf219942b
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138753869
+    created: 1646138738972
+    url: http://localhost:3001/user/Christoffer
+    name: GetUserByName - Christoffer
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124309639.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e6e10c4635114bb69b76559a900eaa9f
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138901168
+    created: 1646138829153
+    url: http://localhost:3001/user/Carina
+    name: DeleteUserByName - Carina
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124149831.625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_fa9936fdff6147218ce8033e7b8883a7
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138919133
+    created: 1646138874975
+    url: http://localhost:3001/user/Carina
+    name: GetUserByName - Carina
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646124069927.6875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6ca98e41d1034c7ba1f91a548d78ed2a
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138837255
+    created: 1646138817977
+    url: http://localhost:3001/user/Christoffer
+    name: DeleteUserByName - Christoffer
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646123990023.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f6659c483bfb40e8ac6e6b12fd493aad
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646138888803
+    created: 1646138886518
+    url: http://localhost:3001/user/Christoffer
+    name: GetUserByName - Christoffer
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646123989873.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_6ddc373553f164e2a6d0d5235753127f3e9e842b
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646124824332
+    created: 1646124824332
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1646124824332
+    _type: environment
+  - _id: jar_6ddc373553f164e2a6d0d5235753127f3e9e842b
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646124824333
+    created: 1646124824333
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_5d5e1c2cd8e54391a7d65e5075648443
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646124910178
+    created: 1646124824331
+    fileName: 2022-03-01.yaml
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_20a7e10338b54c149cce58911fb51d29
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646139019012
+    created: 1646139019012
+    name: Alive functions
+    _type: unit_test_suite
+  - _id: uts_5dbaf62f41394d53ab4799de31be61a7
+    parentId: wrk_0e72780c91314fae9d050a357a486a86
+    modified: 1646139682692
+    created: 1646139682692
+    name: Users functions
+    _type: unit_test_suite
+  - _id: ut_0dcb059fd49246e68c26eb5773fee31b
+    parentId: uts_20a7e10338b54c149cce58911fb51d29
+    modified: 1646300826614
+    created: 1646139063688
+    requestId: req_e64541e6e4b64b8d8c0eac59fd9ce599
+    name: Alive Returns 200
+    code: |-
+      const response = await insomnia.send();
+      expect(response.status).to.equal(200);
+      expect(response.data).to.equal('API is Alive!');
+    _type: unit_test
+  - _id: ut_d158cd930b6a4226a4db7c27c026f1e2
+    parentId: uts_20a7e10338b54c149cce58911fb51d29
+    modified: 1646300820393
+    created: 1646139200862
+    requestId: req_d9643a9356754823aefbf746c2066d7f
+    name: Alive Returns 404
+    code: |-
+      const response = await insomnia.send();
+      expect(response.status).to.equal(404);
+    _type: unit_test
+  - _id: ut_a27abbd22c8e4cb1823a94389d5bd84a
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646305900650
+    created: 1646139748023
+    requestId: req_00922821dee64afa9fa1733a78f03dfa
+    name: Get All Users and verify length
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+
+      const body = JSON.parse(response1.data)
+      expect(body).to.be.an('array')
+      expect(body.length).to.equal(4)
+      expect(body.length).to.not.equal(3)
+      expect(body.length).to.not.equal(5)
+
+      const user = body[0]
+      expect(user).to.be.an('object')
+      expect(user.name).to.equal('Aram')
+      expect(user.age).to.equal(30)
+      expect(user.gender).to.equal('Male')
+    _type: unit_test
+  - _id: ut_002cf76bf6a94dd5b800e3e17c70626a
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646305817915
+    created: 1646140404892
+    requestId: req_60491dd73b444cbb8d2788e081847654
+    name: Get All Usernames and verify length
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+
+      const body = JSON.parse(response1.data)
+      expect(body).to.be.an('array')
+      expect(body.length).to.equal(4)
+
+      const user = body[0]
+      expect(user).to.be.an('object')
+      expect(user.name).to.equal('Aram')
+    _type: unit_test
+  - _id: ut_795aedf5cd834276b08185f5fb345136
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646317738811
+    created: 1646140568121
+    requestId: req_67e3e4cc46e74c918026228e90b7bce8
+    name: CreateUser and verify array.length increase
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const user = body[4]
+
+      expect(response1.status).to.equal(201);
+
+      // expect(body).to.be.an('array')
+      // expect(body.length).to.equal(5)
+
+      // expect(user).to.be.an('object')
+      // expect(user.name).to.equal('Carina')
+      // expect(user.age).to.equal('29')
+      // expect(user.gender).to.equal('Female')
+
+      expect(body).to.be.an('object')
+      expect(body.name).to.equal('Carina')
+      expect(body.age).to.equal(29)
+      expect(body.gender).to.equal('Female')
+    _type: unit_test
+  - _id: ut_1ee6580af4a34a74b10abcc4c47409e3
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646317776094
+    created: 1646140901767
+    requestId: req_78ea5eac74d244f8bbc0fbfa0c11b2b5
+    name: GetUserByName - Carina verify that createt user exist with correct data
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.name).to.equal('Carina')
+      // expect(body.age).to.equal('29')
+      expect(body.age).to.equal(29)
+      expect(body.gender).to.equal('Female')
+    _type: unit_test
+  - _id: ut_2f029bd8d43a47e78b4846c7536aba3a
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646292027431
+    created: 1646141034013
+    requestId: req_d08a9c189b7041ba8b148d2e14861033
+    name: UpdateUserByName - Christoffer and verify correct data
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+
+      expect(response1.status).to.equal(202);
+
+      expect(body).to.be.an('object')
+      expect(body.name).to.equal('Christoffer')
+      expect(body.age).to.equal('19')
+      expect(body.gender).to.equal('Male')
+    _type: unit_test
+  - _id: ut_31d86cdb703346489e0db6c552d216c2
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143830636
+    created: 1646141146513
+    requestId: req_e4a2cd7977024ae8b342987cf219942b
+    name: GetUserByName - Christoffer verify that create user exist with correct data
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.name).to.equal('Christoffer')
+      expect(body.age).to.equal('19')
+      expect(body.gender).to.equal('Male')
+    _type: unit_test
+  - _id: ut_b1e384f3123847d79ec516503a1b66c0
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646311219999
+    created: 1646142700597
+    requestId: req_78ea5eac74d244f8bbc0fbfa0c11b2b5
+    name: GetUserByName - Carina Verify that user don't exist any more
+    code: |-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('Could not find "Carina" in database');
+    _type: unit_test
+  - _id: ut_241d816dda5747bbbc29dd17d6621cf8
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143900364
+    created: 1646143006114
+    requestId: req_e6e10c4635114bb69b76559a900eaa9f
+    name: DeleteUserByName- Carina verify can't delete user that don't exist
+    code: >-
+      const response1 = await insomnia.send();
+
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name: "Carina" don\'t exist in database!');
+    _type: unit_test
+  - _id: ut_882f6504625949daad95f8a6aaa96d95
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143919534
+    created: 1646143139107
+    requestId: req_6ca98e41d1034c7ba1f91a548d78ed2a
+    name: DeleteUserByName- Christoffer verify can't delete user that exist
+    code: >-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name: "Christoffer" was deleted from database!');
+    _type: unit_test
+  - _id: ut_0ec2bb38e48c4fbe947410f90eddc434
+    parentId: uts_5dbaf62f41394d53ab4799de31be61a7
+    modified: 1646143909060
+    created: 1646143222890
+    requestId: req_f6659c483bfb40e8ac6e6b12fd493aad
+    name: GetUserByName - Christoffer verify can't delete user that don't exist
+    code: >-
+      const response1 = await insomnia.send();
+
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('Could not find "Christoffer" in database');
+    _type: unit_test
