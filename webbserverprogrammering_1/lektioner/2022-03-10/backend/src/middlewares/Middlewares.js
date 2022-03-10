@@ -1,7 +1,7 @@
 import cors from 'cors'
 import express from 'express'
 import helmet from 'helmet'
-import morgan from 'morgan'
+import MorganMiddleware from './MorganMiddleware.js'
 
 const allowedRequestOrigins = '*'
 const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
@@ -15,7 +15,7 @@ const apply = (app) => {
     app.use(helmet())
     app.use(cors(cors_options))
     app.use(express.json())
-    app.use(morgan('common'))
+    app.use(MorganMiddleware)
 }
 
 const notFound = (req, res, next) => {

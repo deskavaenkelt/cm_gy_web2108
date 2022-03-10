@@ -15,8 +15,7 @@ const differentMessages = () => {
 
 const connectToPort = (app) => {
     app.listen(port, () => {
-        differentMessages()
-        console.log(`Server running on port http://localhost:${ port }`)
+        // differentMessages()
         Logger.info(`Server running on port http://localhost:${ port }`)
     })
 }
