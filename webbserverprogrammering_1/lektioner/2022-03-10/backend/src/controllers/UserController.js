@@ -1,6 +1,9 @@
 import userDatabase from '../data/userDatabase.js'
+import Logger from '../utils/Logger.js'
 
 const createUser = (req, res) => {
+    Logger.info('createUser()')
+    Logger.http(req.body)
     const { name, age, gender } = req.body
     if (name && age && gender) {
         const newObject = {
@@ -8,15 +11,18 @@ const createUser = (req, res) => {
             age: Number(age),
             gender: gender
         }
+        Logger.debug(newObject)
         userDatabase.push(newObject)
+        Logger.info(userDatabase[userDatabase.length - 1])
         res.status(201).send(userDatabase[userDatabase.length - 1])
     }else {
+        Logger.error('name, age or gender failed')
         res.status(204).send('No body')
     }
-
 }
 
 const getUsers = (req, res) => {
+    Logger.info('getUsers()')
     res.status(200).send(userDatabase)
 }
 
