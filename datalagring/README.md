@@ -21,7 +21,9 @@
 | [2022-04-14][10] | Repetition, TypeScript      | Repetition och TypeScript                                    |
 | [2022-04-17][12] | Deadline 23:59              | Inlämningsuppgift                                            |
 
-### [Övningar](exercises/mongodb)
+### [Övningar MySQL](exercises/mysql)
+
+### [Övningar MongoDB](exercises/mongodb)
 
 # Inlämningsuppgift
 
@@ -29,6 +31,15 @@ Finns under [assignment/mySql][11] med deadline 2022-03-27 kl. 23:59.
 Finns under [assignment/mongodb][12] med deadline 2022-04-17 kl. 23:59.
 
 [1]: lektioner/2022-03-15/
+[2]: lektioner/2022-03-17/
+[3]: lektioner/2022-03-22/
+[4]: lektioner/2022-03-24/
+[5]: lektioner/2022-03-29/
+[6]: lektioner/2022-03-31/
+[7]: lektioner/2022-04-05/
+[8]: lektioner/2022-04-07/
+[9]: lektioner/2022-04-12/
+[10]: lektioner/2022-04-14/
 
 
 [11]: assignment/mySql
