@@ -2,6 +2,20 @@
 
 [Kursdokument](Datalagring.pdf)
 
+# Nödvändiga verktyg
+
+- Docker 
+  - https://www.docker.com/get-started
+  - https://andrewlock.net/installing-docker-desktop-for-windows/
+
+- SQL-editor
+  - Jetbrains
+    - https://www.jetbrains.com/datagrip/
+
+- eller VSCode
+  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
+
+
 # Lektioner
 
 ### Enligt Schema
