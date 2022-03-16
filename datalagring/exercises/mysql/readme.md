@@ -19,7 +19,7 @@ Skapa databasen DCHeroes enligt instruktionerna på [Sammanfattning av SQL](./do
 Då kommer nästa utmaning... Du ska hjälpa självaste Sherlock Holmes att lösa ett mordfall som inträffat på [Metropolitan Club](./dox/Mordet%20på%20Metropolitan%20Club.pdf). Detta gör du genom att skapa en databas och sedan populera den med hjälp av INSERT, UPDATE och i värsta fall DELETE.
 
 ## Lektion 1
-Kolla in exemplen i (lektion 1)[../forberedelse/Lektion%201]
+Kolla in exemplen i [lektion 1](../forberedelse/Lektion%201)
 
 ## Lektion 2
 Förbered dig genom att kolla på exemplen om (Lektion 2)[../forberedelse/Lektion%202]
