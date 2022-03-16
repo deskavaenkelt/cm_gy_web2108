@@ -2,20 +2,6 @@
 
 [Kursdokument](Datalagring.pdf)
 
-# Nödvändiga verktyg
-
-- Docker 
-  - https://www.docker.com/get-started
-  - https://andrewlock.net/installing-docker-desktop-for-windows/
-
-- SQL-editor
-  - Jetbrains
-    - https://www.jetbrains.com/datagrip/
-
-- eller VSCode
-  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
-
-
 # Lektioner
 
 ### Enligt Schema
@@ -57,4 +43,17 @@ Finns under [assignment/mongodb][12] med deadline 2022-04-17 kl. 23:59. (inte ä
 
 [11]: assignment/mySql
 [12]: assignment/mongoDb
+
+# Nödvändiga verktyg
+
+- Docker 
+  - https://www.docker.com/get-started
+  - https://andrewlock.net/installing-docker-desktop-for-windows/
+
+- SQL-editor
+  - Jetbrains
+    - https://www.jetbrains.com/datagrip/
+
+- eller VSCode
+  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
