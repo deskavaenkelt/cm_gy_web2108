@@ -27,6 +27,7 @@
 # Inlämningsuppgift
 
 Finns under [assignment/mySql][11] med deadline 2022-03-27 kl. 23:59.
+
 Finns under [assignment/mongodb][12] med deadline 2022-04-17 kl. 23:59. (inte än)
 
 [1]: lektioner/2022-03-15/
