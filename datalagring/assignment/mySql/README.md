@@ -51,6 +51,6 @@ Lämna in ditt arbete i en komplett `mysql_assignment.sql` fil.
 
 ## Deadline
 
-10 Oktober 2021 kl. 23:59
+27 mars 2022 kl. 23:59
 
 Redovisning/demonstration veckan efter deadline.
