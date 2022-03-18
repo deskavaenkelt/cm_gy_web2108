@@ -27,6 +27,7 @@
 # Inlämningsuppgift
 
 Finns under [assignment/mySql][11] med deadline 2022-03-27 kl. 23:59.
+
 Finns under [assignment/mongodb][12] med deadline 2022-04-17 kl. 23:59. (inte än)
 
 [1]: lektioner/2022-03-15/
@@ -42,4 +43,17 @@ Finns under [assignment/mongodb][12] med deadline 2022-04-17 kl. 23:59. (inte ä
 
 [11]: assignment/mySql
 [12]: assignment/mongoDb
+
+# Nödvändiga verktyg
+
+- Docker 
+  - https://www.docker.com/get-started
+  - https://andrewlock.net/installing-docker-desktop-for-windows/
+
+- SQL-editor
+  - Jetbrains
+    - https://www.jetbrains.com/datagrip/
+
+- eller VSCode
+  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
