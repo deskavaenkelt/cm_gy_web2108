@@ -106,7 +106,7 @@ async function getAll(filter=null, sort={name:1})
 }
 
 await insertOne({name:"Adam West", role:"Batman"})
-await insertOne({name:"Michael Keaton", role:"Batman"})
+await insertOne({name:"Michael Keaton", role:"Batman", age:39})
 await insertOne({name:"Michael Keaton", role:"Beetlejuice"})
 await insertOne({name:"Ben Affleck", role:"Batman"})
 await insertOne({name:"Ryan Reynolds", role:"Deadpool"})
