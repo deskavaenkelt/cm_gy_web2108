@@ -5,9 +5,8 @@ import mongoose from "mongoose";
 dotenv.config()
 const port = process.env.PORT
 const environment = process.env.NODE_ENV
-const mongodb_url = process.env.MONGODB_URL // mongodb://localhost:27017/todo_test
+const mongodb_url = process.env.MONGODB_URL
 const dbName = process.env.MONGODB_DB_NAME
-const dbCollection = process.env.MONGODB_COLLECTION
 
 function isServerInDevelopmentMode() {
     const devEnv = 'development'
