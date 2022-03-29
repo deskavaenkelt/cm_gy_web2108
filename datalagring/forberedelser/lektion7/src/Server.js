@@ -7,8 +7,6 @@ import MorganMiddleware from "./middlewares/MorganMiddleware.js";
 import Middlewares from "./middlewares/Middlewares.js"
 import Configuration from "./configuration/Configuration.js"
 import UserRoutes from "./routes/UserRoutes.js"
-import mongoose from "mongoose";
-import Logger from "./utils/Logger.js";
 
 dotenv.config()
 const app = express()
