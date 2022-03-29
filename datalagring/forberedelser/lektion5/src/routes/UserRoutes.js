@@ -11,6 +11,8 @@ const routes = (app) => {
     app.get(searchUsers, UserController.getUserByUsername)
     app.put(usersUrlById, UserController.updateUserById)
     app.delete(usersUrlById, UserController.deleteUserById)
+
+    app.post('/todo', TodoController.createTodo);
 };
 
 export default {
