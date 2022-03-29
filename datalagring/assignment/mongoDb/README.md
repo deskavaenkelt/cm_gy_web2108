@@ -156,7 +156,7 @@ Allt i [Betyg E](#betyg-e) ska vara uppfyllt samt:
 
 - Upprätta en genomarbetad projektplan
 - Ren struktur på din kod
-- Arbeta enligt DRY-principen (Do Not Repeat you’re self)
+- Arbeta enligt DRY-principen (Do Not Repeat yourself)
 - Kontrollera så att du inte får orimliga resultat beroende på inmatning.
 - Se till så att det inte finns programlogiska fel
 
@@ -191,4 +191,4 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 
 # Sista inlämningstid
 
-10 april 2022 kl 23:59
+17 april 2022, kl 23:59
