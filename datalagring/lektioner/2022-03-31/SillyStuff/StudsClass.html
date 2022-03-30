@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Ball</title>
+</head>
+<style>
+    body {
+        background-color: #f0f0f0;
+    }
+
+    #plane {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 500px;
+        height: 500px;
+        background-color: #000000;
+        border: 5px ridge whitesmoke;
+    }
+
+    .ballClass {
+        position: absolute;
+        color: #ffffff;
+    }
+</style>
+
+<body>
+    <div id="plane">
+        <div class="ballClass" id="theBall">O</div>
+        <div class="ballClass" id="theBall2">X</div>
+        <div class="ballClass" id="theBall3">*</div>
+    </div>
+</body>
+<script>
+
+    class ball {
+        constructor(speedX, speedY, id, speed, compareTo=null) {
+            this.moveX = speedX;
+            this.moveY = speedY;
+            this.id = id;
+            this.x = 200;
+            this.y = 100;
+            this.xdir = 3;
+            this.ydir = 3;
+            this.moveBall();
+            this.compareTo=compareTo;
+            setInterval(this.moveBall.bind(this), speed);
+        }
+
+        moveBall() {
+            this.x += this.xdir;
+            this.y += this.ydir;
+
+            if (this.x >= 490) this.xdir = -this.moveX;
+            if (this.x <= 10) this.xdir = this.moveX;
+            if (this.y >= 490) this.ydir = -this.moveY;
+            if (this.y <= 10) this.ydir = this.moveY;
+
+            let divBall = document.getElementById(this.id);
+            divBall.style.left = this.x + "px";
+            divBall.style.top = this.y + "px";
+            if (this.compareTo!=null) compare(this.compareTo); 
+        }
+
+        compare(ball) {
+            if (this.x == ball.x && this.y == ball.y) {
+                this.xdir = -this.xdir;
+                this.ydir = -this.ydir;
+            } 
+        }
+    }
+
+    let ball1=new ball(5, 8, "theBall", 10);
+    let ball2=new ball(5, 8, "theBall2", 15, ball1);
+    let ball3=new ball(12, 2, "theBall3", 8, ball2);
+    ball1.compareTo(ball3);
+
+</script>
+
+</html>

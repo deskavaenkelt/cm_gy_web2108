@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Ball</title>
+</head>
+<style>
+    body {
+        background-color: #f0f0f0;
+    }
+
+    #plane {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 500px;
+        height: 500px;
+        background-color: #000000;
+        border: 5px ridge whitesmoke;
+    }
+
+    #ball {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+    }
+</style>
+
+<body>
+    <div id="plane">
+        <div id="ball">O</div>
+    </div>
+</body>
+<script>
+    setInterval(moveBall, 30);
+    let x = 0;
+    let y = 0;
+    let moveX = 5;
+    let moveY = 8;
+    let xdir = moveX;
+    let ydir = moveY;
+    function moveBall() {
+        let ball = document.getElementById("ball");
+        x = x + xdir;
+        y = y + ydir;
+        if (x >= 490) {
+            xdir = -moveX;
+        }
+        if (x <= 10) {
+            xdir = moveX;
+        }
+        if (y >= 490) {
+            ydir = -moveY;
+        }
+        if (y <= 10) {
+            ydir = moveY;
+        }
+        ball.style.left = x + "px";
+        ball.style.top = y + "px";
+    }
+</script>
+
+</html>

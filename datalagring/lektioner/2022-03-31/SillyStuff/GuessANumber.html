@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>JS test</title>
+</head>
+
+<body>
+    <h1 id="title">Hello Js</h1>
+    <p id="description"></p>
+    <p id="feedback"></p>
+    <p></p>
+    <input type="text" id="input">&nbsp;
+    <button id="button" onClick="Guess()">Guess</button>
+    <button id="play" onClick="Again()" style="visibility:hidden">Play again</button>
+</body>
+<script lang="javascript">
+
+    document.getElementById("title").innerHTML = "Hello js";
+    document.getElementById("description").innerHTML = "Guess a number between 1 and 100";
+
+    let enter = document.getElementById("input");
+    enter.addEventListener("keyup", function (event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("button").click();
+        }
+    });
+
+    let number = 0;
+    Again();
+    function thing(name) {
+        return document.getElementById(name);
+    }
+    function enableInput() {
+        thing("input").disabled = false;
+        thing("button").disabled = false;
+        thing("play").style = "visibility:hidden";
+        thing("input").focus();
+    }
+    function disableInput() {
+        thing("input").disabled = true;
+        thing("button").disabled = true;
+        thing("play").style = "visibility:visible";
+        thing("play").focus();
+    }
+    function Again() {
+        enableInput();
+        thing("feedback").innerHTML = "";
+        thing("input").value = "";
+        number = Math.floor(Math.random() * 100) + 1;
+        console.log("New number: " + number);
+    }
+    function Guess() {
+        let input = thing("input").value;
+        console.log("guessed on " + input);
+        if (input == number) {
+            thing("feedback").innerHTML = "You guessed it!";
+            disableInput();
+        } else if (input > number) {
+            thing("feedback").innerHTML = input + " is too high!";
+        } else {
+            thing("feedback").innerHTML = input + " is too low!";
+        }
+        thing("input").value = "";
+    }
+</script>
+
+</html>
