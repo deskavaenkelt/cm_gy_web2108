@@ -142,23 +142,25 @@ Det är funktionaliteten på ert arbete som betygssätts, alla operationer ska f
 
 ### Dokumentation
 
-- Gör en enkel dokumentation på ditt arbete, till exempel:
+- Gör en enkel dokumentation på ditt arbete:
     - Beskriv lite olika lösningar du gjort.
     - Beskriv något som var besvärligt att få till.
     - Beskriv om du fått byta lösning och varför i sådana fall.
     - Använd korrekta begrepp och syntax i dina beskrivningar.
+ - Diskuterar eleven översiktligt hur det egna gränssnittet
 
-#### Programmet skall fungera
+#### Webbplatsen skall fungera som avsett
 
 ## Betyg C
 
 Allt i [Betyg E](#betyg-e) ska vara uppfyllt samt:
 
 - Upprätta en genomarbetad projektplan
-- Ren struktur på din kod
+- Dela upp din kod i strukturerade komponenter
 - Arbeta enligt DRY-principen (Do Not Repeat yourself)
 - Kontrollera så att du inte får orimliga resultat beroende på inmatning.
 - Se till så att det inte finns programlogiska fel
+- Manuella och automatiserade tester finns
 
 ### Dokumentation
 
@@ -170,6 +172,7 @@ Din dokumentation ska utöver det i [Betyg E](#betyg-e) innehålla:
   - Vad gick dåligt
   - Vad har du lärt dig
 - Vilka möjligheter ser du med de kunskaper du fått under kursen.
+- Eleven gör en noggrann dokumentation av sitt arbete samt utvärderar med nyanserade omdömen sitt arbete och resultat utifrån projektplanen.
 
 ## Betyg A
 
@@ -178,8 +181,11 @@ Allt i [Betyg C](#betyg-c) ska vara uppfyllt samt:
 - Upprätta en genomarbetad projektplan som revideras vid behov
 - Skriv så tydlig kod så kommentarer ofta blir onödiga.
 - Där du använder kommentarer ska de _**noggranna och utförliga/tydliga**_.
-- **Väldigt lättläst kod** dvs någon med mindre-/nybörjar-kunskaper ska kunna läsa och förstå er kod.
+- **Väldigt lättläst kod** dvs andra i er klass ska kunna läsa och förstå er kod.
 - Du ska separera din kod enligt **MVC-Pattern** (Model-View-Controller)
+- Testa era endpoints (Backend)
+- 5 tester varav ett fireEvent() (Frontend)
+- Resultatet är tillfredsställande anpassat till användarens behov utifrån några principer för användbarhet.
 
 ### Dokumentation
 
@@ -188,6 +194,7 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 - Motivera varför du valt en specifik lösning.
 - Lämna förslag på förbättringar av din kod.
 - Lämna exempel på lösningar du valde att **inte** implementera
+- Lämna förslag på förbättringar av din UI/UX design eller reflektera över den.
 
 # Sista inlämningstid
 
