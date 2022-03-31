@@ -1,6 +1,6 @@
 # Silly stuff
 
-I dagens lektionsexempel ska du använda dig av dokumenten i mappen [SillyStuff](../lektioner/2022-03-31/SillyStuff)
+I dagens lektionsexempel ska du använda dig av dokumenten i mappen [SillyStuff](../../lektioner/2022-03-31/SillyStuff)
 
 ## Guess a number
 1. Gör en projektmapp för uppgiften
