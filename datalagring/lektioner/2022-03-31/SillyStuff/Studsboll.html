@@ -12,8 +12,8 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 500px;
-        height: 500px;
+        width: 520px;
+        height: 520px;
         background-color: #000000;
         border: 5px ridge whitesmoke;
     }
@@ -22,8 +22,8 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         color: #ffffff;
     }
 </style>
@@ -35,30 +35,41 @@
 </body>
 <script>
     setInterval(moveBall, 30);
-    let x = 0;
-    let y = 0;
-    let moveX = 5;
-    let moveY = 8;
-    let xdir = moveX;
-    let ydir = moveY;
+    let x = 0; // Bollens position i x-led
+    let y = 0; // Bollens position i y-led
+    let z = 0; // Bollens position i z-led
+    let moveX = 5; // Bollens hastighet i x-led
+    let moveY = 8; // Bollens hastighet i y-led
+    let moveZ = 3; // Bollens hastighet i z-led
+    let xdir = moveX; // Bollens riktning i x-led
+    let ydir = moveY; // Bollens riktning i y-led
+    let zdir = 1; // Bollens riktning i z-led
     function moveBall() {
         let ball = document.getElementById("ball");
-        x = x + xdir;
-        y = y + ydir;
+        x = x + xdir; // Öka eller minska x-led
+        y = y + ydir; // Öka eller minska y-led
         if (x >= 490) {
-            xdir = -moveX;
+            xdir = -moveX; // Rör bollen åt vänster
         }
         if (x <= 10) {
-            xdir = moveX;
+            xdir = moveX; // Rör bollen åt höger
         }
         if (y >= 490) {
-            ydir = -moveY;
+            ydir = -moveY; // Rör bollen uppåt
         }
         if (y <= 10) {
-            ydir = moveY;
+            ydir = moveY; // Rör bollen nedåt
         }
+
+        if (z>60) zdir=-1;
+        if (z<1) zdir=1;
+        z=z+zdir;
+
+        // Ändra positionen på bollen
+        // genom att ändra i CSS värdet för left och top 
         ball.style.left = x + "px";
         ball.style.top = y + "px";
+        ball.style.fontSize=z+"px";
     }
 </script>
 

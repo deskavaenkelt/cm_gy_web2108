@@ -8,15 +8,15 @@
     }
     #ball
     {
-        width:30px;
-        height:30px;
+        width:100%;
+        height:100%;
     }
     #plane {
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 500px;
-        height: 500px;
+        width: 520px;
+        height: 520px;
         background-color: #000000;
         border: 5px ridge whitesmoke;
     }
@@ -30,8 +30,8 @@
 <body>
     <div id="plane">
         <div class="ballClass" id="theBall">O</div>
-        <div class="ballClass" id="theBall2"><img id="ball" src="ball.png"</div>
         <div class="ballClass" id="theBall3">*</div>
+        <div class="ballClass" id="theBall2"><img id="ball" src="ball.png"</div>
     </div>
 </body>
 <script>
@@ -39,28 +39,39 @@
         constructor(speedX, speedY, id, speed, compareTo=null) {
             this.moveX = speedX;
             this.moveY = speedY;
+            this.moveZ = speedX;
             this.id = id;
             this.x = 200;
             this.y = 100;
+            this.z = 1;
             this.xdir = 3;
             this.ydir = 3;
+            this.zdir = 1;
             this.moveBall();
             this.compareTo=compareTo;
+            this.speed=speed;
             setInterval(this.moveBall.bind(this), speed);
         }
 
         moveBall() {
             this.x += this.xdir;
             this.y += this.ydir;
+            this.z += this.zdir;
 
             if (this.x >= 490) this.xdir = -this.moveX;
             if (this.x <= 10) this.xdir = this.moveX;
             if (this.y >= 490) this.ydir = -this.moveY;
             if (this.y <= 10) this.ydir = this.moveY;
+            if (this.z >= 60) this.zdir = -this.moveZ;
+            if (this.z <= 1) this.zdir = this.moveZ;
 
             let divBall = document.getElementById(this.id);
             divBall.style.left = this.x + "px";
             divBall.style.top = this.y + "px";
+            divBall.style.fontSize = this.z;
+            divBall.style.width = this.z;
+            divBall.style.height = this.z;
+            
             if (this.compareTo!=null) compare(this.compareTo); 
         }
 
@@ -72,9 +83,9 @@
         }
     }
 
-    let ball1=new ball(5, 8, "theBall", 10);
-    let ball2=new ball(5, 8, "theBall2", 15, ball1);
-    let ball3=new ball(12, 2, "theBall3", 8, ball2);
+    let ball1=new ball(5, 5, "theBall", 10);
+    let ball2=new ball(3, 3, "theBall2", 15);
+    let ball3=new ball(2, 2, "theBall3", 20);
     ball1.compareTo(ball3);
 
 </script>
