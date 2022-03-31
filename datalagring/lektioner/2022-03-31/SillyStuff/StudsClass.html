@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Ball</title>
 </head>
@@ -7,7 +6,11 @@
     body {
         background-color: #f0f0f0;
     }
-
+    #ball
+    {
+        width:30px;
+        height:30px;
+    }
     #plane {
         position: absolute;
         top: 0px;
@@ -27,12 +30,11 @@
 <body>
     <div id="plane">
         <div class="ballClass" id="theBall">O</div>
-        <div class="ballClass" id="theBall2">X</div>
+        <div class="ballClass" id="theBall2"><img id="ball" src="ball.png"</div>
         <div class="ballClass" id="theBall3">*</div>
     </div>
 </body>
 <script>
-
     class ball {
         constructor(speedX, speedY, id, speed, compareTo=null) {
             this.moveX = speedX;
