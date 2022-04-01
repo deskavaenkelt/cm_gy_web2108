@@ -39,7 +39,7 @@
         constructor(speedX, speedY, id, speed, compareTo=null) {
             this.moveX = speedX;
             this.moveY = speedY;
-            this.moveZ = speedX;
+            this.moveZ = speedX/2;
             this.id = id;
             this.x = 200;
             this.y = 100;
@@ -87,7 +87,6 @@
     let ball2=new ball(3, 3, "theBall2", 15);
     let ball3=new ball(2, 2, "theBall3", 20);
     ball1.compareTo(ball3);
-
 </script>
 
 </html>
