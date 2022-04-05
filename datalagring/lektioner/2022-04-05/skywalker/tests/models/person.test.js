@@ -32,6 +32,21 @@ const testingNonExistingRoute = () => {
     })
 }
 
+const testingExistingPerson = () => {
+    describe('Test a route that does exist', () => {
+        test('Expecting 200 OK', (done) => {
+            Chai.request(app)
+                .get(personsRoute)
+                .end((req, res) => {
+                    res.should.have.a.status(200)
+                    done()
+                })
+        })
+    })
+}
+
+                
+
 const createperson = () => {
     describe('Testing CREATE(POST) method for a person entity', () => {
         test('Expecting a person to be created', (done) => {
