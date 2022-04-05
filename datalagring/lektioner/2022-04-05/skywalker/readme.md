@@ -30,7 +30,6 @@ More characters
 | Jonash Solo       |              |              |                |                |
 | Bail Organa       |              |              |                |                |
 | Queen Breha of Alderaan |              |              |                |                |
-| Jar Jar Binks      |  4 BBY      | Naboo        |Otoh Gunga | George R. Binks               |
 
 #demo of json object
 
