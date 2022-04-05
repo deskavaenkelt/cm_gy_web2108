@@ -1,6 +1,7 @@
 # Skywalker family tree
 
-## Baserad på böckerna, inte på Jar Jar Abrams + Disneys påhitt
+## Här Följer lite exempeldata (baserad på information från Wookieepedia - https://starwars.fandom.com/wiki/Main_Page )
+( *Baserad på böckerna, inte på Jar Jar Abrams + Disneys påhitt*)
 
 | Name              | Born         | birthPlace   | Mother       | Father       |
 | ------------      | ------------ | ------------ | ------------ | ------------ |
@@ -10,13 +11,13 @@
 | Luke Skywalker     | 19 BBY      |  Alderaan    | Padmé Amidala | Anakin Skywalker |
 | Leia Skywalker     | 19 BBY      |  Alderaan    | Padmé Amidala | Anakin Skywalker |
 
-Correction
+### Correction
 
 | Name              | Born         | birthPlace   | Mother       | Father       |
 | ------------      | ------------ | ------------ | ------------ | ------------ |
 | Leia Organa       | 19 BBY      |  Alderaan    | Queen Breha of Alderaan | Bail Organa |
 
-More characters
+### More characters
 
 | Name              | Born         | birthPlace   | Mother       | Father       |
 | ------------      | ------------ | ------------ | ------------ | ------------ |
@@ -31,7 +32,7 @@ More characters
 | Bail Organa       |              |              |                |                |
 | Queen Breha of Alderaan |              |              |                |                |
 
-#demo of json object
+### json object to test with Insomnia
 
 | json code and routes |
 |------------|
@@ -61,7 +62,7 @@ More characters
 |route: DELETE person/{Jar Jar Binks Id}|
 | Mwahahahahaaaaaaaaaaaaaaaaa |
 
-## Cool logga
+## This is cool
 ```
                      .              .       .                    .      .
 .        .               .       .     .            .
