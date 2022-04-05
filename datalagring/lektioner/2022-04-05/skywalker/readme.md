@@ -1,7 +1,10 @@
 # Skywalker family tree
 
-## Här Följer lite exempeldata (baserad på information från Wookieepedia - https://starwars.fandom.com/wiki/Main_Page )
+## Här Följer lite exempeldata 
+
 ( *Baserad på böckerna, inte på Jar Jar Abrams + Disneys påhitt*)
+Födelsedata och plats hämtad från från Wookieepedia - https://starwars.fandom.com/wiki/Main_Page
+
 
 | Name              | Born         | birthPlace   | Mother       | Father       |
 | ------------      | ------------ | ------------ | ------------ | ------------ |
@@ -12,6 +15,7 @@
 | Leia Skywalker     | 19 BBY      |  Alderaan    | Padmé Amidala | Anakin Skywalker |
 
 ### Correction
+Leia adopterades direkt efter födseln för att Anakin inte skulle kunna spåra henne. Luke skickades till Beru & Owen. Owen var halvbror till Anakin. Lukes namn och härkomst ändrades inte. 
 
 | Name              | Born         | birthPlace   | Mother       | Father       |
 | ------------      | ------------ | ------------ | ------------ | ------------ |
