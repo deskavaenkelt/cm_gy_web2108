@@ -59,6 +59,7 @@ More characters
 |{"name": "Jar Jar Binks"}|
 ||
 |route: DELETE person/{Jar Jar Binks Id}|
+| Mwahahahahaaaaaaaaaaaaaaaaa |
 
 ## Cool logga
 ```
