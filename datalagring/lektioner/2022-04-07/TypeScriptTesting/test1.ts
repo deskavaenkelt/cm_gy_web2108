@@ -1,32 +1,22 @@
 // interface 
 // Ett interface är en mall för hur en klass ska se ut, vad den ska innehålla.
 
-class trumpet
-{
-
+class trumpet {
 }
 
-class piano
-{
-
+class piano {
 }
-// Vi kan inte ärva två klasser!
-class melodicas_error extends piano, trumpet
-{
-
+// Vi kan inte ärva två klasser! :(
+class melodicas_error extends piano, trumpet {
 }
 
-class beaver
-{
-
+class beaver {
 }
 
-class duck
-{
-
+class duck {
 }
-// Vi kan inte ärva två klasser!
-class platypus_error extends beaver, duck
-{
+
+// Vi kan inte ärva två klasser! :'(
+class platypus_error extends beaver, duck {
 
 }
