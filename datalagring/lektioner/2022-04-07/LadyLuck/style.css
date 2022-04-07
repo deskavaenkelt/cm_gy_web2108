@@ -1,0 +1,21 @@
+.dice
+{
+    width:100px;
+    height: 100px;
+}
+
+body
+{
+    background-color: black;
+    color:antiquewhite;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom:20;
+    background-color:#000;
+    width:100%;
+    height: 10px;
+
+}
