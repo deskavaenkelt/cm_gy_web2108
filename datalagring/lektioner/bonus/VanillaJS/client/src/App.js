@@ -9,7 +9,7 @@ import DeleteUser from './components/user/DeleteUser'
 function App() {
     return (
         <>
-            <h1>App</h1>
+            <h1>React App written in Vanilla JavaScript with CSS modules</h1>
             <Alive/>
 
             <div className={css.container}>
