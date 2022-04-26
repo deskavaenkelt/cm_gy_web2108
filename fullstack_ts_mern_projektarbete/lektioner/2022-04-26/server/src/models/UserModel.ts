@@ -3,8 +3,8 @@ import { model, Schema } from 'mongoose'
 import { CreateUser } from '../utils/interface/Users'
 
 dotenv.config()
-// const dbCollection = process.env.MONGODB_COLLECTION_USERS
-const dbCollection = 'user'
+const dbCollection = process.env.MONGODB_COLLECTION_USERS
+// const dbCollection = 'user'
 
 const UserSchema = new Schema<CreateUser>({
 	name: {
