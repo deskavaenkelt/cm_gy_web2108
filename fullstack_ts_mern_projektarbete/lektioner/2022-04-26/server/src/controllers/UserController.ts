@@ -151,6 +151,30 @@ const updateUserById = (req: Request, res: Response) => {
 	}
 }
 
+// const deleteUserById = (req: Request, res: Response) => {
+// 	try {
+// 		UserModel.findByIdAndRemove(req.params.id, (error: ErrorCallback, user: ReadUser) => {
+// 			if (error) {
+// 				Logger.error(error)
+// 				res.status(StatusCode.BAD_REQUEST).send({
+// 					error: 'Error deleting user'
+// 				})
+// 			} else {
+// 				Logger.http(user)
+// 				res.status(StatusCode.OK).json({
+// 					message: 'User deleted',
+// 					details: user
+// 				})
+// 			}
+// 		})
+// 	} catch (error) {
+// 		Logger.error(error)
+// 		res.status(StatusCode.BAD_REQUEST).send({
+// 			error: 'Error deleting user'
+// 		})
+// 	}
+// }
+
 const deleteUserById = (req: Request, res: Response) => {
 	try {
 		UserModel.findByIdAndRemove(req.params.id, (error: ErrorCallback, user: ReadUser) => {
@@ -161,10 +185,13 @@ const deleteUserById = (req: Request, res: Response) => {
 				})
 			} else {
 				Logger.http(user)
-				res.status(StatusCode.OK).json({
-					message: 'User deleted',
-					details: user
-				})
+				res.status(StatusCode.OK).json(
+						user ? {
+							message: `User with id '${ req.params.id }' was deleted from database!`
+						}
+						: {
+							message: `User with id '${ req.params.id }' not found`
+						})
 			}
 		})
 	} catch (error) {
