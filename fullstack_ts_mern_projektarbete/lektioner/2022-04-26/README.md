@@ -1,6 +1,7 @@
 # Getting started With TypeScript
 
 ```shell
+mkdir server
 cd server
 npm init -y
 npm i express && npm i --save-dev typescript ts-node-dev @types/express @types/node
