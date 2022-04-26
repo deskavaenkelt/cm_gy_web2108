@@ -17,7 +17,7 @@ const UserSchema = new Schema<CreateUser>({
 	},
 	gender: {
 		type: String,
-		required: true
+		required: true,
 	}
 }, {
 	timestamps: true
