@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "build": "tsc --project ./",
     "start": "ts-node-dev src/server.ts",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lars",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
