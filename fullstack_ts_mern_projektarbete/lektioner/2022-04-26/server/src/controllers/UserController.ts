@@ -90,7 +90,7 @@ const getUserById = (req: Request, res: Response) => {
 			} else {
 				Logger.http(user)
 				res.status(StatusCode.OK).send(user ? user : {
-					message: 'User not found'
+					message: `User with id '${ req.params.id }' not found`
 				})
 			}
 		})
@@ -143,7 +143,7 @@ const updateUserById = (req: Request, res: Response) => {
 			} else {
 				Logger.http(user)
 				res.status(StatusCode.OK).send(user ? user : {
-					message: 'User not found'
+					message: `User with id '${ req.params.id }' not found`
 				})
 			}
 		})
