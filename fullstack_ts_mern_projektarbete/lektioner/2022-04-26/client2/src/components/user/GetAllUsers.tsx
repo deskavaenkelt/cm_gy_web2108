@@ -29,7 +29,7 @@ const GetAllUsers = () => {
 			<button onClick={ () => setAllUsers([]) }>Clear</button>
 			<button onClick={ clear }>Clear 2</button>
 			<br/>
-			<CardList users={ allUsers }/>
+			{ allUsers.length > 0 ? <CardList users={ allUsers }/> : ''}
 		</article>
 	)
 }

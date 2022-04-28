@@ -59,9 +59,10 @@ const UpdateUser = () => {
 			<button onClick={ updateUser }>Update User</button>
 			<button onClick={ () => setUser([]) }>Clear</button>
 			
-			{ user.length > 0 && user[0].message
-				? <p>{ user[0].message }</p>
-				: <CardList users={ user }/> }
+			{ user.length > 0 && user[0].message ? <p>{ user[0].message }</p> : '' }
+			
+			{ user.length > 0 && !user[0].message
+				? <CardList users={ user }/> : '' }
 		</article>
 	)
 }

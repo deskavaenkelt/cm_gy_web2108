@@ -38,9 +38,10 @@ const GetUserById = () => {
 			
 			<br/>
 			
-			{ oneUser.length > 0 && oneUser[0].message
-				? <p>{ oneUser[0].message }</p>
-				: <CardList users={ oneUser }/> }
+			{ oneUser.length > 0 && oneUser[0].message ? <p>{ oneUser[0].message }</p> : '' }
+			
+			{ oneUser.length > 0 && !oneUser[0].message
+				? <CardList users={ oneUser }/> : '' }
 		</article>
 	)
 }

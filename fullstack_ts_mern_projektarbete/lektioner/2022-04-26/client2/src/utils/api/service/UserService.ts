@@ -2,8 +2,8 @@ import http from '../MyApi'
 import { CreateOrUpdateUser } from '../../interface/Users'
 
 const UserService = {
-	createUser: (user: CreateOrUpdateUser) => {
-		return http.post('/user', user)
+	createUser: (payload: CreateOrUpdateUser) => {
+		return http.post('/user', payload)
 	},
 	
 	getAll: () => {
@@ -18,8 +18,8 @@ const UserService = {
 		return http.get(`/user/${ id }`)
 	},
 	
-	updateUserById: (id: string, user: CreateOrUpdateUser) => {
-		return http.put(`/user/${ id }`, user)
+	updateUserById: (id: string, payload: CreateOrUpdateUser) => {
+		return http.put(`/user/${ id }`, payload)
 	},
 	
 	deleteUserById: (id: string) => {
