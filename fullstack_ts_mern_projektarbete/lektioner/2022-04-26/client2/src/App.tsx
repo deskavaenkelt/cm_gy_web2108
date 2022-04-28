@@ -3,6 +3,7 @@ import Alive from './components/Alive'
 import CreateUser from './components/user/CreateUser'
 import GetAllUsers from './components/user/GetAllUsers'
 import GetUserById from './components/user/GetUserById'
+import UpdateUser from './components/user/UpdateUser'
 
 function App() {
 	return (
@@ -16,7 +17,7 @@ function App() {
 				</div>
 				<div>
 					<CreateUser/>
-					<p>Update user</p>
+					<UpdateUser/>
 					<p>Delete user</p>
 				</div>
 			</div>
