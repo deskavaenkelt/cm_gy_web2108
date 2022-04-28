@@ -1,6 +1,7 @@
 import css from './App.module.css'
 import Alive from './components/Alive'
 import CreateUser from './components/user/CreateUser'
+import DeleteUser from './components/user/DeleteUser'
 import GetAllUsers from './components/user/GetAllUsers'
 import GetUserById from './components/user/GetUserById'
 import UpdateUser from './components/user/UpdateUser'
@@ -18,7 +19,7 @@ function App() {
 				<div>
 					<CreateUser/>
 					<UpdateUser/>
-					<p>Delete user</p>
+					<DeleteUser/>
 				</div>
 			</div>
 		</>
