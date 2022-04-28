@@ -1,9 +1,8 @@
+import { useState } from 'react'
 import UserService from '../../utils/api/service/UserService'
 import { ReadUser } from '../../utils/interface/Users'
-import Card from './cards/Card'
 import CardList from './cards/CardList'
 import css from './Container.module.css'
-import { useState } from 'react'
 
 const GetAllUsers = () => {
 	const [allUsers, setAllUsers] = useState<Array<ReadUser>>([])
@@ -12,7 +11,7 @@ const GetAllUsers = () => {
 		UserService.getAll()
 			.then(res => {
 				setAllUsers(res.data)
-				console.log(res.data)
+				// console.log(res.data)
 			})
 			.catch(error => {
 				console.log(error)
@@ -30,7 +29,7 @@ const GetAllUsers = () => {
 			<button onClick={ () => setAllUsers([]) }>Clear</button>
 			<button onClick={ clear }>Clear 2</button>
 			<br/>
-			<CardList users={allUsers}/>
+			<CardList users={ allUsers }/>
 		</article>
 	)
 }

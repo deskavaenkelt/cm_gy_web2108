@@ -22,7 +22,7 @@ const CardList: FC<Props> = ({users}) => {
 				</thead>
 				<tbody>
 				{ users.map(user => (
-					<Card user={user}/>
+					<Card key={user._id} user={user}/>
 				))}
 				</tbody>
 			</table>
