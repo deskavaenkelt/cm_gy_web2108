@@ -36,7 +36,7 @@ const createUser = async (req: Request, res: Response) => {
 	}
 }
 
-const getAllUsers = (req: Request, res: Response) => {
+const getAllUsers = (_req: Request, res: Response) => {
 	try {
 		// UserModel.find({name: req.body.name, skoStorlek: req.body.skoStorlek} , '', (error: ErrorCallback, users: Array<ReadUser>) => {
 		UserModel.find({} , '', (error: ErrorCallback, users: Array<ReadUser>) => {
@@ -154,30 +154,6 @@ const updateUserById = (req: Request, res: Response) => {
 		})
 	}
 }
-
-// const deleteUserById = (req: Request, res: Response) => {
-// 	try {
-// 		UserModel.findByIdAndRemove(req.params.id, (error: ErrorCallback, user: ReadUser) => {
-// 			if (error) {
-// 				Logger.error(error)
-// 				res.status(StatusCode.BAD_REQUEST).send({
-// 					error: 'Error deleting user'
-// 				})
-// 			} else {
-// 				Logger.http(user)
-// 				res.status(StatusCode.OK).json({
-// 					message: 'User deleted',
-// 					details: user
-// 				})
-// 			}
-// 		})
-// 	} catch (error) {
-// 		Logger.error(error)
-// 		res.status(StatusCode.BAD_REQUEST).send({
-// 			error: 'Error deleting user'
-// 		})
-// 	}
-// }
 
 const deleteUserById = (req: Request, res: Response) => {
 	try {

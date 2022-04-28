@@ -1,6 +1,5 @@
 import Chai from 'chai'
 import chaiHttp from 'chai-http'
-import { response } from 'express'
 import server from '../server'
 import { ReadUser } from '../utils/interface/Users'
 import Logger from '../utils/Logger'
