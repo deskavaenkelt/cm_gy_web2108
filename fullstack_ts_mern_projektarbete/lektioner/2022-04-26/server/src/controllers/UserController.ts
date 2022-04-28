@@ -89,7 +89,9 @@ const getUserById = (req: Request, res: Response) => {
 				})
 			} else {
 				Logger.http(user)
-				res.status(StatusCode.OK).send(user)
+				res.status(StatusCode.OK).send(user ? user : {
+					message: 'User not found'
+				})
 			}
 		})
 	} catch (error) {

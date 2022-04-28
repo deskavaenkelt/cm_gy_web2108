@@ -10,5 +10,6 @@ export interface ReadUser {
 	age: number;
 	gender: string;
 	createdAt: Date,
-	updatedAt: Date
+	updatedAt: Date,
+	message?: string;
 }
