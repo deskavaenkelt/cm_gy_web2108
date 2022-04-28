@@ -1,0 +1,25 @@
+.border {
+    border: 1px solid #96D4D4;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.idWidth, .nameWidth, .ageWidth, .genderWidth {
+    background-color: #96D4D4;
+}
+
+.idWidth {
+    width: 16em;
+}
+
+.nameWidth {
+    width: 10em;
+}
+
+.ageWidth {
+    width: 3em;
+}
+
+.genderWidth {
+    width: 6em;
+}

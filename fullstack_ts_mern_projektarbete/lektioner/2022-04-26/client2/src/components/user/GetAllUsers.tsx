@@ -1,5 +1,6 @@
 import UserService from '../../utils/api/service/UserService'
 import { ReadUser } from '../../utils/interface/Users'
+import Card from './cards/Card'
 import css from './Container.module.css'
 import { useState } from 'react'
 
@@ -28,7 +29,7 @@ const GetAllUsers = () => {
 			<button onClick={ () => setAllUsers([]) }>Clear</button>
 			<button onClick={ clear }>Clear 2</button>
 			<br/>
-			
+			<Card/>
 		</article>
 	)
 }
