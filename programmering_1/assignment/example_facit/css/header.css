@@ -1,0 +1,35 @@
+header {
+    height: 61px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.logo {
+    font-weight: bolder;
+    /*font-size: 1.0em;*/
+    /*padding: 0.5em;*/
+    margin: 0;
+}
+
+.search-box {
+    margin: 0.5em 10%;
+    font-size: 1.5em;
+    text-align: center;
+    width: 80%;
+    border-radius: 0.5em;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cart {
+    margin-top: 6px;
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+}

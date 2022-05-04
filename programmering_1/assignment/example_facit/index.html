@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album shopping cart</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/header.css'>
+    <link rel='stylesheet' href='css/dropdown.css'>
+    <link rel='stylesheet' href='css/navbar.css'>
+    <link rel='stylesheet' href='css/card.css'>
+    <link rel='stylesheet' href='css/cart.css'>
+    <link rel='stylesheet' href='css/footer.css'>
+</head>
+<body>
+<header class='grid-container'>
+    <article>
+        <h1 class='logo'>AlbumShop</h1>
+    </article>
+    <article>
+        <label>
+            <input class='search-box' type='text' value='Search'>
+        </label>
+    </article>
+    <article class='dropdown'>
+        <div class='icons-grid'>
+            <img src='img/bx-cart.svg' alt='cart image' onclick='openMenu()' class='cart'>
+            <button onclick='openMenu()' class='dropdown-button'>Kundkorg</button>
+        </div>
+
+        <div id='cart-wrapper' class='dropdown-content'>
+            <h2>Din Kundkorg</h2>
+            <hr>
+            <section id='cart-items'></section>
+            <section>
+                <article class='cart-summary-container'>
+                    <h4 class='cart-h4'>Summa (<span id='number-of-albums-in-cart'></span>):</h4>
+                    <h4 class='cart-total-price cart-h4'><span id='total-sum-in-cart'>285</span>kr</h4>
+                </article>
+                <article>
+                    <h4 id='freight-text' class='cart-h4'>Du har fri frakt</h4>
+                </article>
+                <article class='cart-buttons'>
+                    <button class='cart-button' onclick='closeMenu()'>Stäng</button>
+                    <button class='cart-button' onclick='buyStuffInCart()'>Kassa</button>
+                </article>
+            </section>
+        </div>
+    </article>
+</header>
+
+<nav></nav>
+
+<main>
+    <div>
+        <section>
+            <h1>Albums</h1>
+            <p>Blandade titlar för alla smaker.</p>
+        </section>
+        <section id='album-container'>
+            <article class='card'>
+                <img src='' alt=''>
+                <h4>Title</h4>
+                <p>Band</p>
+                <p>Price</p>
+                <button class='buy-button'>Buy</button>
+            </article>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    Design by Lars &copy; <span id='year'></span>
+</footer>
+
+<script src='js/script.js'></script>
+<script src='js/dropdown.js'></script>
+<script src='data/albums.js'></script>
+<script src='js/card.js'></script>
+<script src='js/cart.js'></script>
+<script src='js/navbar.js'></script>
+</body>
+</html>

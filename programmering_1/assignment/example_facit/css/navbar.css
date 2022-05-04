@@ -1,0 +1,28 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark-grey);
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    color: var(--main-bg-color);
+    text-align: center;
+    padding: 1em 3.9em;
+    text-decoration: none;
+}
+
+.nav-link:hover:not(.active) {
+    background-color: var(--dark-grey);
+}
+
+.active {
+    background-color: var(--light-brilliant-orange);
+}
+

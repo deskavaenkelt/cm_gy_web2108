@@ -1,0 +1,38 @@
+#album-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em 1em;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.card-image-height {
+    height: 281px;
+}
+
+.card-image {
+    width: 100%;
+    padding: 0.5em
+}
+
+.card-title-height {
+    height: 2em;
+}
+
+.card-artist {
+    font-size: 1.25em;
+}
+
+.card-price {
+    font-size: 1.25em;
+}
+
+.buy-button {
+    width: 90%;
+    margin: 0.5em 0.5em 0.5em;
+    font-size: 1.25em;
+}

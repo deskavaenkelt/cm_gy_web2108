@@ -1,0 +1,111 @@
+:root {
+    --main-bg-color: #F8F8F8;
+    --tint-yellow-13: #F1980C;
+    --tint-yellow-12: #F29F20;
+    --tint-yellow-11: #F2A732;
+    --tint-yellow-10: #F3B044;
+    --tint-yellow-9: #F4B757;
+    --tint-yellow-8: #F4BF6B;
+    --tint-yellow-7: #F5C77C;
+    --light-brilliant-orange: #F7B045;
+    --tint-yellow-6: #F7D08F;
+    --tint-yellow-5: #F8D8A3;
+    --tint-yellow-4: #F9DFB5;
+    --tint-yellow-3: #FAE8C9;
+    --tint-yellow-2: #FCF0DB;
+    --tint-yellow-1: #FCF7EC;
+    --dark-grey: #4F4F53;
+    --tint-dark-grey-13: #7F7F85;
+    --tint-dark-grey-12: #88898F;
+    --tint-dark-grey-11: #939398;
+    --tint-dark-grey-10: #9C9DA2;
+    --tint-dark-grey-9: #A7A7AB;
+    --tint-dark-grey-8: #B1B0B5;
+    --tint-dark-grey-7: #B9BBBF;
+    --tint-dark-grey-6: #C5C5C8;
+    --light-grey: #CDCFD2;
+    --tint-dark-grey-4: #D9D9DB;
+    --tint-dark-grey-3: #E3E3E5;
+    --tint-dark-grey-2: #EEEEEE;
+    --tint-dark-grey-1: #F8F8F8;
+    /*--light-red: #ff725c;*/
+    --light-red: #ffdfdf;
+    /*--light-green: #9eebcf;*/
+    --light-green: #e8fdf5;
+    --light-blue: #96ccff;
+}
+
+@font-face {
+    font-family: 'Oleo Script';
+    src: local('Oleo Script'), url('fonts/OleoScript/OleoScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alegreya Sans Regular';
+    src: local('Alegreya Sans Regular'), url('fonts/AlegreyaSans/AlegreyaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alegreya Sans Bold';
+    src: local('Alegreya Sans Bold'), url('fonts/AlegreyaSans/AlegreyaSans-Bold.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    font-family: 'Alegreya Sans Regular', Arial, serif;
+    background-color: var(--tint-yellow-3);
+}
+
+h1, h2 {
+    font-family: 'Oleo Script', Arial, serif;
+    color: var(--light-brilliant-orange);
+}
+
+h1 {
+    font-size: 2.75em !important;
+}
+
+h2 {
+    font-size: 1.75em !important;
+}
+
+h3 {
+    font-size: 1.5em !important;
+    color: var(--dark-grey);
+}
+
+.primary_text {
+    font-size: 1em !important;
+    color: var(--dark-grey);
+    margin: 4px 0;
+}
+
+.secondary_text {
+    font-size: 0.875em !important;
+    color: var(--dark-grey);
+    margin: 4px 0;
+}
+
+.control_labels {
+    font-size: 0.75em !important;
+    color: var(--light-grey);
+}
+
+.primary-button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--light-brilliant-orange);
+    color: var(--tint-dark-grey-1);
+    font-family: 'Alegreya Sans Bold', serif;
+}
+
+.primary-button:hover {
+    background-color: var(--tint-yellow-13);
+}

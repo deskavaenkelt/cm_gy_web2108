@@ -1,0 +1,37 @@
+.dropdown-button {
+    background-color: var(--light-brilliant-orange);
+    color: white;
+    padding: 16px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.dropdown-button:hover, .dropdown-button:focus {
+    background-color: var(--tint-yellow-13);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
