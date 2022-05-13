@@ -1,0 +1,210 @@
+# Specify that your document is the OpenAPI 3 format
+openapi: 3.0.0
+
+# Define high-level metadata for the API
+info:
+  version: 1.0.0
+  title: Python REST API
+  description: Python with a RESTful API
+
+# Specify the base URL the API can be accessed from
+servers:
+  - url: 127.0.0.1
+
+# Define operations for the API. This will be where most
+# of the work is done. The first route you'll be defining
+# is `GET /recentchanges.json`
+paths:
+  #  /recentchanges.json:
+  #    get:
+  #      summary: Recent Changes
+  /:
+    get:
+      summary: index
+  /hello_world:
+    get:
+      summary: Returns a string
+  /hello:
+    get:
+      summary: Count visitors
+  /add:
+    post:
+      tags:
+        - calculator
+      summary: Returns the sum of 2 numbers
+      description: This can be done by anyone.
+      operationId: calculatorAdd
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Parameters"
+        description: Created user object
+        required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: "#/components/schemas/Responce"
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Responce"
+        "301":
+          description: An error happened
+  /subtract:
+    post:
+      tags:
+        - calculator
+      summary: Returns the subtraction of 2 numbers
+      description: This can be done by anyone.
+      operationId: calculatorSubtraction
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Parameters"
+        description: Created user object
+        required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: "#/components/schemas/Responce"
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Responce"
+        "301":
+          description: An error happened
+  /multiply:
+    post:
+      tags:
+        - calculator
+      summary: Returns the multiplication of 2 numbers
+      description: This can be done by anyone.
+      operationId: calculatorMultiplication
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Parameters"
+        description: Created user object
+        required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: "#/components/schemas/Responce"
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Responce"
+        "301":
+          description: An error happened
+  /division:
+    post:
+      tags:
+        - calculator
+      summary: Returns the division of 2 numbers
+      description: This can be done by anyone.
+      operationId: calculatorDivision
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Parameters"
+        description: Created user object
+        required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: "#/components/schemas/Responce"
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Responce"
+        "301":
+          description: An error happened
+components:
+  requestBodies:
+    UserArray:
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: "#/components/schemas/Parameters"
+      description: List of user object
+      required: true
+  schemas:
+    Parameters:
+      type: object
+      properties:
+        x:
+          type: integer
+          format: int64
+          example: 10
+        y:
+          type: integer
+          format: int64
+          example: 5
+      xml:
+        name: Parameters
+    Responce:
+      type: object
+      properties:
+        Message:
+          type: string
+        Satus_Code:
+          type: integer
+          format: int64
+      xml:
+        name: Parameters
+
+# ------------------
+# Specify that your document is the OpenAPI 3 format
+openapi: 3.0.0
+
+# Define high-level metadata for the API
+info:
+  version: 1.0.0
+  title: User RESTful API
+  description: Express.JS with a RESTful API
+
+# Specify the base URL the API can be accessed from
+
+servers:
+  - url: 127.0.0.1
+  - url: localhost
+  - url: 0.0.0.0
+
+# Define operations for the API. This will be where most
+# of the work is done. The first route you'll be defining
+# is `GET /recentchanges.json`
+paths:
+  /:
+    get:
+      summary: index
+      responses:
+        "200":
+          description: successful operation
+  /users:
+    get:
+      tags:
+        - users
+      summary: show all users
+      description: This can be done by anyone.
+      operationId: users
+      responses:
+        "200":
+          description: successful operation
+        "404":
+          description: An error happened
+
+

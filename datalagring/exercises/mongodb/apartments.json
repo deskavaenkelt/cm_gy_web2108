@@ -1,0 +1,5002 @@
+[
+    {
+        "address": "2896 Vahlen Street",
+        "rooms": 7,
+        "rent": 8519.0
+    },
+    {
+        "address": "98912 Little Fleur Lane",
+        "rooms": 3,
+        "rent": 14240.2
+    },
+    {
+        "address": "7100 Coolidge Point",
+        "rooms": 2,
+        "rent": 17162.8
+    },
+    {
+        "address": "2 Vidon Parkway",
+        "rooms": 5,
+        "rent": 7615.0
+    },
+    {
+        "address": "4071 Judy Parkway",
+        "rooms": 1,
+        "rent": 21998.0
+    },
+    {
+        "address": "1 Dryden Plaza",
+        "rooms": 1,
+        "rent": 19292.8
+    },
+    {
+        "address": "779 Thompson Road",
+        "rooms": 1,
+        "rent": 19472.3
+    },
+    {
+        "address": "9 Bartelt Place",
+        "rooms": 5,
+        "rent": 21274.0
+    },
+    {
+        "address": "6057 Red Cloud Circle",
+        "rooms": 7,
+        "rent": 19725.3
+    },
+    {
+        "address": "745 Sunnyside Point",
+        "rooms": 5,
+        "rent": 12228.9
+    },
+    {
+        "address": "7 Mitchell Pass",
+        "rooms": 7,
+        "rent": 13247.7
+    },
+    {
+        "address": "0054 Johnson Center",
+        "rooms": 5,
+        "rent": 15538.1
+    },
+    {
+        "address": "3 Hermina Terrace",
+        "rooms": 2,
+        "rent": 12386.4
+    },
+    {
+        "address": "2 Erie Alley",
+        "rooms": 7,
+        "rent": 21792.0
+    },
+    {
+        "address": "5227 Monument Road",
+        "rooms": 4,
+        "rent": 12399.5
+    },
+    {
+        "address": "93 Novick Point",
+        "rooms": 2,
+        "rent": 11322.5
+    },
+    {
+        "address": "6434 Clemons Street",
+        "rooms": 4,
+        "rent": 14637.7
+    },
+    {
+        "address": "56 Barnett Drive",
+        "rooms": 4,
+        "rent": 8524.7
+    },
+    {
+        "address": "1 Di Loreto Drive",
+        "rooms": 3,
+        "rent": 9619.2
+    },
+    {
+        "address": "233 Dennis Park",
+        "rooms": 2,
+        "rent": 7491.9
+    },
+    {
+        "address": "9 Saint Paul Road",
+        "rooms": 3,
+        "rent": 21498.3
+    },
+    {
+        "address": "07 Heath Hill",
+        "rooms": 7,
+        "rent": 16988.7
+    },
+    {
+        "address": "498 Orin Center",
+        "rooms": 3,
+        "rent": 9694.5
+    },
+    {
+        "address": "4706 South Plaza",
+        "rooms": 2,
+        "rent": 12507.1
+    },
+    {
+        "address": "47620 Village Green Crossing",
+        "rooms": 8,
+        "rent": 18043.6
+    },
+    {
+        "address": "2 Weeping Birch Point",
+        "rooms": 8,
+        "rent": 9852.9
+    },
+    {
+        "address": "00877 Brown Drive",
+        "rooms": 7,
+        "rent": 19653.5
+    },
+    {
+        "address": "93 6th Drive",
+        "rooms": 7,
+        "rent": 11811.3
+    },
+    {
+        "address": "42887 Butterfield Junction",
+        "rooms": 2,
+        "rent": 19355.1
+    },
+    {
+        "address": "79951 Village Junction",
+        "rooms": 1,
+        "rent": 21170.6
+    },
+    {
+        "address": "6 Butternut Junction",
+        "rooms": 3,
+        "rent": 11651.9
+    },
+    {
+        "address": "789 Village Green Point",
+        "rooms": 4,
+        "rent": 16617.5
+    },
+    {
+        "address": "30 Mendota Road",
+        "rooms": 1,
+        "rent": 10011.8
+    },
+    {
+        "address": "9 Susan Avenue",
+        "rooms": 4,
+        "rent": 11048.2
+    },
+    {
+        "address": "334 Duke Drive",
+        "rooms": 3,
+        "rent": 21369.0
+    },
+    {
+        "address": "10 Hallows Park",
+        "rooms": 8,
+        "rent": 15939.1
+    },
+    {
+        "address": "3254 Rusk Street",
+        "rooms": 2,
+        "rent": 12684.6
+    },
+    {
+        "address": "00 Kingsford Junction",
+        "rooms": 2,
+        "rent": 11438.9
+    },
+    {
+        "address": "42124 Westridge Terrace",
+        "rooms": 5,
+        "rent": 20704.5
+    },
+    {
+        "address": "9 Sherman Point",
+        "rooms": 8,
+        "rent": 12418.5
+    },
+    {
+        "address": "5954 Loftsgordon Place",
+        "rooms": 6,
+        "rent": 11464.0
+    },
+    {
+        "address": "357 Messerschmidt Crossing",
+        "rooms": 6,
+        "rent": 9632.8
+    },
+    {
+        "address": "7 Morningstar Pass",
+        "rooms": 1,
+        "rent": 15293.9
+    },
+    {
+        "address": "5736 Nancy Road",
+        "rooms": 5,
+        "rent": 19229.9
+    },
+    {
+        "address": "2869 John Wall Junction",
+        "rooms": 3,
+        "rent": 8600.3
+    },
+    {
+        "address": "33 Arizona Road",
+        "rooms": 3,
+        "rent": 9321.3
+    },
+    {
+        "address": "3291 Delaware Avenue",
+        "rooms": 2,
+        "rent": 13911.7
+    },
+    {
+        "address": "424 Twin Pines Park",
+        "rooms": 1,
+        "rent": 12450.3
+    },
+    {
+        "address": "33591 Golf Course Way",
+        "rooms": 6,
+        "rent": 12059.2
+    },
+    {
+        "address": "1676 Kennedy Road",
+        "rooms": 1,
+        "rent": 21416.5
+    },
+    {
+        "address": "84158 Kenwood Center",
+        "rooms": 7,
+        "rent": 8663.8
+    },
+    {
+        "address": "77 Ridgeway Road",
+        "rooms": 7,
+        "rent": 18404.3
+    },
+    {
+        "address": "50 Schmedeman Crossing",
+        "rooms": 5,
+        "rent": 14364.0
+    },
+    {
+        "address": "5172 John Wall Way",
+        "rooms": 2,
+        "rent": 19463.1
+    },
+    {
+        "address": "342 Nancy Avenue",
+        "rooms": 3,
+        "rent": 18252.1
+    },
+    {
+        "address": "065 Sloan Circle",
+        "rooms": 6,
+        "rent": 20018.8
+    },
+    {
+        "address": "3 Drewry Lane",
+        "rooms": 6,
+        "rent": 17086.5
+    },
+    {
+        "address": "25647 Crescent Oaks Center",
+        "rooms": 3,
+        "rent": 17451.8
+    },
+    {
+        "address": "49900 Sherman Way",
+        "rooms": 7,
+        "rent": 17564.5
+    },
+    {
+        "address": "1955 Algoma Park",
+        "rooms": 8,
+        "rent": 17317.9
+    },
+    {
+        "address": "61 Hoffman Park",
+        "rooms": 5,
+        "rent": 18850.9
+    },
+    {
+        "address": "65 Bowman Circle",
+        "rooms": 3,
+        "rent": 10687.8
+    },
+    {
+        "address": "5923 Acker Point",
+        "rooms": 5,
+        "rent": 21463.7
+    },
+    {
+        "address": "01 Cordelia Lane",
+        "rooms": 5,
+        "rent": 21191.9
+    },
+    {
+        "address": "5935 Buena Vista Trail",
+        "rooms": 6,
+        "rent": 18979.8
+    },
+    {
+        "address": "430 Lakewood Drive",
+        "rooms": 4,
+        "rent": 12750.9
+    },
+    {
+        "address": "37058 Cascade Crossing",
+        "rooms": 6,
+        "rent": 12495.4
+    },
+    {
+        "address": "00096 Burrows Hill",
+        "rooms": 5,
+        "rent": 10565.4
+    },
+    {
+        "address": "5 Burrows Pass",
+        "rooms": 5,
+        "rent": 7676.3
+    },
+    {
+        "address": "3 Donald Lane",
+        "rooms": 1,
+        "rent": 12013.3
+    },
+    {
+        "address": "518 Eggendart Pass",
+        "rooms": 4,
+        "rent": 17027.1
+    },
+    {
+        "address": "76263 Hooker Park",
+        "rooms": 8,
+        "rent": 7489.0
+    },
+    {
+        "address": "1600 Scoville Court",
+        "rooms": 6,
+        "rent": 17000.7
+    },
+    {
+        "address": "55358 Morningstar Crossing",
+        "rooms": 8,
+        "rent": 19244.5
+    },
+    {
+        "address": "87138 Johnson Way",
+        "rooms": 7,
+        "rent": 14368.9
+    },
+    {
+        "address": "4614 Kenwood Pass",
+        "rooms": 3,
+        "rent": 20889.7
+    },
+    {
+        "address": "43419 Holmberg Street",
+        "rooms": 2,
+        "rent": 13772.1
+    },
+    {
+        "address": "2687 Valley Edge Road",
+        "rooms": 7,
+        "rent": 18945.0
+    },
+    {
+        "address": "86499 Emmet Plaza",
+        "rooms": 8,
+        "rent": 21235.6
+    },
+    {
+        "address": "599 Debs Alley",
+        "rooms": 1,
+        "rent": 10189.0
+    },
+    {
+        "address": "89 Ludington Center",
+        "rooms": 6,
+        "rent": 15152.4
+    },
+    {
+        "address": "64015 Lien Way",
+        "rooms": 8,
+        "rent": 17529.5
+    },
+    {
+        "address": "39698 Lerdahl Terrace",
+        "rooms": 6,
+        "rent": 15749.9
+    },
+    {
+        "address": "7 Eastwood Circle",
+        "rooms": 6,
+        "rent": 7713.3
+    },
+    {
+        "address": "56 Monterey Drive",
+        "rooms": 5,
+        "rent": 14782.5
+    },
+    {
+        "address": "7 Autumn Leaf Street",
+        "rooms": 4,
+        "rent": 21428.8
+    },
+    {
+        "address": "81538 Helena Street",
+        "rooms": 1,
+        "rent": 15492.4
+    },
+    {
+        "address": "9 Fuller Way",
+        "rooms": 3,
+        "rent": 8914.5
+    },
+    {
+        "address": "11 Summerview Drive",
+        "rooms": 6,
+        "rent": 11967.5
+    },
+    {
+        "address": "11 Raven Plaza",
+        "rooms": 8,
+        "rent": 12107.9
+    },
+    {
+        "address": "51240 Gulseth Place",
+        "rooms": 5,
+        "rent": 20735.0
+    },
+    {
+        "address": "3574 Carberry Center",
+        "rooms": 3,
+        "rent": 11819.5
+    },
+    {
+        "address": "6 Myrtle Street",
+        "rooms": 3,
+        "rent": 16231.7
+    },
+    {
+        "address": "72537 Doe Crossing Park",
+        "rooms": 3,
+        "rent": 12612.9
+    },
+    {
+        "address": "09 Oxford Park",
+        "rooms": 8,
+        "rent": 9395.4
+    },
+    {
+        "address": "5 Bunting Crossing",
+        "rooms": 6,
+        "rent": 13260.6
+    },
+    {
+        "address": "1245 Muir Court",
+        "rooms": 7,
+        "rent": 21956.6
+    },
+    {
+        "address": "8488 Mccormick Parkway",
+        "rooms": 3,
+        "rent": 8814.6
+    },
+    {
+        "address": "3 Hovde Drive",
+        "rooms": 7,
+        "rent": 17760.7
+    },
+    {
+        "address": "93668 Kinsman Alley",
+        "rooms": 6,
+        "rent": 18910.6
+    },
+    {
+        "address": "83433 Carpenter Crossing",
+        "rooms": 3,
+        "rent": 19494.8
+    },
+    {
+        "address": "86171 Banding Lane",
+        "rooms": 5,
+        "rent": 8269.5
+    },
+    {
+        "address": "8 Rusk Drive",
+        "rooms": 1,
+        "rent": 17083.1
+    },
+    {
+        "address": "1594 Loeprich Hill",
+        "rooms": 8,
+        "rent": 17927.0
+    },
+    {
+        "address": "47934 Clarendon Street",
+        "rooms": 5,
+        "rent": 19844.6
+    },
+    {
+        "address": "84 Nevada Point",
+        "rooms": 2,
+        "rent": 12275.7
+    },
+    {
+        "address": "68 Bashford Lane",
+        "rooms": 8,
+        "rent": 18809.5
+    },
+    {
+        "address": "73 Del Mar Center",
+        "rooms": 8,
+        "rent": 11654.5
+    },
+    {
+        "address": "99 Vera Road",
+        "rooms": 1,
+        "rent": 7524.8
+    },
+    {
+        "address": "9 Sage Junction",
+        "rooms": 8,
+        "rent": 14383.0
+    },
+    {
+        "address": "31 Montana Street",
+        "rooms": 6,
+        "rent": 14963.8
+    },
+    {
+        "address": "07 Towne Junction",
+        "rooms": 1,
+        "rent": 7524.0
+    },
+    {
+        "address": "7 Scoville Hill",
+        "rooms": 8,
+        "rent": 19324.1
+    },
+    {
+        "address": "647 Rutledge Lane",
+        "rooms": 6,
+        "rent": 15719.2
+    },
+    {
+        "address": "21 Amoth Junction",
+        "rooms": 2,
+        "rent": 14016.6
+    },
+    {
+        "address": "4 Kinsman Point",
+        "rooms": 2,
+        "rent": 12286.9
+    },
+    {
+        "address": "63498 Kennedy Circle",
+        "rooms": 1,
+        "rent": 9638.0
+    },
+    {
+        "address": "44 Rockefeller Lane",
+        "rooms": 7,
+        "rent": 13094.1
+    },
+    {
+        "address": "2 Sauthoff Center",
+        "rooms": 8,
+        "rent": 21708.4
+    },
+    {
+        "address": "98129 Marcy Way",
+        "rooms": 4,
+        "rent": 15760.7
+    },
+    {
+        "address": "86503 Boyd Alley",
+        "rooms": 3,
+        "rent": 12987.6
+    },
+    {
+        "address": "9 3rd Trail",
+        "rooms": 8,
+        "rent": 18356.2
+    },
+    {
+        "address": "8 Monica Lane",
+        "rooms": 3,
+        "rent": 13704.3
+    },
+    {
+        "address": "5 Merry Court",
+        "rooms": 6,
+        "rent": 11782.9
+    },
+    {
+        "address": "64384 Bonner Plaza",
+        "rooms": 7,
+        "rent": 15134.6
+    },
+    {
+        "address": "6215 Meadow Vale Place",
+        "rooms": 8,
+        "rent": 15191.5
+    },
+    {
+        "address": "952 Monument Pass",
+        "rooms": 2,
+        "rent": 10458.4
+    },
+    {
+        "address": "4506 Dunning Center",
+        "rooms": 8,
+        "rent": 17515.9
+    },
+    {
+        "address": "03902 David Terrace",
+        "rooms": 6,
+        "rent": 14395.4
+    },
+    {
+        "address": "36 Schlimgen Pass",
+        "rooms": 8,
+        "rent": 20818.9
+    },
+    {
+        "address": "619 Mayer Avenue",
+        "rooms": 1,
+        "rent": 11277.9
+    },
+    {
+        "address": "65450 Garrison Place",
+        "rooms": 6,
+        "rent": 13719.4
+    },
+    {
+        "address": "422 Rieder Plaza",
+        "rooms": 8,
+        "rent": 9644.0
+    },
+    {
+        "address": "32 Redwing Junction",
+        "rooms": 1,
+        "rent": 10842.2
+    },
+    {
+        "address": "8 Messerschmidt Place",
+        "rooms": 6,
+        "rent": 10009.3
+    },
+    {
+        "address": "664 International Hill",
+        "rooms": 5,
+        "rent": 19308.7
+    },
+    {
+        "address": "07 Rigney Lane",
+        "rooms": 7,
+        "rent": 8807.7
+    },
+    {
+        "address": "50321 Towne Hill",
+        "rooms": 4,
+        "rent": 11822.7
+    },
+    {
+        "address": "7 Fremont Pass",
+        "rooms": 5,
+        "rent": 16505.5
+    },
+    {
+        "address": "8 Rigney Avenue",
+        "rooms": 4,
+        "rent": 18791.1
+    },
+    {
+        "address": "091 Reinke Junction",
+        "rooms": 8,
+        "rent": 19068.6
+    },
+    {
+        "address": "5 Dixon Court",
+        "rooms": 8,
+        "rent": 9958.5
+    },
+    {
+        "address": "14212 Steensland Center",
+        "rooms": 3,
+        "rent": 20955.7
+    },
+    {
+        "address": "7 Mendota Place",
+        "rooms": 4,
+        "rent": 17719.8
+    },
+    {
+        "address": "03 Ramsey Avenue",
+        "rooms": 6,
+        "rent": 18396.7
+    },
+    {
+        "address": "137 Mcguire Way",
+        "rooms": 7,
+        "rent": 14149.3
+    },
+    {
+        "address": "494 Green Ridge Center",
+        "rooms": 8,
+        "rent": 17808.6
+    },
+    {
+        "address": "7 Coleman Point",
+        "rooms": 1,
+        "rent": 19016.7
+    },
+    {
+        "address": "250 Dapin Trail",
+        "rooms": 6,
+        "rent": 14509.6
+    },
+    {
+        "address": "85 Nevada Park",
+        "rooms": 4,
+        "rent": 7279.8
+    },
+    {
+        "address": "256 Walton Way",
+        "rooms": 6,
+        "rent": 16345.2
+    },
+    {
+        "address": "24 Banding Crossing",
+        "rooms": 6,
+        "rent": 8790.4
+    },
+    {
+        "address": "9048 Moland Junction",
+        "rooms": 8,
+        "rent": 19915.4
+    },
+    {
+        "address": "61338 Mosinee Crossing",
+        "rooms": 3,
+        "rent": 14508.5
+    },
+    {
+        "address": "37 Tony Road",
+        "rooms": 5,
+        "rent": 12608.6
+    },
+    {
+        "address": "1 Clemons Junction",
+        "rooms": 7,
+        "rent": 14012.0
+    },
+    {
+        "address": "82338 Monterey Center",
+        "rooms": 2,
+        "rent": 14525.7
+    },
+    {
+        "address": "24425 Kinsman Place",
+        "rooms": 8,
+        "rent": 20923.9
+    },
+    {
+        "address": "743 Bowman Point",
+        "rooms": 5,
+        "rent": 12309.0
+    },
+    {
+        "address": "15 Prairie Rose Pass",
+        "rooms": 7,
+        "rent": 16171.1
+    },
+    {
+        "address": "26841 Old Shore Terrace",
+        "rooms": 8,
+        "rent": 7822.1
+    },
+    {
+        "address": "33 Maywood Terrace",
+        "rooms": 6,
+        "rent": 19107.9
+    },
+    {
+        "address": "30967 Bowman Park",
+        "rooms": 8,
+        "rent": 18097.5
+    },
+    {
+        "address": "378 Emmet Court",
+        "rooms": 4,
+        "rent": 9195.7
+    },
+    {
+        "address": "704 1st Avenue",
+        "rooms": 7,
+        "rent": 18042.8
+    },
+    {
+        "address": "7568 Basil Point",
+        "rooms": 1,
+        "rent": 11206.1
+    },
+    {
+        "address": "69474 Macpherson Street",
+        "rooms": 6,
+        "rent": 18450.2
+    },
+    {
+        "address": "721 Dorton Plaza",
+        "rooms": 6,
+        "rent": 17314.1
+    },
+    {
+        "address": "666 Buena Vista Terrace",
+        "rooms": 3,
+        "rent": 19978.6
+    },
+    {
+        "address": "00 Oak Valley Terrace",
+        "rooms": 1,
+        "rent": 21640.8
+    },
+    {
+        "address": "75 Northview Crossing",
+        "rooms": 4,
+        "rent": 10869.4
+    },
+    {
+        "address": "62 Twin Pines Alley",
+        "rooms": 4,
+        "rent": 8465.1
+    },
+    {
+        "address": "77553 Browning Crossing",
+        "rooms": 3,
+        "rent": 7419.3
+    },
+    {
+        "address": "3324 Washington Circle",
+        "rooms": 4,
+        "rent": 14199.6
+    },
+    {
+        "address": "0849 Burning Wood Junction",
+        "rooms": 7,
+        "rent": 15723.6
+    },
+    {
+        "address": "87376 Utah Drive",
+        "rooms": 7,
+        "rent": 7166.6
+    },
+    {
+        "address": "6 Columbus Street",
+        "rooms": 6,
+        "rent": 16512.0
+    },
+    {
+        "address": "76 Vermont Court",
+        "rooms": 2,
+        "rent": 10134.6
+    },
+    {
+        "address": "28 Declaration Circle",
+        "rooms": 2,
+        "rent": 9341.3
+    },
+    {
+        "address": "96122 Transport Court",
+        "rooms": 8,
+        "rent": 21363.3
+    },
+    {
+        "address": "110 Crowley Circle",
+        "rooms": 7,
+        "rent": 13579.4
+    },
+    {
+        "address": "1 Monica Crossing",
+        "rooms": 1,
+        "rent": 7549.0
+    },
+    {
+        "address": "1 Ridgeway Place",
+        "rooms": 5,
+        "rent": 9360.0
+    },
+    {
+        "address": "51614 Rigney Court",
+        "rooms": 1,
+        "rent": 14367.5
+    },
+    {
+        "address": "13 Blue Bill Park Crossing",
+        "rooms": 8,
+        "rent": 14409.2
+    },
+    {
+        "address": "55 Sachs Park",
+        "rooms": 1,
+        "rent": 19605.8
+    },
+    {
+        "address": "167 Florence Point",
+        "rooms": 2,
+        "rent": 8784.4
+    },
+    {
+        "address": "8 Sachtjen Junction",
+        "rooms": 4,
+        "rent": 20608.8
+    },
+    {
+        "address": "667 Moulton Park",
+        "rooms": 8,
+        "rent": 11393.0
+    },
+    {
+        "address": "9535 Blackbird Way",
+        "rooms": 1,
+        "rent": 14216.8
+    },
+    {
+        "address": "959 Sunbrook Way",
+        "rooms": 3,
+        "rent": 20079.7
+    },
+    {
+        "address": "0 Hudson Terrace",
+        "rooms": 8,
+        "rent": 17105.3
+    },
+    {
+        "address": "3 Hovde Junction",
+        "rooms": 3,
+        "rent": 17530.9
+    },
+    {
+        "address": "871 Barnett Plaza",
+        "rooms": 2,
+        "rent": 7540.5
+    },
+    {
+        "address": "45506 Fieldstone Hill",
+        "rooms": 2,
+        "rent": 7169.9
+    },
+    {
+        "address": "986 Linden Pass",
+        "rooms": 7,
+        "rent": 7275.2
+    },
+    {
+        "address": "221 Helena Place",
+        "rooms": 5,
+        "rent": 19238.7
+    },
+    {
+        "address": "53 West Place",
+        "rooms": 5,
+        "rent": 11832.3
+    },
+    {
+        "address": "9936 Spohn Center",
+        "rooms": 8,
+        "rent": 18887.4
+    },
+    {
+        "address": "5 Texas Place",
+        "rooms": 1,
+        "rent": 13328.4
+    },
+    {
+        "address": "17 Cambridge Parkway",
+        "rooms": 5,
+        "rent": 11711.7
+    },
+    {
+        "address": "2 Schmedeman Lane",
+        "rooms": 1,
+        "rent": 18908.5
+    },
+    {
+        "address": "324 Fallview Hill",
+        "rooms": 6,
+        "rent": 12155.1
+    },
+    {
+        "address": "387 Rigney Trail",
+        "rooms": 1,
+        "rent": 12206.3
+    },
+    {
+        "address": "8767 Lunder Park",
+        "rooms": 5,
+        "rent": 19232.2
+    },
+    {
+        "address": "4 Anzinger Plaza",
+        "rooms": 6,
+        "rent": 20647.2
+    },
+    {
+        "address": "96 Clemons Plaza",
+        "rooms": 7,
+        "rent": 20493.0
+    },
+    {
+        "address": "4882 Hoepker Place",
+        "rooms": 6,
+        "rent": 19389.5
+    },
+    {
+        "address": "05464 Hagan Circle",
+        "rooms": 4,
+        "rent": 13343.8
+    },
+    {
+        "address": "21072 Linden Street",
+        "rooms": 6,
+        "rent": 7278.4
+    },
+    {
+        "address": "3 Butternut Lane",
+        "rooms": 3,
+        "rent": 15550.5
+    },
+    {
+        "address": "37061 Bobwhite Hill",
+        "rooms": 5,
+        "rent": 7345.8
+    },
+    {
+        "address": "0 Melody Crossing",
+        "rooms": 3,
+        "rent": 9858.6
+    },
+    {
+        "address": "0534 Mendota Drive",
+        "rooms": 6,
+        "rent": 19354.2
+    },
+    {
+        "address": "82 Victoria Crossing",
+        "rooms": 6,
+        "rent": 15778.9
+    },
+    {
+        "address": "45 Mallard Point",
+        "rooms": 7,
+        "rent": 20448.7
+    },
+    {
+        "address": "9 Lillian Lane",
+        "rooms": 4,
+        "rent": 10749.9
+    },
+    {
+        "address": "6789 Lighthouse Bay Park",
+        "rooms": 8,
+        "rent": 14772.0
+    },
+    {
+        "address": "85205 Nova Plaza",
+        "rooms": 1,
+        "rent": 21646.7
+    },
+    {
+        "address": "142 Westerfield Center",
+        "rooms": 6,
+        "rent": 18069.3
+    },
+    {
+        "address": "07 Schurz Court",
+        "rooms": 6,
+        "rent": 8741.7
+    },
+    {
+        "address": "4625 Sunfield Road",
+        "rooms": 4,
+        "rent": 7884.3
+    },
+    {
+        "address": "2 Division Avenue",
+        "rooms": 6,
+        "rent": 13948.0
+    },
+    {
+        "address": "6 Mccormick Street",
+        "rooms": 7,
+        "rent": 12017.7
+    },
+    {
+        "address": "3 Haas Center",
+        "rooms": 8,
+        "rent": 17457.9
+    },
+    {
+        "address": "9729 Forest Run Hill",
+        "rooms": 3,
+        "rent": 7317.5
+    },
+    {
+        "address": "2491 Del Mar Avenue",
+        "rooms": 6,
+        "rent": 10063.4
+    },
+    {
+        "address": "3919 Menomonie Avenue",
+        "rooms": 4,
+        "rent": 9461.3
+    },
+    {
+        "address": "552 Union Park",
+        "rooms": 2,
+        "rent": 9036.0
+    },
+    {
+        "address": "21 Rockefeller Center",
+        "rooms": 5,
+        "rent": 11664.1
+    },
+    {
+        "address": "9484 Delladonna Parkway",
+        "rooms": 4,
+        "rent": 21403.3
+    },
+    {
+        "address": "73 Park Meadow Crossing",
+        "rooms": 3,
+        "rent": 16441.6
+    },
+    {
+        "address": "708 Sunbrook Plaza",
+        "rooms": 2,
+        "rent": 11623.0
+    },
+    {
+        "address": "966 Village Green Parkway",
+        "rooms": 5,
+        "rent": 15152.8
+    },
+    {
+        "address": "312 Mcbride Pass",
+        "rooms": 6,
+        "rent": 8721.8
+    },
+    {
+        "address": "87 Barnett Pass",
+        "rooms": 6,
+        "rent": 12544.5
+    },
+    {
+        "address": "817 Dakota Park",
+        "rooms": 5,
+        "rent": 17351.0
+    },
+    {
+        "address": "1506 American Ash Trail",
+        "rooms": 2,
+        "rent": 12300.7
+    },
+    {
+        "address": "44 Summer Ridge Center",
+        "rooms": 2,
+        "rent": 13386.5
+    },
+    {
+        "address": "12 Jackson Drive",
+        "rooms": 8,
+        "rent": 9996.3
+    },
+    {
+        "address": "264 Dennis Street",
+        "rooms": 5,
+        "rent": 17050.0
+    },
+    {
+        "address": "295 Del Mar Court",
+        "rooms": 7,
+        "rent": 11793.3
+    },
+    {
+        "address": "57 Spenser Parkway",
+        "rooms": 1,
+        "rent": 16357.2
+    },
+    {
+        "address": "2046 Mcguire Terrace",
+        "rooms": 8,
+        "rent": 10130.8
+    },
+    {
+        "address": "53432 Carioca Parkway",
+        "rooms": 7,
+        "rent": 20539.6
+    },
+    {
+        "address": "748 Longview Drive",
+        "rooms": 1,
+        "rent": 7271.4
+    },
+    {
+        "address": "5 Crownhardt Terrace",
+        "rooms": 2,
+        "rent": 18467.0
+    },
+    {
+        "address": "4 Delladonna Trail",
+        "rooms": 5,
+        "rent": 16568.5
+    },
+    {
+        "address": "8128 Talisman Hill",
+        "rooms": 4,
+        "rent": 11735.8
+    },
+    {
+        "address": "165 Anderson Pass",
+        "rooms": 2,
+        "rent": 17210.8
+    },
+    {
+        "address": "292 Ruskin Court",
+        "rooms": 4,
+        "rent": 16728.6
+    },
+    {
+        "address": "59 Doe Crossing Alley",
+        "rooms": 5,
+        "rent": 9285.0
+    },
+    {
+        "address": "75785 Jackson Alley",
+        "rooms": 6,
+        "rent": 14203.0
+    },
+    {
+        "address": "5 Kim Center",
+        "rooms": 1,
+        "rent": 13851.6
+    },
+    {
+        "address": "49 Valley Edge Street",
+        "rooms": 7,
+        "rent": 18052.6
+    },
+    {
+        "address": "152 Glendale Park",
+        "rooms": 3,
+        "rent": 13737.9
+    },
+    {
+        "address": "83648 School Trail",
+        "rooms": 5,
+        "rent": 18730.7
+    },
+    {
+        "address": "2 Eliot Road",
+        "rooms": 1,
+        "rent": 10156.3
+    },
+    {
+        "address": "166 Barnett Terrace",
+        "rooms": 5,
+        "rent": 8786.8
+    },
+    {
+        "address": "24 Dwight Trail",
+        "rooms": 8,
+        "rent": 15405.2
+    },
+    {
+        "address": "76912 Cardinal Hill",
+        "rooms": 8,
+        "rent": 12061.6
+    },
+    {
+        "address": "7 Spohn Circle",
+        "rooms": 8,
+        "rent": 14186.8
+    },
+    {
+        "address": "7565 Loeprich Pass",
+        "rooms": 8,
+        "rent": 12311.2
+    },
+    {
+        "address": "8 Dixon Road",
+        "rooms": 6,
+        "rent": 13408.0
+    },
+    {
+        "address": "55712 Transport Lane",
+        "rooms": 3,
+        "rent": 8672.0
+    },
+    {
+        "address": "8 Leroy Lane",
+        "rooms": 4,
+        "rent": 9562.9
+    },
+    {
+        "address": "9555 Sachs Terrace",
+        "rooms": 7,
+        "rent": 18423.4
+    },
+    {
+        "address": "16039 Harper Place",
+        "rooms": 3,
+        "rent": 12043.4
+    },
+    {
+        "address": "57 Pierstorff Hill",
+        "rooms": 8,
+        "rent": 9017.8
+    },
+    {
+        "address": "5162 Leroy Circle",
+        "rooms": 6,
+        "rent": 14541.7
+    },
+    {
+        "address": "66 Erie Way",
+        "rooms": 4,
+        "rent": 19410.9
+    },
+    {
+        "address": "9 Mesta Drive",
+        "rooms": 8,
+        "rent": 7018.2
+    },
+    {
+        "address": "5442 Becker Point",
+        "rooms": 1,
+        "rent": 15580.6
+    },
+    {
+        "address": "884 Starling Way",
+        "rooms": 8,
+        "rent": 14037.2
+    },
+    {
+        "address": "2 Loomis Hill",
+        "rooms": 2,
+        "rent": 7887.6
+    },
+    {
+        "address": "5788 Summerview Hill",
+        "rooms": 1,
+        "rent": 15886.1
+    },
+    {
+        "address": "71211 Kim Way",
+        "rooms": 7,
+        "rent": 9200.0
+    },
+    {
+        "address": "13639 Mesta Lane",
+        "rooms": 8,
+        "rent": 11967.6
+    },
+    {
+        "address": "73 Swallow Junction",
+        "rooms": 4,
+        "rent": 16857.9
+    },
+    {
+        "address": "017 Spenser Parkway",
+        "rooms": 7,
+        "rent": 17710.5
+    },
+    {
+        "address": "8 Springs Point",
+        "rooms": 7,
+        "rent": 17856.6
+    },
+    {
+        "address": "88 Aberg Alley",
+        "rooms": 5,
+        "rent": 9836.1
+    },
+    {
+        "address": "038 Carioca Circle",
+        "rooms": 1,
+        "rent": 7217.7
+    },
+    {
+        "address": "88235 Graedel Drive",
+        "rooms": 1,
+        "rent": 10469.2
+    },
+    {
+        "address": "72 Glacier Hill Hill",
+        "rooms": 4,
+        "rent": 18552.3
+    },
+    {
+        "address": "430 Westend Crossing",
+        "rooms": 2,
+        "rent": 14689.9
+    },
+    {
+        "address": "179 Sugar Parkway",
+        "rooms": 2,
+        "rent": 19482.3
+    },
+    {
+        "address": "8826 Grover Point",
+        "rooms": 1,
+        "rent": 17016.0
+    },
+    {
+        "address": "66542 Bellgrove Point",
+        "rooms": 5,
+        "rent": 10391.6
+    },
+    {
+        "address": "41 Pawling Alley",
+        "rooms": 5,
+        "rent": 11212.1
+    },
+    {
+        "address": "71819 Sunfield Plaza",
+        "rooms": 8,
+        "rent": 16914.6
+    },
+    {
+        "address": "677 Troy Alley",
+        "rooms": 4,
+        "rent": 7763.5
+    },
+    {
+        "address": "821 Jenna Plaza",
+        "rooms": 3,
+        "rent": 13709.6
+    },
+    {
+        "address": "996 Oak Junction",
+        "rooms": 8,
+        "rent": 20684.6
+    },
+    {
+        "address": "392 Laurel Road",
+        "rooms": 4,
+        "rent": 15465.2
+    },
+    {
+        "address": "006 Blackbird Way",
+        "rooms": 4,
+        "rent": 19219.0
+    },
+    {
+        "address": "8649 Delladonna Circle",
+        "rooms": 3,
+        "rent": 10299.0
+    },
+    {
+        "address": "813 Meadow Ridge Avenue",
+        "rooms": 7,
+        "rent": 19936.8
+    },
+    {
+        "address": "46 Homewood Park",
+        "rooms": 7,
+        "rent": 13664.5
+    },
+    {
+        "address": "660 Kipling Center",
+        "rooms": 6,
+        "rent": 21086.2
+    },
+    {
+        "address": "27 8th Parkway",
+        "rooms": 4,
+        "rent": 20565.6
+    },
+    {
+        "address": "28527 Eliot Circle",
+        "rooms": 4,
+        "rent": 16085.2
+    },
+    {
+        "address": "47359 Manley Alley",
+        "rooms": 8,
+        "rent": 18629.1
+    },
+    {
+        "address": "158 Barnett Drive",
+        "rooms": 2,
+        "rent": 11834.8
+    },
+    {
+        "address": "01019 Dawn Hill",
+        "rooms": 5,
+        "rent": 16470.4
+    },
+    {
+        "address": "93610 Esker Pass",
+        "rooms": 2,
+        "rent": 10915.0
+    },
+    {
+        "address": "24393 Loftsgordon Road",
+        "rooms": 1,
+        "rent": 19302.2
+    },
+    {
+        "address": "201 Moland Hill",
+        "rooms": 6,
+        "rent": 14681.2
+    },
+    {
+        "address": "617 Artisan Lane",
+        "rooms": 7,
+        "rent": 12643.2
+    },
+    {
+        "address": "13649 South Place",
+        "rooms": 5,
+        "rent": 11923.0
+    },
+    {
+        "address": "32491 Twin Pines Road",
+        "rooms": 3,
+        "rent": 10122.2
+    },
+    {
+        "address": "1 Main Place",
+        "rooms": 1,
+        "rent": 11123.8
+    },
+    {
+        "address": "66663 Red Cloud Lane",
+        "rooms": 4,
+        "rent": 8825.7
+    },
+    {
+        "address": "9776 Goodland Alley",
+        "rooms": 5,
+        "rent": 20347.3
+    },
+    {
+        "address": "23795 Summit Terrace",
+        "rooms": 1,
+        "rent": 15221.1
+    },
+    {
+        "address": "525 Luster Park",
+        "rooms": 8,
+        "rent": 16626.0
+    },
+    {
+        "address": "358 Chive Avenue",
+        "rooms": 5,
+        "rent": 14902.8
+    },
+    {
+        "address": "5487 Blackbird Parkway",
+        "rooms": 1,
+        "rent": 17960.9
+    },
+    {
+        "address": "7835 Tomscot Place",
+        "rooms": 6,
+        "rent": 8714.9
+    },
+    {
+        "address": "0369 Jenna Trail",
+        "rooms": 7,
+        "rent": 19790.7
+    },
+    {
+        "address": "1950 Schiller Avenue",
+        "rooms": 3,
+        "rent": 21333.6
+    },
+    {
+        "address": "44 Calypso Hill",
+        "rooms": 4,
+        "rent": 19329.2
+    },
+    {
+        "address": "178 Bayside Park",
+        "rooms": 3,
+        "rent": 7922.1
+    },
+    {
+        "address": "200 Clyde Gallagher Junction",
+        "rooms": 7,
+        "rent": 16772.1
+    },
+    {
+        "address": "573 Holy Cross Junction",
+        "rooms": 7,
+        "rent": 13152.2
+    },
+    {
+        "address": "4897 Acker Circle",
+        "rooms": 3,
+        "rent": 17074.9
+    },
+    {
+        "address": "2261 Mockingbird Hill",
+        "rooms": 1,
+        "rent": 15683.2
+    },
+    {
+        "address": "90976 Brown Street",
+        "rooms": 2,
+        "rent": 7946.8
+    },
+    {
+        "address": "4 Forest Run Terrace",
+        "rooms": 5,
+        "rent": 9026.2
+    },
+    {
+        "address": "351 Jay Circle",
+        "rooms": 5,
+        "rent": 11022.8
+    },
+    {
+        "address": "16 Hanson Lane",
+        "rooms": 6,
+        "rent": 13685.6
+    },
+    {
+        "address": "7 Dryden Parkway",
+        "rooms": 4,
+        "rent": 8262.2
+    },
+    {
+        "address": "8278 Rowland Crossing",
+        "rooms": 1,
+        "rent": 10481.1
+    },
+    {
+        "address": "134 South Crossing",
+        "rooms": 7,
+        "rent": 14617.9
+    },
+    {
+        "address": "06720 Ramsey Junction",
+        "rooms": 7,
+        "rent": 7329.2
+    },
+    {
+        "address": "49 Oak Valley Place",
+        "rooms": 3,
+        "rent": 18285.4
+    },
+    {
+        "address": "5490 Upham Circle",
+        "rooms": 8,
+        "rent": 10728.7
+    },
+    {
+        "address": "0872 Welch Way",
+        "rooms": 3,
+        "rent": 13926.0
+    },
+    {
+        "address": "98996 Jenifer Trail",
+        "rooms": 1,
+        "rent": 17408.3
+    },
+    {
+        "address": "38 Cascade Terrace",
+        "rooms": 5,
+        "rent": 21939.4
+    },
+    {
+        "address": "64 Drewry Court",
+        "rooms": 7,
+        "rent": 21424.1
+    },
+    {
+        "address": "2 Blaine Road",
+        "rooms": 2,
+        "rent": 20223.0
+    },
+    {
+        "address": "5300 Pennsylvania Lane",
+        "rooms": 4,
+        "rent": 17232.2
+    },
+    {
+        "address": "8 Lukken Drive",
+        "rooms": 6,
+        "rent": 13733.9
+    },
+    {
+        "address": "92699 High Crossing Avenue",
+        "rooms": 3,
+        "rent": 21785.7
+    },
+    {
+        "address": "30020 Grasskamp Park",
+        "rooms": 2,
+        "rent": 21037.9
+    },
+    {
+        "address": "23 Havey Lane",
+        "rooms": 5,
+        "rent": 19695.0
+    },
+    {
+        "address": "21232 Oxford Street",
+        "rooms": 2,
+        "rent": 17149.3
+    },
+    {
+        "address": "46802 Veith Road",
+        "rooms": 2,
+        "rent": 17353.5
+    },
+    {
+        "address": "304 Lakewood Terrace",
+        "rooms": 6,
+        "rent": 18170.6
+    },
+    {
+        "address": "4699 Carpenter Point",
+        "rooms": 5,
+        "rent": 13857.7
+    },
+    {
+        "address": "21395 Glacier Hill Hill",
+        "rooms": 3,
+        "rent": 21036.9
+    },
+    {
+        "address": "87591 Gina Junction",
+        "rooms": 3,
+        "rent": 14739.7
+    },
+    {
+        "address": "1 Michigan Point",
+        "rooms": 4,
+        "rent": 19188.3
+    },
+    {
+        "address": "6587 Hanover Park",
+        "rooms": 2,
+        "rent": 14906.1
+    },
+    {
+        "address": "33 Springview Avenue",
+        "rooms": 5,
+        "rent": 16583.0
+    },
+    {
+        "address": "04 Debra Pass",
+        "rooms": 7,
+        "rent": 10129.4
+    },
+    {
+        "address": "1963 Summerview Point",
+        "rooms": 2,
+        "rent": 13277.6
+    },
+    {
+        "address": "1183 Lawn Crossing",
+        "rooms": 6,
+        "rent": 14718.5
+    },
+    {
+        "address": "4 Truax Avenue",
+        "rooms": 4,
+        "rent": 19571.8
+    },
+    {
+        "address": "11 Hoffman Circle",
+        "rooms": 2,
+        "rent": 9860.1
+    },
+    {
+        "address": "082 Petterle Junction",
+        "rooms": 7,
+        "rent": 7493.3
+    },
+    {
+        "address": "238 Thompson Place",
+        "rooms": 5,
+        "rent": 21099.1
+    },
+    {
+        "address": "9797 Prairieview Court",
+        "rooms": 2,
+        "rent": 13624.0
+    },
+    {
+        "address": "4 Nobel Way",
+        "rooms": 8,
+        "rent": 14307.8
+    },
+    {
+        "address": "07465 Oakridge Crossing",
+        "rooms": 2,
+        "rent": 21121.6
+    },
+    {
+        "address": "29 John Wall Court",
+        "rooms": 4,
+        "rent": 16343.7
+    },
+    {
+        "address": "313 Dexter Court",
+        "rooms": 4,
+        "rent": 10607.8
+    },
+    {
+        "address": "73 Hovde Plaza",
+        "rooms": 3,
+        "rent": 10300.4
+    },
+    {
+        "address": "4 Truax Terrace",
+        "rooms": 6,
+        "rent": 16132.0
+    },
+    {
+        "address": "0369 Granby Junction",
+        "rooms": 1,
+        "rent": 9099.5
+    },
+    {
+        "address": "1354 Cottonwood Street",
+        "rooms": 7,
+        "rent": 7721.3
+    },
+    {
+        "address": "57 Fuller Point",
+        "rooms": 8,
+        "rent": 18153.5
+    },
+    {
+        "address": "41462 Jenifer Court",
+        "rooms": 3,
+        "rent": 21952.2
+    },
+    {
+        "address": "9 Bobwhite Drive",
+        "rooms": 6,
+        "rent": 13062.2
+    },
+    {
+        "address": "267 Kensington Lane",
+        "rooms": 2,
+        "rent": 14095.9
+    },
+    {
+        "address": "45 Marcy Plaza",
+        "rooms": 3,
+        "rent": 12740.2
+    },
+    {
+        "address": "861 Burrows Lane",
+        "rooms": 3,
+        "rent": 18176.4
+    },
+    {
+        "address": "1865 Dennis Terrace",
+        "rooms": 8,
+        "rent": 9793.2
+    },
+    {
+        "address": "47252 Bonner Alley",
+        "rooms": 1,
+        "rent": 12816.0
+    },
+    {
+        "address": "2834 Jackson Junction",
+        "rooms": 7,
+        "rent": 16823.5
+    },
+    {
+        "address": "56656 7th Court",
+        "rooms": 4,
+        "rent": 11632.4
+    },
+    {
+        "address": "177 Emmet Drive",
+        "rooms": 4,
+        "rent": 9921.8
+    },
+    {
+        "address": "504 Toban Plaza",
+        "rooms": 3,
+        "rent": 19762.7
+    },
+    {
+        "address": "1 Pepper Wood Lane",
+        "rooms": 1,
+        "rent": 17850.7
+    },
+    {
+        "address": "390 Merrick Trail",
+        "rooms": 1,
+        "rent": 19024.2
+    },
+    {
+        "address": "3845 Becker Pass",
+        "rooms": 7,
+        "rent": 17753.4
+    },
+    {
+        "address": "89905 Blaine Plaza",
+        "rooms": 6,
+        "rent": 11906.9
+    },
+    {
+        "address": "2643 Katie Park",
+        "rooms": 3,
+        "rent": 10732.0
+    },
+    {
+        "address": "775 Myrtle Street",
+        "rooms": 2,
+        "rent": 18339.4
+    },
+    {
+        "address": "4 Cody Road",
+        "rooms": 1,
+        "rent": 11428.5
+    },
+    {
+        "address": "99 Fuller Point",
+        "rooms": 3,
+        "rent": 20959.6
+    },
+    {
+        "address": "99 Carpenter Terrace",
+        "rooms": 8,
+        "rent": 15501.1
+    },
+    {
+        "address": "53701 Duke Terrace",
+        "rooms": 4,
+        "rent": 21888.0
+    },
+    {
+        "address": "9 Lerdahl Avenue",
+        "rooms": 3,
+        "rent": 20075.3
+    },
+    {
+        "address": "95324 Swallow Point",
+        "rooms": 4,
+        "rent": 7500.7
+    },
+    {
+        "address": "54854 Forster Park",
+        "rooms": 7,
+        "rent": 16368.0
+    },
+    {
+        "address": "18 Logan Road",
+        "rooms": 3,
+        "rent": 14022.0
+    },
+    {
+        "address": "43 Bobwhite Junction",
+        "rooms": 5,
+        "rent": 8330.9
+    },
+    {
+        "address": "80125 Golden Leaf Point",
+        "rooms": 8,
+        "rent": 13789.4
+    },
+    {
+        "address": "51 Upham Point",
+        "rooms": 8,
+        "rent": 15591.1
+    },
+    {
+        "address": "9 Grim Street",
+        "rooms": 1,
+        "rent": 8939.2
+    },
+    {
+        "address": "82 Glendale Street",
+        "rooms": 8,
+        "rent": 21212.8
+    },
+    {
+        "address": "02 Brown Hill",
+        "rooms": 7,
+        "rent": 9571.2
+    },
+    {
+        "address": "5 Del Mar Pass",
+        "rooms": 8,
+        "rent": 14772.0
+    },
+    {
+        "address": "0 Monument Alley",
+        "rooms": 1,
+        "rent": 16579.9
+    },
+    {
+        "address": "76 Lakewood Gardens Street",
+        "rooms": 3,
+        "rent": 13753.7
+    },
+    {
+        "address": "2446 Anderson Park",
+        "rooms": 6,
+        "rent": 15293.9
+    },
+    {
+        "address": "202 Sauthoff Drive",
+        "rooms": 5,
+        "rent": 18648.2
+    },
+    {
+        "address": "961 Delladonna Park",
+        "rooms": 8,
+        "rent": 20870.9
+    },
+    {
+        "address": "27631 Rigney Parkway",
+        "rooms": 6,
+        "rent": 7688.2
+    },
+    {
+        "address": "573 Westport Crossing",
+        "rooms": 8,
+        "rent": 8331.0
+    },
+    {
+        "address": "75458 Harbort Circle",
+        "rooms": 5,
+        "rent": 16836.6
+    },
+    {
+        "address": "73737 Debs Street",
+        "rooms": 4,
+        "rent": 13322.0
+    },
+    {
+        "address": "74 Nancy Lane",
+        "rooms": 1,
+        "rent": 10138.3
+    },
+    {
+        "address": "66 Walton Lane",
+        "rooms": 5,
+        "rent": 9001.4
+    },
+    {
+        "address": "97 Arrowood Avenue",
+        "rooms": 7,
+        "rent": 7149.5
+    },
+    {
+        "address": "46416 Towne Court",
+        "rooms": 7,
+        "rent": 16848.4
+    },
+    {
+        "address": "547 Superior Terrace",
+        "rooms": 1,
+        "rent": 12764.6
+    },
+    {
+        "address": "3630 Redwing Lane",
+        "rooms": 7,
+        "rent": 21911.0
+    },
+    {
+        "address": "14643 Linden Center",
+        "rooms": 4,
+        "rent": 12360.2
+    },
+    {
+        "address": "849 Bluejay Drive",
+        "rooms": 7,
+        "rent": 19728.2
+    },
+    {
+        "address": "6822 Buena Vista Court",
+        "rooms": 2,
+        "rent": 7247.9
+    },
+    {
+        "address": "1003 Mifflin Lane",
+        "rooms": 4,
+        "rent": 11175.1
+    },
+    {
+        "address": "856 Talisman Court",
+        "rooms": 3,
+        "rent": 13683.9
+    },
+    {
+        "address": "17235 Oneill Pass",
+        "rooms": 6,
+        "rent": 14605.4
+    },
+    {
+        "address": "54 Corscot Alley",
+        "rooms": 1,
+        "rent": 20842.0
+    },
+    {
+        "address": "311 Golf Pass",
+        "rooms": 7,
+        "rent": 14718.2
+    },
+    {
+        "address": "28 Corben Park",
+        "rooms": 5,
+        "rent": 10349.0
+    },
+    {
+        "address": "2198 Lighthouse Bay Center",
+        "rooms": 4,
+        "rent": 20515.9
+    },
+    {
+        "address": "1 6th Trail",
+        "rooms": 7,
+        "rent": 20340.6
+    },
+    {
+        "address": "204 Lyons Place",
+        "rooms": 1,
+        "rent": 20785.9
+    },
+    {
+        "address": "38 Colorado Court",
+        "rooms": 6,
+        "rent": 11256.8
+    },
+    {
+        "address": "47107 Kennedy Center",
+        "rooms": 5,
+        "rent": 11765.2
+    },
+    {
+        "address": "83711 Tennyson Junction",
+        "rooms": 2,
+        "rent": 7774.1
+    },
+    {
+        "address": "64 Rockefeller Terrace",
+        "rooms": 3,
+        "rent": 16306.2
+    },
+    {
+        "address": "20014 Grasskamp Circle",
+        "rooms": 7,
+        "rent": 7937.1
+    },
+    {
+        "address": "570 Marquette Court",
+        "rooms": 5,
+        "rent": 20213.1
+    },
+    {
+        "address": "3631 Everett Crossing",
+        "rooms": 6,
+        "rent": 11675.3
+    },
+    {
+        "address": "727 5th Alley",
+        "rooms": 1,
+        "rent": 12919.1
+    },
+    {
+        "address": "8151 Cardinal Park",
+        "rooms": 5,
+        "rent": 20488.0
+    },
+    {
+        "address": "9385 Elka Place",
+        "rooms": 3,
+        "rent": 17926.7
+    },
+    {
+        "address": "64 Derek Street",
+        "rooms": 8,
+        "rent": 17251.0
+    },
+    {
+        "address": "5277 Bonner Parkway",
+        "rooms": 6,
+        "rent": 14740.1
+    },
+    {
+        "address": "04275 Spohn Alley",
+        "rooms": 5,
+        "rent": 18171.5
+    },
+    {
+        "address": "0120 Dexter Circle",
+        "rooms": 1,
+        "rent": 13258.4
+    },
+    {
+        "address": "2 Grover Street",
+        "rooms": 6,
+        "rent": 10004.4
+    },
+    {
+        "address": "7 Mendota Circle",
+        "rooms": 1,
+        "rent": 21626.6
+    },
+    {
+        "address": "5 Granby Pass",
+        "rooms": 1,
+        "rent": 19983.2
+    },
+    {
+        "address": "4368 Quincy Road",
+        "rooms": 8,
+        "rent": 20245.2
+    },
+    {
+        "address": "562 Dovetail Plaza",
+        "rooms": 8,
+        "rent": 7185.7
+    },
+    {
+        "address": "2354 Stoughton Junction",
+        "rooms": 8,
+        "rent": 20713.9
+    },
+    {
+        "address": "219 Dottie Center",
+        "rooms": 1,
+        "rent": 18614.8
+    },
+    {
+        "address": "05 Monterey Avenue",
+        "rooms": 2,
+        "rent": 16195.7
+    },
+    {
+        "address": "60149 Corry Terrace",
+        "rooms": 1,
+        "rent": 8087.4
+    },
+    {
+        "address": "163 Kensington Terrace",
+        "rooms": 4,
+        "rent": 10079.0
+    },
+    {
+        "address": "480 4th Hill",
+        "rooms": 4,
+        "rent": 20893.6
+    },
+    {
+        "address": "42671 Springs Junction",
+        "rooms": 8,
+        "rent": 21048.3
+    },
+    {
+        "address": "28 Veith Court",
+        "rooms": 6,
+        "rent": 15654.9
+    },
+    {
+        "address": "8 Messerschmidt Alley",
+        "rooms": 2,
+        "rent": 18569.6
+    },
+    {
+        "address": "5 Park Meadow Pass",
+        "rooms": 3,
+        "rent": 10892.1
+    },
+    {
+        "address": "8 Waywood Lane",
+        "rooms": 6,
+        "rent": 10985.4
+    },
+    {
+        "address": "1883 Clyde Gallagher Crossing",
+        "rooms": 1,
+        "rent": 12639.6
+    },
+    {
+        "address": "8570 Fallview Alley",
+        "rooms": 1,
+        "rent": 12098.7
+    },
+    {
+        "address": "08902 Hooker Terrace",
+        "rooms": 6,
+        "rent": 9131.9
+    },
+    {
+        "address": "23 2nd Hill",
+        "rooms": 4,
+        "rent": 17862.0
+    },
+    {
+        "address": "7 Morrow Point",
+        "rooms": 6,
+        "rent": 10939.1
+    },
+    {
+        "address": "5 Lakeland Street",
+        "rooms": 8,
+        "rent": 9074.3
+    },
+    {
+        "address": "20 Truax Plaza",
+        "rooms": 1,
+        "rent": 8763.7
+    },
+    {
+        "address": "1 Ryan Plaza",
+        "rooms": 4,
+        "rent": 14169.3
+    },
+    {
+        "address": "555 Division Court",
+        "rooms": 5,
+        "rent": 12844.4
+    },
+    {
+        "address": "70 Hauk Drive",
+        "rooms": 7,
+        "rent": 19328.0
+    },
+    {
+        "address": "288 Jenna Park",
+        "rooms": 5,
+        "rent": 8516.2
+    },
+    {
+        "address": "79 Springview Crossing",
+        "rooms": 3,
+        "rent": 15597.9
+    },
+    {
+        "address": "35 East Terrace",
+        "rooms": 2,
+        "rent": 15628.6
+    },
+    {
+        "address": "12514 Hollow Ridge Trail",
+        "rooms": 5,
+        "rent": 13039.4
+    },
+    {
+        "address": "96977 Park Meadow Road",
+        "rooms": 1,
+        "rent": 20016.3
+    },
+    {
+        "address": "09452 Pankratz Point",
+        "rooms": 1,
+        "rent": 7843.7
+    },
+    {
+        "address": "2 Birchwood Avenue",
+        "rooms": 7,
+        "rent": 8024.6
+    },
+    {
+        "address": "03 Nobel Road",
+        "rooms": 8,
+        "rent": 14745.1
+    },
+    {
+        "address": "164 Hoard Way",
+        "rooms": 2,
+        "rent": 14770.1
+    },
+    {
+        "address": "19 Walton Lane",
+        "rooms": 4,
+        "rent": 14171.5
+    },
+    {
+        "address": "044 Hauk Plaza",
+        "rooms": 4,
+        "rent": 7618.0
+    },
+    {
+        "address": "715 Doe Crossing Street",
+        "rooms": 8,
+        "rent": 11679.3
+    },
+    {
+        "address": "4289 Ridgeway Road",
+        "rooms": 2,
+        "rent": 16814.1
+    },
+    {
+        "address": "1414 Larry Center",
+        "rooms": 7,
+        "rent": 18489.7
+    },
+    {
+        "address": "218 Kropf Drive",
+        "rooms": 2,
+        "rent": 18294.1
+    },
+    {
+        "address": "152 Butterfield Crossing",
+        "rooms": 3,
+        "rent": 8245.5
+    },
+    {
+        "address": "822 Vahlen Parkway",
+        "rooms": 7,
+        "rent": 18567.7
+    },
+    {
+        "address": "55557 Luster Junction",
+        "rooms": 3,
+        "rent": 20775.4
+    },
+    {
+        "address": "5 Red Cloud Trail",
+        "rooms": 7,
+        "rent": 8947.2
+    },
+    {
+        "address": "362 Longview Lane",
+        "rooms": 4,
+        "rent": 17771.3
+    },
+    {
+        "address": "29 Basil Terrace",
+        "rooms": 4,
+        "rent": 18389.7
+    },
+    {
+        "address": "9156 East Lane",
+        "rooms": 1,
+        "rent": 10594.9
+    },
+    {
+        "address": "64 David Circle",
+        "rooms": 3,
+        "rent": 11282.3
+    },
+    {
+        "address": "3 Alpine Plaza",
+        "rooms": 1,
+        "rent": 18235.0
+    },
+    {
+        "address": "6 Beilfuss Way",
+        "rooms": 3,
+        "rent": 7828.1
+    },
+    {
+        "address": "9 Acker Center",
+        "rooms": 7,
+        "rent": 10582.8
+    },
+    {
+        "address": "334 Anthes Road",
+        "rooms": 6,
+        "rent": 20393.4
+    },
+    {
+        "address": "60 Fordem Crossing",
+        "rooms": 2,
+        "rent": 7433.8
+    },
+    {
+        "address": "90753 Fisk Crossing",
+        "rooms": 1,
+        "rent": 17289.5
+    },
+    {
+        "address": "0 Bluejay Terrace",
+        "rooms": 3,
+        "rent": 16108.1
+    },
+    {
+        "address": "4229 Sutherland Alley",
+        "rooms": 3,
+        "rent": 20759.8
+    },
+    {
+        "address": "19 Chinook Hill",
+        "rooms": 8,
+        "rent": 7462.4
+    },
+    {
+        "address": "30588 Orin Place",
+        "rooms": 1,
+        "rent": 17139.0
+    },
+    {
+        "address": "3081 Sherman Hill",
+        "rooms": 8,
+        "rent": 10365.5
+    },
+    {
+        "address": "0 Briar Crest Junction",
+        "rooms": 8,
+        "rent": 14800.1
+    },
+    {
+        "address": "16717 Del Mar Point",
+        "rooms": 8,
+        "rent": 18423.9
+    },
+    {
+        "address": "07530 Ohio Place",
+        "rooms": 3,
+        "rent": 18664.6
+    },
+    {
+        "address": "5766 Ridgeview Trail",
+        "rooms": 2,
+        "rent": 8328.7
+    },
+    {
+        "address": "15511 3rd Way",
+        "rooms": 2,
+        "rent": 14098.5
+    },
+    {
+        "address": "53 Raven Drive",
+        "rooms": 5,
+        "rent": 7923.7
+    },
+    {
+        "address": "9681 Ridgeview Terrace",
+        "rooms": 2,
+        "rent": 14330.3
+    },
+    {
+        "address": "98348 Sutherland Junction",
+        "rooms": 1,
+        "rent": 11766.7
+    },
+    {
+        "address": "97 Sachs Avenue",
+        "rooms": 8,
+        "rent": 7446.8
+    },
+    {
+        "address": "8887 Hagan Parkway",
+        "rooms": 1,
+        "rent": 11424.7
+    },
+    {
+        "address": "0 Village Drive",
+        "rooms": 7,
+        "rent": 12124.2
+    },
+    {
+        "address": "33218 Mockingbird Place",
+        "rooms": 8,
+        "rent": 14455.9
+    },
+    {
+        "address": "79 Rigney Avenue",
+        "rooms": 8,
+        "rent": 20522.2
+    },
+    {
+        "address": "2845 Lukken Trail",
+        "rooms": 7,
+        "rent": 14879.5
+    },
+    {
+        "address": "01903 Westport Road",
+        "rooms": 6,
+        "rent": 8968.9
+    },
+    {
+        "address": "39250 Crowley Road",
+        "rooms": 2,
+        "rent": 8477.7
+    },
+    {
+        "address": "07 Basil Circle",
+        "rooms": 5,
+        "rent": 19601.5
+    },
+    {
+        "address": "1 Tennessee Pass",
+        "rooms": 3,
+        "rent": 10951.0
+    },
+    {
+        "address": "98 Sheridan Junction",
+        "rooms": 7,
+        "rent": 9425.6
+    },
+    {
+        "address": "1155 Esker Place",
+        "rooms": 2,
+        "rent": 9031.1
+    },
+    {
+        "address": "73733 Grayhawk Court",
+        "rooms": 1,
+        "rent": 19870.7
+    },
+    {
+        "address": "12 Merry Terrace",
+        "rooms": 4,
+        "rent": 21695.8
+    },
+    {
+        "address": "7233 Lotheville Crossing",
+        "rooms": 8,
+        "rent": 7516.4
+    },
+    {
+        "address": "6889 Lindbergh Circle",
+        "rooms": 6,
+        "rent": 11326.0
+    },
+    {
+        "address": "33 Meadow Ridge Court",
+        "rooms": 6,
+        "rent": 16108.8
+    },
+    {
+        "address": "77945 Miller Road",
+        "rooms": 2,
+        "rent": 14864.8
+    },
+    {
+        "address": "10 Blaine Center",
+        "rooms": 6,
+        "rent": 20205.2
+    },
+    {
+        "address": "7 Red Cloud Center",
+        "rooms": 2,
+        "rent": 15380.3
+    },
+    {
+        "address": "4 Northland Drive",
+        "rooms": 3,
+        "rent": 21545.9
+    },
+    {
+        "address": "8 Hanover Junction",
+        "rooms": 2,
+        "rent": 9811.3
+    },
+    {
+        "address": "7 Bowman Plaza",
+        "rooms": 6,
+        "rent": 8501.7
+    },
+    {
+        "address": "3 Pankratz Crossing",
+        "rooms": 6,
+        "rent": 15764.7
+    },
+    {
+        "address": "223 Delladonna Crossing",
+        "rooms": 4,
+        "rent": 11509.1
+    },
+    {
+        "address": "3940 Fisk Circle",
+        "rooms": 2,
+        "rent": 10792.7
+    },
+    {
+        "address": "31317 Hauk Lane",
+        "rooms": 6,
+        "rent": 21992.7
+    },
+    {
+        "address": "14273 Lotheville Center",
+        "rooms": 7,
+        "rent": 17998.6
+    },
+    {
+        "address": "577 Milwaukee Terrace",
+        "rooms": 3,
+        "rent": 7692.6
+    },
+    {
+        "address": "67278 Larry Circle",
+        "rooms": 5,
+        "rent": 19998.7
+    },
+    {
+        "address": "43909 Columbus Point",
+        "rooms": 8,
+        "rent": 11560.7
+    },
+    {
+        "address": "1 Bay Lane",
+        "rooms": 5,
+        "rent": 10835.0
+    },
+    {
+        "address": "2 High Crossing Alley",
+        "rooms": 3,
+        "rent": 14164.4
+    },
+    {
+        "address": "4 Orin Terrace",
+        "rooms": 1,
+        "rent": 19457.5
+    },
+    {
+        "address": "5 Caliangt Place",
+        "rooms": 2,
+        "rent": 10729.4
+    },
+    {
+        "address": "7692 La Follette Junction",
+        "rooms": 7,
+        "rent": 20738.4
+    },
+    {
+        "address": "1656 Mifflin Trail",
+        "rooms": 8,
+        "rent": 17671.1
+    },
+    {
+        "address": "70 Arkansas Center",
+        "rooms": 7,
+        "rent": 13984.0
+    },
+    {
+        "address": "1405 Larry Avenue",
+        "rooms": 6,
+        "rent": 19363.1
+    },
+    {
+        "address": "6222 Hagan Junction",
+        "rooms": 1,
+        "rent": 12426.5
+    },
+    {
+        "address": "22 Carioca Avenue",
+        "rooms": 6,
+        "rent": 7607.5
+    },
+    {
+        "address": "26948 Bultman Drive",
+        "rooms": 5,
+        "rent": 13534.2
+    },
+    {
+        "address": "5 Caliangt Alley",
+        "rooms": 3,
+        "rent": 13013.7
+    },
+    {
+        "address": "86085 Stang Hill",
+        "rooms": 4,
+        "rent": 9885.3
+    },
+    {
+        "address": "1628 Calypso Road",
+        "rooms": 4,
+        "rent": 7272.3
+    },
+    {
+        "address": "2011 Meadow Vale Crossing",
+        "rooms": 2,
+        "rent": 13684.4
+    },
+    {
+        "address": "1 Sutherland Circle",
+        "rooms": 1,
+        "rent": 10471.6
+    },
+    {
+        "address": "8 Boyd Pass",
+        "rooms": 7,
+        "rent": 12711.7
+    },
+    {
+        "address": "6 Washington Junction",
+        "rooms": 1,
+        "rent": 7792.6
+    },
+    {
+        "address": "42 Packers Trail",
+        "rooms": 8,
+        "rent": 18235.4
+    },
+    {
+        "address": "84306 Schiller Way",
+        "rooms": 1,
+        "rent": 16848.7
+    },
+    {
+        "address": "8 Del Sol Way",
+        "rooms": 5,
+        "rent": 10761.1
+    },
+    {
+        "address": "3459 Trailsway Circle",
+        "rooms": 5,
+        "rent": 17960.1
+    },
+    {
+        "address": "18 Carpenter Hill",
+        "rooms": 7,
+        "rent": 15599.2
+    },
+    {
+        "address": "12019 Jana Lane",
+        "rooms": 7,
+        "rent": 14519.6
+    },
+    {
+        "address": "7173 Buena Vista Alley",
+        "rooms": 4,
+        "rent": 13437.8
+    },
+    {
+        "address": "284 Pierstorff Lane",
+        "rooms": 7,
+        "rent": 9051.6
+    },
+    {
+        "address": "37 Del Sol Place",
+        "rooms": 2,
+        "rent": 19274.7
+    },
+    {
+        "address": "62282 Heath Road",
+        "rooms": 7,
+        "rent": 10283.8
+    },
+    {
+        "address": "308 Buhler Alley",
+        "rooms": 6,
+        "rent": 10086.2
+    },
+    {
+        "address": "23344 Debs Place",
+        "rooms": 3,
+        "rent": 8764.3
+    },
+    {
+        "address": "1 Hollow Ridge Circle",
+        "rooms": 1,
+        "rent": 17720.4
+    },
+    {
+        "address": "983 2nd Way",
+        "rooms": 5,
+        "rent": 9433.8
+    },
+    {
+        "address": "6633 Victoria Alley",
+        "rooms": 7,
+        "rent": 13910.4
+    },
+    {
+        "address": "5 Iowa Center",
+        "rooms": 6,
+        "rent": 19011.4
+    },
+    {
+        "address": "8 Ohio Court",
+        "rooms": 4,
+        "rent": 20793.7
+    },
+    {
+        "address": "3 Nobel Trail",
+        "rooms": 7,
+        "rent": 17600.6
+    },
+    {
+        "address": "9540 Corscot Plaza",
+        "rooms": 1,
+        "rent": 21905.1
+    },
+    {
+        "address": "25937 Linden Road",
+        "rooms": 4,
+        "rent": 13703.1
+    },
+    {
+        "address": "625 Ohio Plaza",
+        "rooms": 1,
+        "rent": 16058.4
+    },
+    {
+        "address": "4 Clove Trail",
+        "rooms": 2,
+        "rent": 17410.4
+    },
+    {
+        "address": "93 Roxbury Point",
+        "rooms": 4,
+        "rent": 19638.3
+    },
+    {
+        "address": "6 Helena Drive",
+        "rooms": 3,
+        "rent": 20455.7
+    },
+    {
+        "address": "8688 Northview Crossing",
+        "rooms": 8,
+        "rent": 10371.9
+    },
+    {
+        "address": "891 Clemons Lane",
+        "rooms": 7,
+        "rent": 7935.1
+    },
+    {
+        "address": "7974 Crownhardt Junction",
+        "rooms": 6,
+        "rent": 16230.3
+    },
+    {
+        "address": "95 Declaration Hill",
+        "rooms": 1,
+        "rent": 11347.3
+    },
+    {
+        "address": "5201 Schiller Park",
+        "rooms": 1,
+        "rent": 17941.0
+    },
+    {
+        "address": "402 Kinsman Terrace",
+        "rooms": 2,
+        "rent": 7452.9
+    },
+    {
+        "address": "91 Jenifer Center",
+        "rooms": 7,
+        "rent": 12981.7
+    },
+    {
+        "address": "8277 Toban Court",
+        "rooms": 5,
+        "rent": 10834.1
+    },
+    {
+        "address": "16967 Homewood Plaza",
+        "rooms": 7,
+        "rent": 19096.6
+    },
+    {
+        "address": "57 Dwight Junction",
+        "rooms": 8,
+        "rent": 15078.4
+    },
+    {
+        "address": "18 Grasskamp Alley",
+        "rooms": 8,
+        "rent": 17135.6
+    },
+    {
+        "address": "358 Cambridge Place",
+        "rooms": 1,
+        "rent": 18774.2
+    },
+    {
+        "address": "99 Northport Avenue",
+        "rooms": 4,
+        "rent": 21622.2
+    },
+    {
+        "address": "83774 Welch Hill",
+        "rooms": 4,
+        "rent": 11686.5
+    },
+    {
+        "address": "59944 Sauthoff Park",
+        "rooms": 1,
+        "rent": 11613.4
+    },
+    {
+        "address": "81 Oneill Pass",
+        "rooms": 8,
+        "rent": 18711.0
+    },
+    {
+        "address": "9757 Pepper Wood Trail",
+        "rooms": 7,
+        "rent": 7157.2
+    },
+    {
+        "address": "1908 Londonderry Lane",
+        "rooms": 2,
+        "rent": 20403.7
+    },
+    {
+        "address": "880 Dryden Junction",
+        "rooms": 8,
+        "rent": 20235.8
+    },
+    {
+        "address": "038 Reinke Terrace",
+        "rooms": 1,
+        "rent": 12039.1
+    },
+    {
+        "address": "161 Esch Avenue",
+        "rooms": 2,
+        "rent": 18791.9
+    },
+    {
+        "address": "72 Fallview Parkway",
+        "rooms": 2,
+        "rent": 20472.0
+    },
+    {
+        "address": "761 Rieder Junction",
+        "rooms": 7,
+        "rent": 20770.9
+    },
+    {
+        "address": "9 Susan Park",
+        "rooms": 8,
+        "rent": 17352.0
+    },
+    {
+        "address": "755 Melody Pass",
+        "rooms": 8,
+        "rent": 9027.1
+    },
+    {
+        "address": "3 Vernon Center",
+        "rooms": 4,
+        "rent": 17364.2
+    },
+    {
+        "address": "14 Goodland Way",
+        "rooms": 8,
+        "rent": 18439.1
+    },
+    {
+        "address": "098 Eastlawn Drive",
+        "rooms": 7,
+        "rent": 13715.7
+    },
+    {
+        "address": "5 Straubel Hill",
+        "rooms": 8,
+        "rent": 20377.0
+    },
+    {
+        "address": "8 Helena Road",
+        "rooms": 4,
+        "rent": 9590.9
+    },
+    {
+        "address": "35906 Hermina Street",
+        "rooms": 2,
+        "rent": 9739.0
+    },
+    {
+        "address": "94864 Sundown Hill",
+        "rooms": 6,
+        "rent": 7402.9
+    },
+    {
+        "address": "98945 Nova Way",
+        "rooms": 1,
+        "rent": 11921.4
+    },
+    {
+        "address": "1191 Reindahl Street",
+        "rooms": 5,
+        "rent": 7447.3
+    },
+    {
+        "address": "1 Stoughton Crossing",
+        "rooms": 7,
+        "rent": 19846.4
+    },
+    {
+        "address": "8980 Gateway Point",
+        "rooms": 6,
+        "rent": 19606.4
+    },
+    {
+        "address": "5548 Mallory Park",
+        "rooms": 1,
+        "rent": 20915.6
+    },
+    {
+        "address": "51 Mayfield Street",
+        "rooms": 3,
+        "rent": 18771.6
+    },
+    {
+        "address": "4 Rowland Court",
+        "rooms": 3,
+        "rent": 10224.3
+    },
+    {
+        "address": "40 Stang Crossing",
+        "rooms": 3,
+        "rent": 16632.4
+    },
+    {
+        "address": "62 Florence Avenue",
+        "rooms": 6,
+        "rent": 18864.2
+    },
+    {
+        "address": "9140 Buhler Point",
+        "rooms": 4,
+        "rent": 19618.5
+    },
+    {
+        "address": "7801 Glacier Hill Pass",
+        "rooms": 6,
+        "rent": 15597.4
+    },
+    {
+        "address": "19845 Orin Park",
+        "rooms": 3,
+        "rent": 20645.2
+    },
+    {
+        "address": "4 Vermont Street",
+        "rooms": 3,
+        "rent": 18066.4
+    },
+    {
+        "address": "885 Lakewood Gardens Way",
+        "rooms": 3,
+        "rent": 19328.3
+    },
+    {
+        "address": "618 Towne Alley",
+        "rooms": 1,
+        "rent": 12203.4
+    },
+    {
+        "address": "89 Buena Vista Place",
+        "rooms": 3,
+        "rent": 11523.0
+    },
+    {
+        "address": "15528 Lunder Avenue",
+        "rooms": 7,
+        "rent": 21191.4
+    },
+    {
+        "address": "9347 East Park",
+        "rooms": 6,
+        "rent": 17369.0
+    },
+    {
+        "address": "86843 Drewry Drive",
+        "rooms": 1,
+        "rent": 19709.8
+    },
+    {
+        "address": "812 Springs Pass",
+        "rooms": 7,
+        "rent": 20116.9
+    },
+    {
+        "address": "721 Sachtjen Drive",
+        "rooms": 4,
+        "rent": 19688.2
+    },
+    {
+        "address": "10 Dryden Street",
+        "rooms": 6,
+        "rent": 14178.4
+    },
+    {
+        "address": "3 Anhalt Terrace",
+        "rooms": 2,
+        "rent": 17211.5
+    },
+    {
+        "address": "186 Grover Point",
+        "rooms": 3,
+        "rent": 12789.6
+    },
+    {
+        "address": "79 Surrey Street",
+        "rooms": 4,
+        "rent": 21798.5
+    },
+    {
+        "address": "335 Mallard Terrace",
+        "rooms": 3,
+        "rent": 10590.8
+    },
+    {
+        "address": "35222 Namekagon Point",
+        "rooms": 4,
+        "rent": 9955.5
+    },
+    {
+        "address": "0434 Sutherland Road",
+        "rooms": 3,
+        "rent": 16740.2
+    },
+    {
+        "address": "2527 Hallows Park",
+        "rooms": 1,
+        "rent": 10243.4
+    },
+    {
+        "address": "300 West Trail",
+        "rooms": 3,
+        "rent": 10594.8
+    },
+    {
+        "address": "82228 Morrow Place",
+        "rooms": 5,
+        "rent": 8862.1
+    },
+    {
+        "address": "13 Dorton Parkway",
+        "rooms": 7,
+        "rent": 17290.5
+    },
+    {
+        "address": "1 Carioca Trail",
+        "rooms": 4,
+        "rent": 17953.2
+    },
+    {
+        "address": "7 Parkside Drive",
+        "rooms": 4,
+        "rent": 11507.7
+    },
+    {
+        "address": "70899 Meadow Valley Drive",
+        "rooms": 4,
+        "rent": 21679.1
+    },
+    {
+        "address": "93 Londonderry Pass",
+        "rooms": 8,
+        "rent": 20966.7
+    },
+    {
+        "address": "3 Hooker Center",
+        "rooms": 2,
+        "rent": 15291.3
+    },
+    {
+        "address": "63552 Little Fleur Road",
+        "rooms": 5,
+        "rent": 9100.3
+    },
+    {
+        "address": "8 Karstens Center",
+        "rooms": 4,
+        "rent": 13814.2
+    },
+    {
+        "address": "1 Duke Junction",
+        "rooms": 4,
+        "rent": 21138.6
+    },
+    {
+        "address": "68069 School Terrace",
+        "rooms": 7,
+        "rent": 12742.1
+    },
+    {
+        "address": "21 Fuller Way",
+        "rooms": 2,
+        "rent": 16793.2
+    },
+    {
+        "address": "35 Park Meadow Drive",
+        "rooms": 5,
+        "rent": 11677.9
+    },
+    {
+        "address": "46 Morningstar Road",
+        "rooms": 7,
+        "rent": 21758.7
+    },
+    {
+        "address": "8 Kings Way",
+        "rooms": 8,
+        "rent": 8304.0
+    },
+    {
+        "address": "525 American Ash Trail",
+        "rooms": 5,
+        "rent": 17044.4
+    },
+    {
+        "address": "1007 Barnett Avenue",
+        "rooms": 6,
+        "rent": 15605.6
+    },
+    {
+        "address": "77275 Sage Point",
+        "rooms": 3,
+        "rent": 17894.2
+    },
+    {
+        "address": "710 Hollow Ridge Avenue",
+        "rooms": 5,
+        "rent": 13060.1
+    },
+    {
+        "address": "6996 Stang Hill",
+        "rooms": 8,
+        "rent": 17864.6
+    },
+    {
+        "address": "1073 Kennedy Parkway",
+        "rooms": 2,
+        "rent": 20273.8
+    },
+    {
+        "address": "2853 Manitowish Court",
+        "rooms": 7,
+        "rent": 17087.7
+    },
+    {
+        "address": "0433 Oxford Terrace",
+        "rooms": 2,
+        "rent": 20960.1
+    },
+    {
+        "address": "0 Calypso Road",
+        "rooms": 5,
+        "rent": 17531.9
+    },
+    {
+        "address": "036 Center Point",
+        "rooms": 8,
+        "rent": 17228.6
+    },
+    {
+        "address": "2275 Bartelt Avenue",
+        "rooms": 7,
+        "rent": 11293.5
+    },
+    {
+        "address": "91 Mifflin Alley",
+        "rooms": 6,
+        "rent": 17256.1
+    },
+    {
+        "address": "3 Hoard Road",
+        "rooms": 7,
+        "rent": 14443.6
+    },
+    {
+        "address": "5 Browning Way",
+        "rooms": 4,
+        "rent": 7552.0
+    },
+    {
+        "address": "2 Fairfield Pass",
+        "rooms": 7,
+        "rent": 11439.0
+    },
+    {
+        "address": "68421 Arkansas Way",
+        "rooms": 4,
+        "rent": 7121.3
+    },
+    {
+        "address": "3 Larry Way",
+        "rooms": 4,
+        "rent": 16768.9
+    },
+    {
+        "address": "30237 Buell Street",
+        "rooms": 7,
+        "rent": 8344.8
+    },
+    {
+        "address": "3 Burning Wood Terrace",
+        "rooms": 6,
+        "rent": 15521.3
+    },
+    {
+        "address": "27717 Golf View Lane",
+        "rooms": 3,
+        "rent": 20313.8
+    },
+    {
+        "address": "95 Monica Place",
+        "rooms": 6,
+        "rent": 21341.3
+    },
+    {
+        "address": "07260 Manley Road",
+        "rooms": 8,
+        "rent": 10922.6
+    },
+    {
+        "address": "3632 Sundown Street",
+        "rooms": 7,
+        "rent": 9447.7
+    },
+    {
+        "address": "9 Sunbrook Place",
+        "rooms": 2,
+        "rent": 9180.4
+    },
+    {
+        "address": "5957 Rigney Terrace",
+        "rooms": 7,
+        "rent": 21278.6
+    },
+    {
+        "address": "7808 Anhalt Way",
+        "rooms": 7,
+        "rent": 14832.5
+    },
+    {
+        "address": "4915 Anniversary Circle",
+        "rooms": 3,
+        "rent": 17323.6
+    },
+    {
+        "address": "03801 Crowley Road",
+        "rooms": 8,
+        "rent": 10386.5
+    },
+    {
+        "address": "0927 Crowley Lane",
+        "rooms": 6,
+        "rent": 18876.5
+    },
+    {
+        "address": "07329 Warner Parkway",
+        "rooms": 1,
+        "rent": 14931.0
+    },
+    {
+        "address": "3 Stoughton Terrace",
+        "rooms": 5,
+        "rent": 15552.1
+    },
+    {
+        "address": "81395 Parkside Avenue",
+        "rooms": 8,
+        "rent": 16792.9
+    },
+    {
+        "address": "46552 Glacier Hill Road",
+        "rooms": 3,
+        "rent": 20847.2
+    },
+    {
+        "address": "418 Del Mar Hill",
+        "rooms": 3,
+        "rent": 14496.7
+    },
+    {
+        "address": "9 Monument Place",
+        "rooms": 5,
+        "rent": 15980.9
+    },
+    {
+        "address": "20 Mayfield Lane",
+        "rooms": 8,
+        "rent": 14237.9
+    },
+    {
+        "address": "83 Shopko Street",
+        "rooms": 3,
+        "rent": 12240.4
+    },
+    {
+        "address": "19243 Lukken Avenue",
+        "rooms": 6,
+        "rent": 20108.7
+    },
+    {
+        "address": "3 Esch Circle",
+        "rooms": 6,
+        "rent": 8986.0
+    },
+    {
+        "address": "3686 Nevada Lane",
+        "rooms": 6,
+        "rent": 8825.9
+    },
+    {
+        "address": "84299 Lighthouse Bay Street",
+        "rooms": 5,
+        "rent": 11917.1
+    },
+    {
+        "address": "60 Westerfield Junction",
+        "rooms": 1,
+        "rent": 12808.0
+    },
+    {
+        "address": "1 Shopko Court",
+        "rooms": 3,
+        "rent": 13786.9
+    },
+    {
+        "address": "04231 Lawn Drive",
+        "rooms": 3,
+        "rent": 14055.9
+    },
+    {
+        "address": "6 Swallow Junction",
+        "rooms": 1,
+        "rent": 11560.9
+    },
+    {
+        "address": "87 Washington Avenue",
+        "rooms": 5,
+        "rent": 15175.3
+    },
+    {
+        "address": "2 Vernon Parkway",
+        "rooms": 7,
+        "rent": 16001.2
+    },
+    {
+        "address": "9 Katie Lane",
+        "rooms": 1,
+        "rent": 21623.1
+    },
+    {
+        "address": "307 Mallory Street",
+        "rooms": 3,
+        "rent": 19339.4
+    },
+    {
+        "address": "54 Browning Point",
+        "rooms": 7,
+        "rent": 15555.4
+    },
+    {
+        "address": "33304 Cody Hill",
+        "rooms": 3,
+        "rent": 21011.2
+    },
+    {
+        "address": "23962 Fisk Point",
+        "rooms": 2,
+        "rent": 13217.9
+    },
+    {
+        "address": "3059 Mariners Cove Point",
+        "rooms": 1,
+        "rent": 7853.6
+    },
+    {
+        "address": "1 Maple Wood Place",
+        "rooms": 7,
+        "rent": 13729.5
+    },
+    {
+        "address": "55 Montana Park",
+        "rooms": 1,
+        "rent": 11515.7
+    },
+    {
+        "address": "680 8th Circle",
+        "rooms": 7,
+        "rent": 17630.8
+    },
+    {
+        "address": "14 Westend Center",
+        "rooms": 6,
+        "rent": 17181.7
+    },
+    {
+        "address": "726 Amoth Point",
+        "rooms": 7,
+        "rent": 21807.5
+    },
+    {
+        "address": "5062 Warrior Place",
+        "rooms": 1,
+        "rent": 7621.6
+    },
+    {
+        "address": "1001 Spohn Drive",
+        "rooms": 6,
+        "rent": 10677.6
+    },
+    {
+        "address": "86 International Drive",
+        "rooms": 3,
+        "rent": 9763.9
+    },
+    {
+        "address": "0483 Calypso Avenue",
+        "rooms": 1,
+        "rent": 18149.8
+    },
+    {
+        "address": "3212 Dovetail Plaza",
+        "rooms": 1,
+        "rent": 15947.1
+    },
+    {
+        "address": "66 Anthes Street",
+        "rooms": 6,
+        "rent": 9900.3
+    },
+    {
+        "address": "117 Jay Avenue",
+        "rooms": 7,
+        "rent": 14908.3
+    },
+    {
+        "address": "393 Ridgeway Parkway",
+        "rooms": 2,
+        "rent": 10943.1
+    },
+    {
+        "address": "67 Beilfuss Drive",
+        "rooms": 4,
+        "rent": 16015.8
+    },
+    {
+        "address": "2131 Lerdahl Parkway",
+        "rooms": 4,
+        "rent": 16071.2
+    },
+    {
+        "address": "37661 Morningstar Road",
+        "rooms": 4,
+        "rent": 21012.3
+    },
+    {
+        "address": "8 Southridge Terrace",
+        "rooms": 1,
+        "rent": 21765.7
+    },
+    {
+        "address": "968 Waywood Parkway",
+        "rooms": 6,
+        "rent": 13438.9
+    },
+    {
+        "address": "3882 Summerview Hill",
+        "rooms": 8,
+        "rent": 11842.5
+    },
+    {
+        "address": "7 Jana Plaza",
+        "rooms": 4,
+        "rent": 12295.5
+    },
+    {
+        "address": "5 Elgar Lane",
+        "rooms": 1,
+        "rent": 9027.4
+    },
+    {
+        "address": "75 Packers Court",
+        "rooms": 6,
+        "rent": 12297.5
+    },
+    {
+        "address": "4 Paget Park",
+        "rooms": 7,
+        "rent": 18145.2
+    },
+    {
+        "address": "82 Warner Pass",
+        "rooms": 6,
+        "rent": 12357.0
+    },
+    {
+        "address": "5 Fairview Road",
+        "rooms": 8,
+        "rent": 14259.8
+    },
+    {
+        "address": "577 Burning Wood Way",
+        "rooms": 8,
+        "rent": 10537.1
+    },
+    {
+        "address": "9915 Orin Point",
+        "rooms": 4,
+        "rent": 14486.6
+    },
+    {
+        "address": "7211 Basil Court",
+        "rooms": 6,
+        "rent": 21174.3
+    },
+    {
+        "address": "80263 Blackbird Alley",
+        "rooms": 8,
+        "rent": 15253.5
+    },
+    {
+        "address": "75 Packers Hill",
+        "rooms": 5,
+        "rent": 8227.5
+    },
+    {
+        "address": "44094 Hazelcrest Street",
+        "rooms": 2,
+        "rent": 14839.8
+    },
+    {
+        "address": "3778 Mariners Cove Pass",
+        "rooms": 2,
+        "rent": 9139.1
+    },
+    {
+        "address": "1987 Forest Dale Alley",
+        "rooms": 6,
+        "rent": 8841.0
+    },
+    {
+        "address": "74 Goodland Road",
+        "rooms": 2,
+        "rent": 18105.3
+    },
+    {
+        "address": "4305 Burrows Parkway",
+        "rooms": 2,
+        "rent": 15223.4
+    },
+    {
+        "address": "89746 Hollow Ridge Crossing",
+        "rooms": 5,
+        "rent": 10679.6
+    },
+    {
+        "address": "51 Grim Center",
+        "rooms": 4,
+        "rent": 8301.3
+    },
+    {
+        "address": "15017 Mosinee Park",
+        "rooms": 6,
+        "rent": 7306.1
+    },
+    {
+        "address": "54 Oakridge Road",
+        "rooms": 8,
+        "rent": 15854.5
+    },
+    {
+        "address": "920 Wayridge Avenue",
+        "rooms": 8,
+        "rent": 9849.8
+    },
+    {
+        "address": "5 Anhalt Hill",
+        "rooms": 1,
+        "rent": 7335.0
+    },
+    {
+        "address": "4 Mosinee Parkway",
+        "rooms": 6,
+        "rent": 10647.4
+    },
+    {
+        "address": "8480 Del Mar Parkway",
+        "rooms": 5,
+        "rent": 16661.2
+    },
+    {
+        "address": "227 Northfield Avenue",
+        "rooms": 3,
+        "rent": 7210.9
+    },
+    {
+        "address": "2 Green Lane",
+        "rooms": 7,
+        "rent": 7165.4
+    },
+    {
+        "address": "8 Novick Circle",
+        "rooms": 1,
+        "rent": 7017.7
+    },
+    {
+        "address": "4035 Ilene Way",
+        "rooms": 2,
+        "rent": 11369.8
+    },
+    {
+        "address": "68 Loftsgordon Lane",
+        "rooms": 7,
+        "rent": 12647.8
+    },
+    {
+        "address": "18383 Graceland Plaza",
+        "rooms": 8,
+        "rent": 11681.3
+    },
+    {
+        "address": "638 Tennessee Trail",
+        "rooms": 8,
+        "rent": 20223.8
+    },
+    {
+        "address": "818 Donald Parkway",
+        "rooms": 1,
+        "rent": 7682.0
+    },
+    {
+        "address": "7 Spaight Circle",
+        "rooms": 4,
+        "rent": 18295.6
+    },
+    {
+        "address": "08990 Florence Place",
+        "rooms": 8,
+        "rent": 10207.0
+    },
+    {
+        "address": "787 Blue Bill Park Drive",
+        "rooms": 6,
+        "rent": 19401.4
+    },
+    {
+        "address": "244 1st Road",
+        "rooms": 3,
+        "rent": 12065.0
+    },
+    {
+        "address": "234 Utah Circle",
+        "rooms": 1,
+        "rent": 16007.8
+    },
+    {
+        "address": "3285 Esker Court",
+        "rooms": 1,
+        "rent": 21995.3
+    },
+    {
+        "address": "0 1st Place",
+        "rooms": 8,
+        "rent": 20495.5
+    },
+    {
+        "address": "3650 Bellgrove Alley",
+        "rooms": 5,
+        "rent": 21505.5
+    },
+    {
+        "address": "0768 Warbler Hill",
+        "rooms": 4,
+        "rent": 14990.7
+    },
+    {
+        "address": "9691 Armistice Terrace",
+        "rooms": 4,
+        "rent": 13918.5
+    },
+    {
+        "address": "41646 Elmside Road",
+        "rooms": 6,
+        "rent": 7903.4
+    },
+    {
+        "address": "668 Northfield Junction",
+        "rooms": 4,
+        "rent": 9675.0
+    },
+    {
+        "address": "15638 Norway Maple Center",
+        "rooms": 7,
+        "rent": 12192.8
+    },
+    {
+        "address": "611 Killdeer Circle",
+        "rooms": 4,
+        "rent": 7437.6
+    },
+    {
+        "address": "4346 Butterfield Trail",
+        "rooms": 2,
+        "rent": 11457.8
+    },
+    {
+        "address": "01919 Ridgeway Lane",
+        "rooms": 2,
+        "rent": 16865.8
+    },
+    {
+        "address": "83106 Northfield Park",
+        "rooms": 8,
+        "rent": 12204.4
+    },
+    {
+        "address": "677 Village Green Street",
+        "rooms": 5,
+        "rent": 18548.2
+    },
+    {
+        "address": "1851 Crownhardt Terrace",
+        "rooms": 1,
+        "rent": 19573.8
+    },
+    {
+        "address": "19340 Crownhardt Drive",
+        "rooms": 8,
+        "rent": 14496.6
+    },
+    {
+        "address": "605 Blaine Drive",
+        "rooms": 2,
+        "rent": 10292.7
+    },
+    {
+        "address": "9989 Burning Wood Street",
+        "rooms": 8,
+        "rent": 18191.3
+    },
+    {
+        "address": "87 Swallow Street",
+        "rooms": 3,
+        "rent": 21396.0
+    },
+    {
+        "address": "72308 Dryden Drive",
+        "rooms": 4,
+        "rent": 13623.6
+    },
+    {
+        "address": "66117 Acker Drive",
+        "rooms": 5,
+        "rent": 12585.9
+    },
+    {
+        "address": "2880 Morning Place",
+        "rooms": 3,
+        "rent": 17691.5
+    },
+    {
+        "address": "29 Rieder Point",
+        "rooms": 3,
+        "rent": 17922.7
+    },
+    {
+        "address": "70506 Center Hill",
+        "rooms": 4,
+        "rent": 8634.9
+    },
+    {
+        "address": "0 Cody Plaza",
+        "rooms": 3,
+        "rent": 7710.0
+    },
+    {
+        "address": "128 Welch Pass",
+        "rooms": 4,
+        "rent": 8944.7
+    },
+    {
+        "address": "4 Drewry Drive",
+        "rooms": 6,
+        "rent": 17499.4
+    },
+    {
+        "address": "68650 Anniversary Lane",
+        "rooms": 5,
+        "rent": 20651.7
+    },
+    {
+        "address": "21613 Parkside Avenue",
+        "rooms": 8,
+        "rent": 12225.9
+    },
+    {
+        "address": "74 High Crossing Avenue",
+        "rooms": 3,
+        "rent": 16717.2
+    },
+    {
+        "address": "117 Center Lane",
+        "rooms": 8,
+        "rent": 10431.9
+    },
+    {
+        "address": "2105 Gulseth Crossing",
+        "rooms": 8,
+        "rent": 9733.0
+    },
+    {
+        "address": "889 Jackson Plaza",
+        "rooms": 4,
+        "rent": 21446.9
+    },
+    {
+        "address": "81592 Bunting Hill",
+        "rooms": 3,
+        "rent": 16450.5
+    },
+    {
+        "address": "11197 Meadow Ridge Crossing",
+        "rooms": 2,
+        "rent": 21363.4
+    },
+    {
+        "address": "9 Prairieview Street",
+        "rooms": 7,
+        "rent": 14779.2
+    },
+    {
+        "address": "6329 Mitchell Pass",
+        "rooms": 3,
+        "rent": 17319.4
+    },
+    {
+        "address": "9 Trailsway Plaza",
+        "rooms": 1,
+        "rent": 16849.5
+    },
+    {
+        "address": "0 Meadow Valley Parkway",
+        "rooms": 8,
+        "rent": 17444.1
+    },
+    {
+        "address": "6863 Everett Place",
+        "rooms": 1,
+        "rent": 12709.3
+    },
+    {
+        "address": "9870 Rusk Parkway",
+        "rooms": 3,
+        "rent": 21885.9
+    },
+    {
+        "address": "8733 Rowland Alley",
+        "rooms": 8,
+        "rent": 10730.8
+    },
+    {
+        "address": "86 Hayes Center",
+        "rooms": 6,
+        "rent": 13996.5
+    },
+    {
+        "address": "0 Erie Park",
+        "rooms": 4,
+        "rent": 21630.6
+    },
+    {
+        "address": "7319 Trailsway Alley",
+        "rooms": 8,
+        "rent": 20810.5
+    },
+    {
+        "address": "69 Evergreen Drive",
+        "rooms": 3,
+        "rent": 16426.7
+    },
+    {
+        "address": "76 Mifflin Center",
+        "rooms": 6,
+        "rent": 20321.1
+    },
+    {
+        "address": "2 Westridge Pass",
+        "rooms": 3,
+        "rent": 14349.1
+    },
+    {
+        "address": "021 Kipling Court",
+        "rooms": 2,
+        "rent": 20123.9
+    },
+    {
+        "address": "680 Milwaukee Hill",
+        "rooms": 4,
+        "rent": 10337.2
+    },
+    {
+        "address": "1377 Mesta Parkway",
+        "rooms": 8,
+        "rent": 11109.2
+    },
+    {
+        "address": "22 Bobwhite Center",
+        "rooms": 8,
+        "rent": 13572.3
+    },
+    {
+        "address": "704 Bartelt Pass",
+        "rooms": 1,
+        "rent": 18352.0
+    },
+    {
+        "address": "169 Glendale Hill",
+        "rooms": 7,
+        "rent": 17097.2
+    },
+    {
+        "address": "487 Oriole Drive",
+        "rooms": 4,
+        "rent": 9381.0
+    },
+    {
+        "address": "42 Merry Plaza",
+        "rooms": 5,
+        "rent": 10325.0
+    },
+    {
+        "address": "5554 Elka Place",
+        "rooms": 3,
+        "rent": 17005.4
+    },
+    {
+        "address": "162 Claremont Circle",
+        "rooms": 2,
+        "rent": 8198.0
+    },
+    {
+        "address": "35380 Morningstar Avenue",
+        "rooms": 4,
+        "rent": 10931.0
+    },
+    {
+        "address": "133 Golf View Road",
+        "rooms": 2,
+        "rent": 9634.1
+    },
+    {
+        "address": "5534 Kensington Park",
+        "rooms": 5,
+        "rent": 18374.2
+    },
+    {
+        "address": "16 Lighthouse Bay Crossing",
+        "rooms": 6,
+        "rent": 19111.1
+    },
+    {
+        "address": "672 Comanche Junction",
+        "rooms": 8,
+        "rent": 8664.2
+    },
+    {
+        "address": "2223 Nelson Drive",
+        "rooms": 7,
+        "rent": 7388.6
+    },
+    {
+        "address": "3 Hazelcrest Park",
+        "rooms": 5,
+        "rent": 7760.7
+    },
+    {
+        "address": "4 Monument Terrace",
+        "rooms": 8,
+        "rent": 7224.4
+    },
+    {
+        "address": "133 Prairie Rose Lane",
+        "rooms": 3,
+        "rent": 17622.0
+    },
+    {
+        "address": "505 Starling Center",
+        "rooms": 3,
+        "rent": 18799.5
+    },
+    {
+        "address": "763 Forest Dale Lane",
+        "rooms": 5,
+        "rent": 17110.3
+    },
+    {
+        "address": "5165 Lotheville Hill",
+        "rooms": 8,
+        "rent": 7957.0
+    },
+    {
+        "address": "82122 Schmedeman Drive",
+        "rooms": 4,
+        "rent": 18609.8
+    },
+    {
+        "address": "6 Fieldstone Circle",
+        "rooms": 6,
+        "rent": 19372.3
+    },
+    {
+        "address": "6411 1st Center",
+        "rooms": 6,
+        "rent": 18827.0
+    },
+    {
+        "address": "51335 Sutherland Alley",
+        "rooms": 5,
+        "rent": 13729.6
+    },
+    {
+        "address": "8 Montana Street",
+        "rooms": 1,
+        "rent": 14253.8
+    },
+    {
+        "address": "834 Anderson Plaza",
+        "rooms": 8,
+        "rent": 9687.0
+    },
+    {
+        "address": "59 Claremont Court",
+        "rooms": 6,
+        "rent": 7097.5
+    },
+    {
+        "address": "3243 Bluestem Avenue",
+        "rooms": 5,
+        "rent": 7731.5
+    },
+    {
+        "address": "0236 Dorton Junction",
+        "rooms": 3,
+        "rent": 18442.9
+    },
+    {
+        "address": "616 Welch Pass",
+        "rooms": 2,
+        "rent": 10775.1
+    },
+    {
+        "address": "740 Troy Alley",
+        "rooms": 4,
+        "rent": 19334.5
+    },
+    {
+        "address": "64 Washington Alley",
+        "rooms": 6,
+        "rent": 19976.0
+    },
+    {
+        "address": "32 Mendota Parkway",
+        "rooms": 3,
+        "rent": 18153.7
+    },
+    {
+        "address": "31 Hollow Ridge Way",
+        "rooms": 2,
+        "rent": 7139.2
+    },
+    {
+        "address": "86601 Fordem Alley",
+        "rooms": 7,
+        "rent": 10629.6
+    },
+    {
+        "address": "34320 Oneill Terrace",
+        "rooms": 1,
+        "rent": 7796.2
+    },
+    {
+        "address": "9346 Shasta Terrace",
+        "rooms": 8,
+        "rent": 14866.9
+    },
+    {
+        "address": "7796 Hagan Parkway",
+        "rooms": 3,
+        "rent": 14851.1
+    },
+    {
+        "address": "6170 Annamark Point",
+        "rooms": 5,
+        "rent": 10913.6
+    },
+    {
+        "address": "1 Lunder Terrace",
+        "rooms": 8,
+        "rent": 9984.2
+    },
+    {
+        "address": "38 Twin Pines Junction",
+        "rooms": 1,
+        "rent": 16672.7
+    },
+    {
+        "address": "9 Mendota Alley",
+        "rooms": 2,
+        "rent": 11143.3
+    },
+    {
+        "address": "7 Briar Crest Way",
+        "rooms": 7,
+        "rent": 13738.9
+    },
+    {
+        "address": "839 Summer Ridge Drive",
+        "rooms": 5,
+        "rent": 21105.4
+    },
+    {
+        "address": "970 Everett Junction",
+        "rooms": 2,
+        "rent": 15989.3
+    },
+    {
+        "address": "37 Esker Street",
+        "rooms": 6,
+        "rent": 15566.7
+    },
+    {
+        "address": "08 Morning Lane",
+        "rooms": 8,
+        "rent": 9540.3
+    },
+    {
+        "address": "95 Armistice Street",
+        "rooms": 8,
+        "rent": 15275.9
+    },
+    {
+        "address": "3079 Evergreen Road",
+        "rooms": 5,
+        "rent": 7939.2
+    },
+    {
+        "address": "37 Trailsway Drive",
+        "rooms": 3,
+        "rent": 18728.1
+    },
+    {
+        "address": "1563 Ruskin Crossing",
+        "rooms": 1,
+        "rent": 14283.1
+    },
+    {
+        "address": "8 Buhler Junction",
+        "rooms": 3,
+        "rent": 21600.9
+    },
+    {
+        "address": "0715 Norway Maple Parkway",
+        "rooms": 3,
+        "rent": 9426.3
+    },
+    {
+        "address": "3 Debra Avenue",
+        "rooms": 4,
+        "rent": 9399.8
+    },
+    {
+        "address": "3122 Butterfield Parkway",
+        "rooms": 7,
+        "rent": 13115.9
+    },
+    {
+        "address": "36168 Lindbergh Street",
+        "rooms": 8,
+        "rent": 8735.7
+    },
+    {
+        "address": "535 Dawn Street",
+        "rooms": 5,
+        "rent": 10743.1
+    },
+    {
+        "address": "85962 Dixon Road",
+        "rooms": 2,
+        "rent": 11147.9
+    },
+    {
+        "address": "24 Main Point",
+        "rooms": 8,
+        "rent": 8061.0
+    },
+    {
+        "address": "04796 Talisman Road",
+        "rooms": 4,
+        "rent": 19645.7
+    },
+    {
+        "address": "323 Eliot Street",
+        "rooms": 1,
+        "rent": 10429.4
+    },
+    {
+        "address": "53 Chive Court",
+        "rooms": 8,
+        "rent": 8141.8
+    },
+    {
+        "address": "69584 American Ash Terrace",
+        "rooms": 8,
+        "rent": 20169.7
+    },
+    {
+        "address": "41 Linden Avenue",
+        "rooms": 6,
+        "rent": 8940.5
+    },
+    {
+        "address": "881 Arapahoe Hill",
+        "rooms": 7,
+        "rent": 12550.3
+    },
+    {
+        "address": "9 Dexter Hill",
+        "rooms": 4,
+        "rent": 11620.7
+    },
+    {
+        "address": "8794 Myrtle Center",
+        "rooms": 2,
+        "rent": 18143.4
+    },
+    {
+        "address": "97 Kennedy Crossing",
+        "rooms": 1,
+        "rent": 20121.9
+    },
+    {
+        "address": "0 Summerview Alley",
+        "rooms": 5,
+        "rent": 9075.2
+    },
+    {
+        "address": "04 Vernon Lane",
+        "rooms": 1,
+        "rent": 19170.4
+    },
+    {
+        "address": "56543 Hayes Street",
+        "rooms": 5,
+        "rent": 10005.5
+    },
+    {
+        "address": "542 Golden Leaf Road",
+        "rooms": 7,
+        "rent": 21582.7
+    },
+    {
+        "address": "6 Stone Corner Trail",
+        "rooms": 5,
+        "rent": 9513.4
+    },
+    {
+        "address": "72 Sauthoff Lane",
+        "rooms": 5,
+        "rent": 20873.4
+    },
+    {
+        "address": "7918 Orin Trail",
+        "rooms": 8,
+        "rent": 12563.9
+    },
+    {
+        "address": "71 Sloan Hill",
+        "rooms": 4,
+        "rent": 15992.3
+    },
+    {
+        "address": "4 Parkside Junction",
+        "rooms": 1,
+        "rent": 16972.5
+    },
+    {
+        "address": "200 Arizona Crossing",
+        "rooms": 7,
+        "rent": 11097.7
+    },
+    {
+        "address": "7231 Boyd Alley",
+        "rooms": 6,
+        "rent": 11562.5
+    },
+    {
+        "address": "836 Michigan Center",
+        "rooms": 7,
+        "rent": 10257.7
+    },
+    {
+        "address": "55 Fulton Circle",
+        "rooms": 3,
+        "rent": 20008.1
+    },
+    {
+        "address": "5575 Hansons Place",
+        "rooms": 8,
+        "rent": 20925.2
+    },
+    {
+        "address": "82531 Buhler Terrace",
+        "rooms": 5,
+        "rent": 10700.2
+    },
+    {
+        "address": "093 Straubel Way",
+        "rooms": 6,
+        "rent": 17233.2
+    },
+    {
+        "address": "8 Trailsway Alley",
+        "rooms": 1,
+        "rent": 14765.5
+    },
+    {
+        "address": "4 Northfield Street",
+        "rooms": 2,
+        "rent": 12769.0
+    },
+    {
+        "address": "0864 Packers Way",
+        "rooms": 2,
+        "rent": 16498.9
+    },
+    {
+        "address": "97951 Melrose Avenue",
+        "rooms": 5,
+        "rent": 8753.7
+    },
+    {
+        "address": "3 Old Shore Hill",
+        "rooms": 3,
+        "rent": 19122.1
+    },
+    {
+        "address": "3 Bartillon Place",
+        "rooms": 6,
+        "rent": 21637.2
+    },
+    {
+        "address": "2 Southridge Point",
+        "rooms": 4,
+        "rent": 7869.1
+    },
+    {
+        "address": "27 Northridge Plaza",
+        "rooms": 4,
+        "rent": 7361.8
+    },
+    {
+        "address": "3 Waubesa Junction",
+        "rooms": 5,
+        "rent": 19987.5
+    },
+    {
+        "address": "7 Acker Center",
+        "rooms": 4,
+        "rent": 10892.3
+    },
+    {
+        "address": "866 Cherokee Court",
+        "rooms": 1,
+        "rent": 18205.7
+    },
+    {
+        "address": "0696 Vernon Circle",
+        "rooms": 8,
+        "rent": 20054.5
+    },
+    {
+        "address": "54142 Fulton Pass",
+        "rooms": 5,
+        "rent": 12855.8
+    },
+    {
+        "address": "136 Cody Way",
+        "rooms": 7,
+        "rent": 19947.1
+    },
+    {
+        "address": "765 Marcy Hill",
+        "rooms": 1,
+        "rent": 11452.0
+    },
+    {
+        "address": "409 Mandrake Lane",
+        "rooms": 3,
+        "rent": 10187.9
+    },
+    {
+        "address": "0 Nevada Court",
+        "rooms": 8,
+        "rent": 20218.2
+    },
+    {
+        "address": "70 South Road",
+        "rooms": 8,
+        "rent": 7313.1
+    },
+    {
+        "address": "39673 Burning Wood Center",
+        "rooms": 4,
+        "rent": 9687.1
+    },
+    {
+        "address": "2 Rusk Center",
+        "rooms": 6,
+        "rent": 20835.6
+    },
+    {
+        "address": "73844 Mesta Crossing",
+        "rooms": 1,
+        "rent": 11776.4
+    },
+    {
+        "address": "12 Brentwood Road",
+        "rooms": 1,
+        "rent": 7516.7
+    },
+    {
+        "address": "76 Farwell Lane",
+        "rooms": 2,
+        "rent": 18491.4
+    },
+    {
+        "address": "2956 Glendale Alley",
+        "rooms": 1,
+        "rent": 13581.4
+    },
+    {
+        "address": "2441 Kensington Center",
+        "rooms": 8,
+        "rent": 21760.9
+    },
+    {
+        "address": "5751 Banding Circle",
+        "rooms": 1,
+        "rent": 7739.8
+    },
+    {
+        "address": "036 Nevada Hill",
+        "rooms": 3,
+        "rent": 15382.7
+    },
+    {
+        "address": "434 Dayton Road",
+        "rooms": 1,
+        "rent": 8369.8
+    },
+    {
+        "address": "03 Linden Terrace",
+        "rooms": 7,
+        "rent": 13268.0
+    },
+    {
+        "address": "86738 Norway Maple Hill",
+        "rooms": 3,
+        "rent": 17448.5
+    },
+    {
+        "address": "41914 Hoard Trail",
+        "rooms": 4,
+        "rent": 11127.0
+    },
+    {
+        "address": "91759 Sundown Place",
+        "rooms": 7,
+        "rent": 17044.0
+    },
+    {
+        "address": "4 Fremont Pass",
+        "rooms": 4,
+        "rent": 13076.6
+    },
+    {
+        "address": "88 Porter Point",
+        "rooms": 4,
+        "rent": 8417.6
+    },
+    {
+        "address": "15657 Commercial Circle",
+        "rooms": 1,
+        "rent": 13386.6
+    },
+    {
+        "address": "577 6th Place",
+        "rooms": 2,
+        "rent": 11925.4
+    },
+    {
+        "address": "30 Anthes Road",
+        "rooms": 4,
+        "rent": 18382.8
+    },
+    {
+        "address": "23 Westport Way",
+        "rooms": 2,
+        "rent": 11377.3
+    },
+    {
+        "address": "513 Canary Drive",
+        "rooms": 2,
+        "rent": 19874.8
+    },
+    {
+        "address": "736 Arrowood Pass",
+        "rooms": 2,
+        "rent": 16201.6
+    },
+    {
+        "address": "6 Brown Road",
+        "rooms": 8,
+        "rent": 19901.8
+    },
+    {
+        "address": "9953 Express Circle",
+        "rooms": 5,
+        "rent": 10851.3
+    },
+    {
+        "address": "0435 Grasskamp Avenue",
+        "rooms": 2,
+        "rent": 8756.1
+    },
+    {
+        "address": "1343 Farwell Pass",
+        "rooms": 8,
+        "rent": 7235.6
+    },
+    {
+        "address": "873 Veith Point",
+        "rooms": 4,
+        "rent": 8750.7
+    },
+    {
+        "address": "0 Alpine Lane",
+        "rooms": 6,
+        "rent": 15078.7
+    },
+    {
+        "address": "6891 Dahle Drive",
+        "rooms": 3,
+        "rent": 7026.0
+    },
+    {
+        "address": "6483 Crownhardt Way",
+        "rooms": 4,
+        "rent": 12934.3
+    },
+    {
+        "address": "83 Bobwhite Pass",
+        "rooms": 7,
+        "rent": 21607.6
+    },
+    {
+        "address": "5 Riverside Place",
+        "rooms": 8,
+        "rent": 11516.1
+    },
+    {
+        "address": "5662 Blaine Lane",
+        "rooms": 8,
+        "rent": 9217.0
+    },
+    {
+        "address": "9 Goodland Trail",
+        "rooms": 4,
+        "rent": 21613.0
+    },
+    {
+        "address": "4 Lighthouse Bay Place",
+        "rooms": 6,
+        "rent": 21255.9
+    },
+    {
+        "address": "759 Lighthouse Bay Point",
+        "rooms": 2,
+        "rent": 7284.6
+    },
+    {
+        "address": "10 Tennessee Lane",
+        "rooms": 8,
+        "rent": 16389.5
+    },
+    {
+        "address": "5 Fisk Parkway",
+        "rooms": 1,
+        "rent": 9296.6
+    },
+    {
+        "address": "1 Independence Alley",
+        "rooms": 4,
+        "rent": 9392.3
+    },
+    {
+        "address": "11811 Golf Course Park",
+        "rooms": 8,
+        "rent": 13558.0
+    },
+    {
+        "address": "660 Lawn Pass",
+        "rooms": 3,
+        "rent": 10911.2
+    },
+    {
+        "address": "94 Fair Oaks Center",
+        "rooms": 2,
+        "rent": 16812.8
+    },
+    {
+        "address": "657 Golf Course Avenue",
+        "rooms": 1,
+        "rent": 11821.8
+    },
+    {
+        "address": "6505 Walton Park",
+        "rooms": 3,
+        "rent": 7188.8
+    },
+    {
+        "address": "1 Gulseth Drive",
+        "rooms": 2,
+        "rent": 8351.3
+    },
+    {
+        "address": "12018 Moland Center",
+        "rooms": 7,
+        "rent": 14846.2
+    },
+    {
+        "address": "69 Mosinee Court",
+        "rooms": 5,
+        "rent": 18284.9
+    },
+    {
+        "address": "69 Towne Court",
+        "rooms": 5,
+        "rent": 15473.0
+    },
+    {
+        "address": "93 Stephen Drive",
+        "rooms": 2,
+        "rent": 10680.5
+    },
+    {
+        "address": "46078 Granby Drive",
+        "rooms": 5,
+        "rent": 16735.3
+    },
+    {
+        "address": "943 Main Road",
+        "rooms": 6,
+        "rent": 8689.4
+    },
+    {
+        "address": "5290 Ronald Regan Parkway",
+        "rooms": 1,
+        "rent": 7249.2
+    },
+    {
+        "address": "4724 Scoville Drive",
+        "rooms": 6,
+        "rent": 11676.8
+    },
+    {
+        "address": "3055 Reinke Junction",
+        "rooms": 1,
+        "rent": 18435.0
+    },
+    {
+        "address": "693 Dexter Avenue",
+        "rooms": 1,
+        "rent": 15897.3
+    },
+    {
+        "address": "5 Hollow Ridge Way",
+        "rooms": 6,
+        "rent": 14823.4
+    },
+    {
+        "address": "262 Dorton Pass",
+        "rooms": 6,
+        "rent": 13857.3
+    },
+    {
+        "address": "7 Harper Parkway",
+        "rooms": 4,
+        "rent": 14729.9
+    },
+    {
+        "address": "450 Nancy Alley",
+        "rooms": 8,
+        "rent": 7771.8
+    },
+    {
+        "address": "4738 Blackbird Plaza",
+        "rooms": 7,
+        "rent": 16566.2
+    },
+    {
+        "address": "6206 Clemons Drive",
+        "rooms": 5,
+        "rent": 17121.9
+    },
+    {
+        "address": "577 Superior Trail",
+        "rooms": 4,
+        "rent": 12636.1
+    },
+    {
+        "address": "68271 Heath Terrace",
+        "rooms": 6,
+        "rent": 15166.0
+    },
+    {
+        "address": "2 Cambridge Trail",
+        "rooms": 4,
+        "rent": 17393.2
+    },
+    {
+        "address": "6536 Farragut Pass",
+        "rooms": 1,
+        "rent": 16880.0
+    },
+    {
+        "address": "43 Grover Plaza",
+        "rooms": 3,
+        "rent": 11556.8
+    },
+    {
+        "address": "6761 Barnett Lane",
+        "rooms": 2,
+        "rent": 8773.0
+    },
+    {
+        "address": "54 Duke Point",
+        "rooms": 5,
+        "rent": 20277.3
+    },
+    {
+        "address": "2 Trailsway Park",
+        "rooms": 8,
+        "rent": 8822.1
+    },
+    {
+        "address": "5 Oneill Center",
+        "rooms": 8,
+        "rent": 9808.5
+    },
+    {
+        "address": "908 American Ash Court",
+        "rooms": 3,
+        "rent": 7592.5
+    },
+    {
+        "address": "35 Michigan Street",
+        "rooms": 1,
+        "rent": 20519.2
+    },
+    {
+        "address": "002 Memorial Point",
+        "rooms": 8,
+        "rent": 14341.3
+    },
+    {
+        "address": "93 Northview Park",
+        "rooms": 3,
+        "rent": 7471.9
+    },
+    {
+        "address": "99923 Boyd Place",
+        "rooms": 7,
+        "rent": 20500.8
+    },
+    {
+        "address": "2406 Marquette Place",
+        "rooms": 7,
+        "rent": 19857.1
+    }
+]

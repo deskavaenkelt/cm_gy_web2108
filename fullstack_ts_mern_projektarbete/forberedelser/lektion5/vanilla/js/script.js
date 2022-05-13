@@ -1,0 +1,1 @@
+alert('Dockerized vanilla container!')
