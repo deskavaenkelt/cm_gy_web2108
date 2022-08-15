@@ -23,7 +23,7 @@ Material kommer löpande att läggas till löpande
 | [Webbserverprogrammering 1][6] | 2022-02-07  | 2022-03-13 |       2022-03-13, 23:59        | 
 | [Datalagring][7]               | 2022-03-14  | 2022-04-17 |       2022-04-17, 23:59        | 
 | [Fullstack Projekt*][8]        | 2022-04-18  | 2022-06-26 |       2022-06-19, 23:59        | 
-| [Teknisk specialisering][9]    | 2022-08-15  | 2022-10-14 |       2022-10-10, 13:00        | 
+| [Teknisk specialisering][9]    | 2022-08-15  | 2022-10-07 |       2022-10-03, 13:00        | 
 
 ***Fullstack Projekt består av kurserna Webbutveckling 3 samt Webbserverprogrammering 2**
 

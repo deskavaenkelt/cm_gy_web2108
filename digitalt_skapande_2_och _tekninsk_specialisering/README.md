@@ -189,4 +189,4 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 
 ## Sista inlämningstid
 
-Deadline 10 September 2022, 13:00 då vi har redovisning med en enkel demonstration utav det ni det ni skapat.
+Deadline 3 Oktober 2022, 13:00 då vi har redovisning med en enkel demonstration utav det ni det ni skapat.
