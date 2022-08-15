@@ -26,7 +26,8 @@ Ni är nu i slutet på utbildningen och vi kommer slå ihop kurserna Digitalt sk
 
 ## Frågeställningen
 
-Hur kan vi bygga en webbsida till en potentiell kund där vi kombinerar alla tidigare kunskaper under utbildningen. Vi ska
+Hur kan vi bygga en webbsida till en potentiell kund där vi kombinerar alla tidigare kunskaper under utbildningen. Vi
+ska
 alltså bygga:
 
 - Frontend i React
@@ -37,14 +38,16 @@ Med tester på frontend och backend samt använda TypeScript i denna inlämninge
 
 ## Mål
 
-I denna kursen så måste ni tänka på hur er hemsida ser ut med funktionalitet, design och användarupplevelse (UI/UX). Ni ska även ha
+I denna kursen så måste ni tänka på hur er hemsida ser ut med funktionalitet, design och användarupplevelse (UI/UX). Ni
+ska även ha
 responsiv design för:
 
 - Mobile
 - Tablet
 - Desktop
 
-Grundtanken är att ni gör ett "Portfolio projekt" som ska vara en webbsida som visar er kunskaper och erfarenheter till potentiella arbetsgivare.
+Grundtanken är att ni gör ett "Portfolio projekt" som ska vara en webbsida som visar er kunskaper och erfarenheter till
+potentiella arbetsgivare.
 
 ## Avgränsning
 
@@ -186,4 +189,4 @@ Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
 
 ## Sista inlämningstid
 
-Deadline 19 Juni 2022, 23:59
+Deadline 10 September 2022, 13:00 då vi har redovisning med en enkel demonstration utav det ni det ni skapat.
