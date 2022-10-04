@@ -1,0 +1,22 @@
+.iconPlaceholder {
+    width: 15em;
+    height: 15em;
+}
+
+.center {
+    text-align: center;
+}
+
+.noTodos {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+/*.grid {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 6fr 4fr 1fr;*/
+/*    grid-gap: 1em;*/
+/*    !*grid-auto-rows: minmax(15em, 1fr);*!*/
+/*}*/

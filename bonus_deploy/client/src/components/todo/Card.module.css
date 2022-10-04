@@ -1,0 +1,28 @@
+.card {
+    width: 50em;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #eee;
+    border-radius: 0.25em;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 5% 45% 30% 10% 5%;
+    /*grid-gap: 1em;*/
+    /*grid-auto-rows: minmax(15em, 1fr);*/
+}
+
+.itemCenter {
+    justify-self: center;
+    align-self: center;
+}
