@@ -32,6 +32,8 @@ const connectToPort = (app: Express) => {
 		Logger.info(`⚡️[server]: Server is running at http://localhost:${ PORT }`)
 		if (env === 'development') {
 			Logger.warn('Server running in development mode!'.toUpperCase())
+		} else {
+			Logger.info('Server running in production mode!'.toUpperCase())
 		}
 	})
 }
